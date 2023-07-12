@@ -1,0 +1,22 @@
+.AboutMeContent{
+    display: inline-block;
+    position: absolute;
+    margin-inline-start: 30vw;
+    margin-top: 30vh;
+    text-align: left;
+}
+
+h3{
+    margin-inline-start: 10vw;
+    margin-top: 5vh;
+}
+
+.Me-Edited{
+    position: absolute;
+    margin-top: -90vh;
+    margin-inline-start: -40vw;
+    z-index: 2;
+    scale: 0.15;
+    border: solid 5px bisque;
+    border-radius: 25px;
+}
