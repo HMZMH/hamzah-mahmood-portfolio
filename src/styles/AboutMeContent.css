@@ -1,22 +1,27 @@
 .AboutMeContent{
-    display: inline-block;
-    position: absolute;
-    margin-inline-start: 30vw;
-    margin-top: 30vh;
-    text-align: left;
+display: inline-block;
+position: absolute;
+margin-inline-start: 20vw;
+margin-top: 33vh;
+text-align: left;
 }
 
-h3{
-    margin-inline-start: 10vw;
-    margin-top: 5vh;
+.About-H3{
+    margin-top: 7.5vh;
+    margin-bottom: 4.5vh;
+}
+
+.About-P1{
+    font-weight: 600;
+    line-height: 2;
 }
 
 .Me-Edited{
-    position: absolute;
-    margin-top: -90vh;
-    margin-inline-start: -40vw;
-    z-index: 2;
-    scale: 0.15;
-    border: solid 5px bisque;
-    border-radius: 25px;
+position: absolute;
+margin-top: -90vh;
+margin-inline-start: -47.5vw;
+z-index: 2;
+scale: 0.15;
+border: solid 5px bisque;
+border-radius: 10%;
 }

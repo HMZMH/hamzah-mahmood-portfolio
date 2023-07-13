@@ -14,7 +14,7 @@ animation-duration: 2s;
 display: block;
 position: relative;
 margin-top: 10vh;
-margin-inline-start: 15vw;
+margin-inline-start: 17vw;
 height: 300px;
 width: 900px;
 border-radius: 5px;
@@ -23,17 +23,17 @@ background-color: lightgray;
 }
 
 .Grade-Chart{
-    display: inline-block;
-    position: absolute;
-    margin-inline-start: 10vw;
-    margin-top: -30vh;
-    border-radius: 100%;
-    border: solid 1px bisque;
-    box-shadow: 0px 5px 5px 0px gray;
+display: inline-block;
+position: absolute;
+margin-inline-start: 10vw;
+margin-top: -30vh;
+border-radius: 100%;
+border: solid 1px bisque;
+box-shadow: 0px 5px 5px 0px gray;
 }
 
 .Grade-Chart:hover{
-    scale: 1.05;
+scale: 1.05;
 }
 
 .Box-Header{

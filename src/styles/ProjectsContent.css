@@ -11,20 +11,24 @@ animation-duration: 2s;
 }
 
 .Project-Tiles{
+z-index: 1;
 display: inline-block;
-position: relative;
-margin-top: 20px;
 margin-left: 20px;
 margin-right: 20px;
 height: 600px;
 width: 300px;
 border-radius: 5px;
-background-color: bisque;
 border: solid black 1px;
+background-image: linear-gradient(to bottom, bisque , transparent);
 }
 
 .Project-Tiles:hover{
 scale: 1.05;
+}
+
+.Tiles-H3{
+    z-index: 2;
+    margin-inline-start: 0vw;
 }
 
 @keyframes fadeInOpacity {

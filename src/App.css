@@ -28,11 +28,11 @@ font-weight: lighter;
 }
 
 .Wave-Vector{
-    opacity: 7.5%;
-    z-index: 0;
-    position: absolute;
-    margin-top: 120vh;
-    margin-inline-start: 71.35vw;
+opacity: 7.5%;
+z-index: 0;
+position: absolute;
+margin-top: 120vh;
+margin-inline-start: 71.35vw;
 }
 
 @keyframes fadeInOpacity {
