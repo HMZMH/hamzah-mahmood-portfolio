@@ -1,83 +1,82 @@
 .Socials-Links{
-z-index: 999;
-position: fixed;
-display: inline-block;
-margin-top: 4vh;
-margin-inline-start: 90vw;
-width: fit-content;
-height: fit-content;
-text-align: center;
-animation-name: fadeInOpacity;
-animation-iteration-count: 1;
-animation-timing-function: ease-in;
-animation-duration: 2s;
+    z-index: 999;
+    position: fixed;
+    display: inline-block;
+    margin-top: 5vh;
+    margin-inline-start: 2.5vw;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    /*Animation*/
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
 }
 
 .Socials-Links:hover .Socials-Tray{
-display: block;
+    display: block;
 }
 
 .Profile-Button{
-border-radius: 100%;
-border-color: transparent;
-background-color: transparent;
+    border-radius: 100%;
+    border-color: transparent;
+    background-color: transparent;
 }
 
 .Profile-Picture{
-display: block;
-height: 100px;
-width: 100px;
-background-color: transparent;
-text-align: center;
-border-radius: 50%;
-border-color: transparent;
-animation: float 5s ease-in-out infinite;
+    height: 100px;
+    width: 100px;
+    background-color: transparent;
+    border-radius: 50%;
+    border-color: transparent;
+    /*Animation*/
+    animation: float 5s ease-in-out infinite;
 }
 
 .Profile-Picture:hover{
-scale: 1.05;
+    scale: 1.05;
 }
 
 .Socials-Tray{
-display: none;
-position: absolute;
-top: 11.5vh;
-text-align: center;
+    display: none;
+    position: absolute;
+    top: 11.5vh;
 }
 
 .Socials-Logos{
-height: 75px;
-width: 75px;
-margin-top: 5px;
-background-color: transparent;
-border-color: transparent;
-border-radius: 100%;
+    height: 75px;
+    width: 75px;
+    margin-top: 5px;
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 100%;
 }
 
 .Socials-Logos:hover{
-scale: 1.05;
+    scale: 1.05;
 }
 
 @keyframes fadeInOpacity {
-0% {
-opacity: 0;
-}
-100% {
-opacity: 1;
-}
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 @keyframes float {
-0% {
-box-shadow: 0 5px 5px 0px rgba(0,0,0,0.3);
-transform: translatey(0px);
-}
-50% {
-box-shadow: 0 10px 10px 0px rgba(0,0,0,0.6);
-transform: translatey(-5px);
-}
-100% {
-box-shadow: 0 5px 5px 0px rgba(0,0,0,0.3);
-transform: translatey(0px);
-}
+    0% {
+        box-shadow: 0 5px 5px 0px rgba(0,0,0,0.3);
+        transform: translatey(0px);
+    }
+    50% {
+        box-shadow: 0 10px 10px 0px rgba(0,0,0,0.6);
+        transform: translatey(-5px);
+    }
+    100% {
+        box-shadow: 0 5px 5px 0px rgba(0,0,0,0.3);
+        transform: translatey(0px);
+    }
 }
