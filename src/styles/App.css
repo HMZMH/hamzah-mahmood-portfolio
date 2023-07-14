@@ -2,4 +2,18 @@
     height: 100%;
     width: 100%;
     background-image: linear-gradient(to top, white , gray);
+    /*Animation*/
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
