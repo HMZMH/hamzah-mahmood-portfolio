@@ -1,28 +1,38 @@
-.Me-Edited{
-    margin-top: 2.5vh;
-    margin-left: 60vw;
+.About-Me{
+    z-index: 2;
+    margin-top: 25vh; margin-left: -26.5vw;
+    width: 50vw; height: 50vh;
     position: absolute;
-    height: 150px;
-    width: 150px;
-    border-radius: 100%;
-    opacity: 80%;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 50%;
+    animation-name: fadeInOpacity; animation-iteration-count: 1; animation-timing-function: ease-in; animation-duration: 1s;
+    background-color: lightcyan;
+}
+
+.Text-Area{
+    margin-top: 1vh; margin-right: 0vw;
+    color: black;
+}
+
+.Me-Edited{
+    margin-top: 3vh; margin-right: 0vw;
+    width: 150px; height: 150px;
+    border-radius: 50%;
+    opacity: 90%;
 }
 
 .Me-Edited:hover{
     scale: 1.05;
 }
 
-.Text-Area{
-    display: inline-block;
-    width: 50vw;
-}
-
-.About-H3{
-    margin-bottom: 5vh;
-}
-
-.About-P1{
+.About-P1:hover{
+    font-size:large;
     font-weight: 600;
+}
+
+.About-H3:hover{
+    font-weight: bolder;
 }
 
 @keyframes fadeInOpacity {
@@ -36,15 +46,15 @@
 
 @keyframes float {
     0% {
-        box-shadow: 0 3px 7px 0px black;
+        box-shadow: 0px 5px 5px 0px black;
         transform: translatey(0px);
     }
     50% {
-        box-shadow: 0 9px 21px 0px black;
+        box-shadow: 0px 15px 15px 0px black;
         transform: translatey(-5px);
     }
     100% {
-        box-shadow: 0 3px 7px 0px black;
+        box-shadow: 0px 5px 5px 0px black;
         transform: translatey(0px);
     }
 }

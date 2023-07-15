@@ -1,17 +1,19 @@
-.Background-Video{
+.Title-Container{
+    z-index: 10;
+    margin-top: 25vh; margin-left: -6.5vh;
+    width: 50vw; height: 50vh;
     position: absolute;
-    margin-top: 20vh;
-    width: 100vh;
-    height: fit-content;
-    opacity: 35%;
-    border-radius: 50%;
     overflow: hidden;
-    box-shadow: 0 30px 70px 0 black, 0 30px 70px 0 black;
-    /*Animation*/
-    animation-name: fadeInOpacity;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in;
-    animation-duration: 2s;
+    border-radius: 50%;
+    box-shadow: 0px 5px 5px 0px black;
+    animation-name: fadeInOpacity; animation-iteration-count: 1; animation-timing-function: ease-in; animation-duration: 2s;
+    background-color: transparent;
+}
+
+.Background-Video{
+    margin-top: -95vh; margin-left: -75vw;
+    scale: 0.25;
+    opacity: 50%;
 }
 
 @keyframes fadeInOpacity {

@@ -1,13 +1,36 @@
-.Page{
-    height: 100%;
-    width: 100%;
+body{
+    overflow: hidden;
+    width: 100vw; height: 100vh;
     background-image: linear-gradient(to top, white , gray);
-    /*Animation*/
-    animation-name: fadeInOpacity;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in;
-    animation-duration: 2s;
+    animation-name: fadeInOpacity; animation-iteration-count: 1; animation-timing-function: ease-in; animation-duration: 2s;
 }
+
+.Accessibility-Menu{
+    margin-top: 90vh; margin-left: 0vh;
+    width: fit-content; height: fit-content;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0px 5px 5px 0px black;
+    background-color: transparent;
+}
+
+.Accessibility-Menu:hover{
+    scale: 1.05;
+}
+
+.AboutDiv {
+    display: none;
+  }
+
+  .AboutDiv:hover {
+    display: block;
+    z-index: 999;
+  }
+  
+  .hover-link:hover + .AboutDiv {
+    display: block;
+    z-index: 999;
+  }
 
 @keyframes fadeInOpacity {
     0% {
