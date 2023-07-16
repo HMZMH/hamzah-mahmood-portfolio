@@ -44,6 +44,7 @@
 }
 
 .logos-style{
+    margin-top: 2vh !important;
     width: 75px !important;
     height: 75px !important;
     border-radius: 50% !important;

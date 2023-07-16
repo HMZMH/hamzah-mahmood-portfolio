@@ -2,7 +2,6 @@
     z-index: 1 !important;
     display: inline-flex !important;
     justify-content: center !important;
-    margin-top: 20vh !important;
     width: 50vw !important;
     height: 50vh !important;
     overflow: hidden !important;
@@ -12,13 +11,12 @@
     animation-iteration-count: 1 !important;
     animation-timing-function: ease-in !important;
     animation-duration: 2s !important;
-    background-color: silver !important;
+    background-color: lightcyan !important;
 }
 
 .my-name-style{
     position: absolute !important;
     margin-top: 15vh !important;
-    margin-left: 10.5vw !important;
 }
 
 .background-video-style{

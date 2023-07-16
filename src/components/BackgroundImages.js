@@ -6,11 +6,13 @@ import MyName from '../images/My_Name.png';
 function BackgroundImages() {
   return (
 
-    <div className='background-images-style'>
+    <div className='img-responsive'>
 
-        <div>
+      <div className='background-images-style'>
+
+        <div className='my-name-style'>
           
-          <img src={MyName} alt="My name" class="my-name-style"/>
+          <img src={MyName} alt="My name" class="img-responsive"/>
         
         </div>
 
@@ -19,6 +21,8 @@ function BackgroundImages() {
           <source src={WavesVideo} alt="Waves" type="video/mp4"/>
           
         </video>
+
+      </div>
     
     </div>
 

@@ -11,7 +11,7 @@
     animation-name: fadeInOpacity !important;
     animation-iteration-count: 1 !important;
     animation-timing-function: ease-in !important;
-    animation-duration: 1s !important;
+    animation-duration: 0.5s !important;
     background-color: lightcyan !important;
 }
 

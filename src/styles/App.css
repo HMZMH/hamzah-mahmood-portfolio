@@ -12,11 +12,15 @@ body{
 }
 .background-images-div-style{
     display: block !important;
+    max-width: fit-content !important;
+    height: fit-content !important;
+    margin-top: 20vh !important;
+    border-radius: 50% !important;
 }
 
 .about-me-div-style {
-    display: none !important;
     z-index: 999 !important;
+    display: none !important;
 }
 
 .button-style{
