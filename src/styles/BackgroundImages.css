@@ -1,19 +1,33 @@
-.Title-Container{
-    z-index: 10;
-    margin-top: 25vh; margin-left: -6.5vh;
-    width: 50vw; height: 50vh;
-    position: absolute;
-    overflow: hidden;
-    border-radius: 50%;
-    box-shadow: 0px 5px 5px 0px black;
-    animation-name: fadeInOpacity; animation-iteration-count: 1; animation-timing-function: ease-in; animation-duration: 2s;
-    background-color: transparent;
+.background-images-style{
+    z-index: 1 !important;
+    display: inline-flex !important;
+    justify-content: center !important;
+    margin-top: 20vh !important;
+    width: 50vw !important;
+    height: 50vh !important;
+    overflow: hidden !important;
+    border-radius: 50% !important;
+    box-shadow: 0px 5px 5px 0px black !important;
+    animation-name: fadeInOpacity !important;
+    animation-iteration-count: 1 !important;
+    animation-timing-function: ease-in !important;
+    animation-duration: 2s !important;
+    background-color: silver !important;
 }
 
-.Background-Video{
-    margin-top: -95vh; margin-left: -75vw;
-    scale: 0.25;
-    opacity: 50%;
+.my-name-style{
+    position: absolute !important;
+    margin-top: 15vh !important;
+    margin-left: 10.5vw !important;
+}
+
+.background-video-style{
+    margin-top: -15vh !important;
+    scale: 0.9 !important;
+    opacity: 50% !important;
+    width: 70vw !important;
+    height: 70vh !important;
+    border-radius: 50% !important;
 }
 
 @keyframes fadeInOpacity {

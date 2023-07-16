@@ -1,36 +1,59 @@
 body{
-    overflow: hidden;
-    width: 100vw; height: 100vh;
+    overflow: scroll !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    overflow: hidden !important;
+    text-align: center !important;
     background-image: linear-gradient(to top, white , gray);
-    animation-name: fadeInOpacity; animation-iteration-count: 1; animation-timing-function: ease-in; animation-duration: 2s;
+    animation-name: fadeInOpacity !important;
+    animation-iteration-count: 1 !important;
+    animation-timing-function: ease-in !important;
+    animation-duration: 2s !important;
+}
+.background-images-div-style{
+    display: block !important;
 }
 
-.Accessibility-Menu{
-    margin-top: 90vh; margin-left: 0vh;
-    width: fit-content; height: fit-content;
-    overflow: hidden;
-    border-radius: 50%;
-    box-shadow: 0px 5px 5px 0px black;
-    background-color: transparent;
+.about-me-div-style {
+    display: none !important;
+    z-index: 999 !important;
 }
 
-.Accessibility-Menu:hover{
-    scale: 1.05;
+.button-style{
+    margin-top: 20vh !important;
+    display: flex !important;
+    justify-content: center !important;
+    position: fixed !important;
+    height: fit-content !important;
+    width: fit-content !important;
+    overflow: hidden !important;
+    border: none !important;
+    border-radius: 50% !important;
+    box-shadow: 0px 5px 5px 0px black !important;
+    background-color: black !important;
 }
 
-.AboutDiv {
-    display: none;
-  }
+.btn{
+    padding: 2 !important;
+    font-weight: 400 !important;
+    font-size: x-small !important;
+    scale: 2 !important;
+    width: 150% !important;
+}
 
-  .AboutDiv:hover {
-    display: block;
-    z-index: 999;
-  }
-  
-  .hover-link:hover + .AboutDiv {
-    display: block;
-    z-index: 999;
-  }
+.button-style:hover{
+    scale: 1.05 !important;
+}
+
+.about-me-div-style:hover {
+    display: block !important;
+    z-index: 999 !important;
+}
+
+.background-images-div-style:hover + .about-me-div-style {
+    display: block !important;
+    z-index: 999 !important;
+}
 
 @keyframes fadeInOpacity {
     0% {

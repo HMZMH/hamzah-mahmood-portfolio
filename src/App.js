@@ -3,7 +3,6 @@ import 'bootstrap/dist/css/bootstrap.css';
 import SocialLinks from './components/SocialsLinks.js';
 import BackgroundImages from './components/BackgroundImages.js';
 import AboutMe from './components/AboutMe.js';
-import MyName from './images/My_Name.png';
 
 function PageDark() {
   document.getElementById("DarkButton").style.display = "none";
@@ -19,30 +18,53 @@ function PageLight() {
 }
 
 function App() {
+  
   return (
 
-    <div class="d-flex justify-content-center">
+    <div className="container-fluid">
 
-      <SocialLinks/>
+        <div className="row justify-content-start">
 
-      <div className='Accessibility-Menu'>
-          <button type="button" id='DarkButton' class="btn btn-dark" onClick={PageDark} style={{fontWeight:'bold'}}>Dark</button>
-          <button type="button" id='LightButton' class="btn btn-light" onClick={PageLight} style={{display:'none'}}>Light</button>
+          <SocialLinks/>
+        
+        </div>
+
+        <div className="row justify-content-center">
+
+            <a className="background-images-div-style">
+              
+              <BackgroundImages/>
+            
+            </a>
+            
+            <div className="about-me-div-style">
+              
+              <AboutMe/>
+            
+            </div>
+
+          </div>
+
+        <div className='row justify-content-center'>
+
+          <div className='button-style'>
+              
+              <button type="button" id='DarkButton' className="btn btn-dark" onClick={PageDark} style={{fontWeight:'bold'}}>
+                Dark
+              </button>
+
+              <button type="button" id='LightButton' className="btn btn-light" onClick={PageLight} style={{display:'none'}}>
+                Light
+              </button>
+          
+          </div>
+
+        </div>
+        
       </div>
-
-      <img src={MyName} id='NameImage' alt="My name" class="img-fluid" style={{zIndex:'0', marginTop:'40vh', position:'absolute'}}/>
-
-      <a class="hover-link">
-        <BackgroundImages/>
-      </a>
-
-      <div class="AboutDiv">
-        <AboutMe/>
-      </div>
-
-    </div>
 
   );
+
 }
 
 export default App;

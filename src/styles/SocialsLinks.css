@@ -1,51 +1,60 @@
-.Socials-Links{
-    margin-top: 4vh; margin-left: -88vw;
-    width: fit-content; height: fit-content;
-    position: fixed;
-    text-align: center;
-    animation-name: fadeInOpacity; animation-iteration-count: 1; animation-timing-function: ease-in; animation-duration: 2s;
-    background-color: transparent;
+.socials-links-style{
+    margin-left: 2vw !important;
+    width: fit-content !important;
+    height: fit-content !important;
+    position: fixed !important;
+    text-align: center !important;
+    animation-name: fadeInOpacity !important;
+    animation-iteration-count: 1 !important;
+    animation-timing-function: ease-in !important;
+    animation-duration: 2s !important;
 }
 
-.Socials-Links:hover .Socials-Tray{
-    display: block;
+.socials-links-style:hover .logos-tray-style{
+    display: block !important;
 }
 
-.Profile-Picture{
-    width: 100px; height: 100px;
-    border-radius: 50%;
-    box-shadow: 0px 5px 5px 0px black;
-    background-color: transparent;
-    animation: float 5s ease-in-out infinite;
+.social-links-button-style{
+    height: 100px !important;
+    width: 100px !important;
+    margin-top: 5vh !important;
+    margin-left: 0vw !important;
+    border-radius: 50% !important;
+    border: 0px  !important;
+    background-color: transparent !important;
 }
 
-.Profile-Button{
-    border-radius: 50%;
-    border: 0px;
-    background-color: transparent;
+.profile-picture-style{
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 50% !important;
+    box-shadow: 0px 5px 5px 0px black !important;
+    background-color: transparent !important;
+    animation: float 5s ease-in-out infinite !important;
 }
 
-.Profile-Picture:hover{
-    scale: 1.05;
+.profile-picture-style:hover{
+    scale: 1.05 !important;
 }
 
-.Socials-Tray{
-    position: absolute;
-    display: none;
-    border-radius: 50%;
+.logos-tray-style{
+    position: absolute !important;
+    display: none !important;
+    border-radius: 50% !important;
 }
 
-.Socials-Logos{
-    margin-top: 2vh; margin-left: 0vw;
-    width: 75px; height: 75px;
-    border-radius: 50%;
-    box-shadow: 0px 5px 5px 0px black;
-    background-color: transparent;
-    border-radius: 50%; border: white solid 2px;
+.logos-style{
+    width: 75px !important;
+    height: 75px !important;
+    border-radius: 50% !important;
+    box-shadow: 0px 5px 5px 0px black !important;
+    background-color: transparent !important;
+    border-radius: 50% !important;
+    border: white solid 2px !important;
 }
 
-.Socials-Logos:hover{
-    scale: 1.05;
+.logos-style:hover{
+    scale: 1.05 !important;
 }
 
 @keyframes fadeInOpacity {

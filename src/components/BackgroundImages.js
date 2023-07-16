@@ -1,20 +1,29 @@
 import '../styles/BackgroundImages.css'
+import 'bootstrap/dist/css/bootstrap.css';
 import WavesVideo from '../images/Waves_Video.mp4';
+import MyName from '../images/My_Name.png';
 
 function BackgroundImages() {
   return (
 
-      <div class="d-flex justify-content-center">
+    <div className='background-images-style'>
 
-        <div className='Title-Container'>
-            <video className='Background-Video' autoPlay muted loop>
-              <source src={WavesVideo} alt="Waves" type="video/mp4"/>
-            </video>
+        <div>
+          
+          <img src={MyName} alt="My name" class="my-name-style"/>
+        
         </div>
 
-      </div>
+        <video className='background-video-style' autoPlay muted loop>
 
-    );
+          <source src={WavesVideo} alt="Waves" type="video/mp4"/>
+          
+        </video>
+    
+    </div>
+
+  );
+
 }
 
 export default BackgroundImages;

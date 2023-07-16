@@ -1,33 +1,48 @@
 import '../styles/SocialsLinks.css';
+import 'bootstrap/dist/css/bootstrap.css';
 import profilepicture from '../images/Profile_Picture.png';
 import githublogo from '../images/Github_Logo.png';
 import facebooklogo from '../images/Facebook_Logo.png';
 import instagramlogo from '../images/Instagram_Logo.png';
 
-function AboutMeContent() {
+function SocialLinks() {
 
   return(
-  
-  <div className='Socials-Links'>
 
-        <button className='Profile-Button'>
-  
-          <img src={profilepicture} className='Profile-Picture'/>
-  
-        </button>
+          <div className='socials-links-style'>
 
-        <div className='Socials-Tray'>
-  
-          <a href='https://github.com/HMZMH' target="_blank"> <img src={githublogo} className='Socials-Logos'/> </a>
-          <a href='https://www.facebook.com/profile.php?id=100092700780143' target="_blank"><img src={facebooklogo} className='Socials-Logos'/> </a>
-          <a href='https://www.instagram.com/hmzmh20/' target="_blank"><img src={instagramlogo} className='Socials-Logos'/> </a>
-  
-        </div>
+              <button className='social-links-button-style'>
+        
+                <img src={profilepicture} alt='Profile logo' className='profile-picture-style'/>
+        
+              </button>
 
-    </div>
+              <div className='logos-tray-style'>
+        
+                <a href='https://github.com/HMZMH' target="_blank" rel="noreferrer">
+                  
+                  <img src={githublogo} alt='GitHub logo' className='logos-style'/>
+                
+                </a>
+
+                <a href='https://www.facebook.com/profile.php?id=100092700780143' target="_blank" rel="noreferrer">
+                  
+                  <img src={facebooklogo} alt='Facebook logo' className='logos-style'/>
+                
+                </a>
+
+                <a href='https://www.instagram.com/hmzmh20/' target="_blank" rel="noreferrer">
+
+                  <img src={instagramlogo} alt='Instagram logo' className='logos-style'/>
+
+                </a>
+        
+              </div>
+            
+            </div>
   
   );
 
 }
 
-export default AboutMeContent;
+export default SocialLinks;
