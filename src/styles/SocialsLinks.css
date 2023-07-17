@@ -18,7 +18,6 @@
     height: 100px !important;
     width: 100px !important;
     margin-top: 5vh !important;
-    margin-left: -3vw !important;
     border-radius: 50% !important;
     border: 0px  !important;
     background-color: transparent !important;
@@ -38,13 +37,13 @@
 }
 
 #logos-tray{
-    margin-left: -1.5vw;
     position: absolute !important;
     display: none !important;
     border-radius: 50% !important;
 }
 
 #logos{
+    margin-top: 2vh !important;
     width: 75px !important;
     height: 75px !important;
     border-radius: 50% !important;
