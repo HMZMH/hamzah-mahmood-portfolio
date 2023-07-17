@@ -1,4 +1,4 @@
-.socials-links-style{
+#socials-links{
     margin-left: 2vw !important;
     width: fit-content !important;
     height: fit-content !important;
@@ -10,11 +10,11 @@
     animation-duration: 2s !important;
 }
 
-.socials-links-style:hover .logos-tray-style{
+#socials-links:hover #logos-tray{
     display: block !important;
 }
 
-.social-links-button-style{
+#social-links-button{
     height: 100px !important;
     width: 100px !important;
     margin-top: 5vh !important;
@@ -24,7 +24,7 @@
     background-color: transparent !important;
 }
 
-.profile-picture-style{
+#profile-picture{
     width: 100px !important;
     height: 100px !important;
     border-radius: 50% !important;
@@ -33,18 +33,18 @@
     animation: float 5s ease-in-out infinite !important;
 }
 
-.profile-picture-style:hover{
+#profile-picture:hover{
     scale: 1.05 !important;
 }
 
-.logos-tray-style{
+#logos-tray{
     position: absolute !important;
     display: none !important;
     border-radius: 50% !important;
 }
 
-.logos-style{
-    margin-top: 2vh !important;
+#logos{
+    margin-top: 1vh !important;
     width: 75px !important;
     height: 75px !important;
     border-radius: 50% !important;
@@ -54,7 +54,7 @@
     border: white solid 2px !important;
 }
 
-.logos-style:hover{
+#logos:hover{
     scale: 1.05 !important;
 }
 
