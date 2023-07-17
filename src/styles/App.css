@@ -14,7 +14,7 @@ body{
     max-width: fit-content !important;
     height: fit-content !important;
     margin-top: 20vh !important;
-    border-radius: 50% !important;
+    border-radius: 10% !important;
 }
 
 #app-buttons{
@@ -27,13 +27,13 @@ body{
     width: fit-content !important;
     overflow: hidden !important;
     border: none !important;
-    border-radius: 50% !important;
+    border-radius: 10% !important;
     box-shadow: 0px 5px 5px 0px black !important;
     background-color: black !important;
 }
 #dark-button{
     padding: 2 !important;
-    font-weight: 400 !important;
+    font-weight: 600 !important;
     font-size: x-small !important;
     scale: 2 !important;
     width: 150% !important;
@@ -41,7 +41,7 @@ body{
 
 #light-button{
     padding: 2 !important;
-    font-weight: 400 !important;
+    font-weight: 600 !important;
     font-size: x-small !important;
     scale: 2 !important;
     width: 150% !important;

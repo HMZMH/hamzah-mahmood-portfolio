@@ -1,18 +1,44 @@
-#text-area{
-    display: none !important;
-    padding-left: 50px !important;
-    padding-right: 50px !important;
-    padding-bottom: 90px !important;
-    padding-top: 10px !important;
-    width: 70vw !important;
-    height: 70vh !important;
+#background-images{
+    width: 50vw !important;
+    height: 50vh !important;
     z-index: 999 !important;
-    overflow: scroll !important;
-    border-radius: 50% !important;
+    overflow: hidden !important;
+    border-radius: 10px !important;
+    box-shadow: 0px 5px 5px 0px black !important;
     animation-name: fadeInOpacity !important;
     animation-iteration-count: 1 !important;
     animation-timing-function: ease-in !important;
-    animation-duration: 2s !important;
+    animation-duration: 0.5s !important;
+    background-color: lightcyan !important;
+}
+
+#my-name{
+    background-color: transparent !important;
+}
+
+#background-video{
+    scale: 1.2 !important;
+    width: 50vw !important;
+    height: 50vh !important;
+    z-index: -999 !important;
+    opacity: 50% !important;
+    border-radius: 10% !important;
+}
+
+#text-area{
+    margin-top: 1vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    display: none !important;
+    width: 50vw !important;
+    height: 50vh !important;
+    z-index: 999 !important;
+    overflow: hidden !important;
+    border-radius: 10% !important;
+    animation-name: fadeInOpacity !important;
+    animation-iteration-count: 1 !important;
+    animation-timing-function: ease-in !important;
+    animation-duration: 0.5s !important;
     background-color: transparent !important;
     font-size: 1.2rem !important;
     color: black !important;
@@ -23,11 +49,12 @@
 }
 
 #me-edited{
-    margin-top: 5vh;
-    padding: 1vh;
-    border-radius: 50% !important;
+    margin-top: 1vh;
+    border-radius: 10% !important;
     opacity: 90% !important;
 }
+
+/*Hovers*/
 
 #me-edited:hover{
     scale: 1.05 !important;
@@ -40,35 +67,6 @@
 #about-p1:hover{
     font-size:large !important;
     font-weight: bold !important;
-}
-
-/*Background*/
-
-#background-images{
-    width: 70vw !important;
-    height: 70vh !important;
-    z-index: 999 !important;
-    overflow: hidden !important;
-    border-radius: 50% !important;
-    box-shadow: 0px 5px 5px 0px black !important;
-    animation-name: fadeInOpacity !important;
-    animation-iteration-count: 1 !important;
-    animation-timing-function: ease-in !important;
-    animation-duration: 2s !important;
-    background-color: lightcyan !important;
-}
-
-#my-name{
-    background-color: transparent !important;
-}
-
-#background-video{
-    width: 70vw !important;
-    height: 70vh !important;
-    z-index: -999 !important;
-    scale: 1.2 !important;
-    opacity: 50% !important;
-    border-radius: 50% !important;
 }
 
 #background-video:hover ~ #my-name {
@@ -86,6 +84,8 @@
 .position-relative:hover #text-area {
     display: block !important;
 }
+
+/*Media*/
 
 @media only screen and (max-height: 900px) {
     #about-h3 {
@@ -123,6 +123,8 @@
     }
 }
 
+/*Animations*/
+
 @keyframes fadeInOpacity {
     0% {
         opacity: 0;
@@ -146,13 +148,3 @@
         transform: translatey(0px);
     }
 }
-
-/*
-@media only screen and (max-width: 400px) {
-    #background-images {
-      display: none;
-    }
-  }
-*/
-
-/*<div className='d-flex flex-column align-items-center'></div>*/
