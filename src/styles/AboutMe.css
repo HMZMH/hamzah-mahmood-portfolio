@@ -65,7 +65,7 @@
 #background-video{
     width: 70vw !important;
     height: 70vh !important;
-    z-index: 2 !important;
+    z-index: -999 !important;
     scale: 1.2 !important;
     opacity: 50% !important;
     border-radius: 50% !important;
@@ -87,19 +87,6 @@
     display: block !important;
 }
 
-@media only screen and (max-width: 800px) {
-    #about-h3 {
-        font-size: 1.4rem !important;
-    }
-
-    #text-area p1 {
-        font-size: 0.9rem !important;
-    }
-    #me-edited{
-        margin-top: -1vh;
-    }
-}
-
 @media only screen and (max-height: 900px) {
     #about-h3 {
         font-size: 1.4rem !important;
@@ -113,7 +100,20 @@
     }
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 800px) {
+    #about-h3 {
+        font-size: 1.4rem !important;
+    }
+
+    #text-area p1 {
+        font-size: 0.9rem !important;
+    }
+    #me-edited{
+        margin-top: -1vh;
+    }
+}
+
+@media only screen and (max-width: 600px) {
     #about-h3 {
         font-size: 1.3rem !important;
     }

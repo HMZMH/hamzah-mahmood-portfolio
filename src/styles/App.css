@@ -2,6 +2,7 @@ body{
     width: 100vw !important;
     height: 100vh !important;
     text-align: center !important;
+    background-color: transparent !important;
     background-image: linear-gradient(to top, white , gray);
     animation-name: fadeInOpacity !important;
     animation-iteration-count: 1 !important;
@@ -56,6 +57,22 @@ body{
 
 #light-button:hover{
     background-color: lightcyan !important;
+}
+
+@media only screen and (max-width: 800px) {
+    #app-buttons {
+        scale: 0.85 !important;
+        margin-top: 94vh !important;
+        margin-left: 1vw !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #app-buttons {
+        scale: 0.7 !important;
+        margin-top: 94vh !important;
+        margin-left: 1vw !important;
+    }
 }
 
 @keyframes fadeInOpacity {

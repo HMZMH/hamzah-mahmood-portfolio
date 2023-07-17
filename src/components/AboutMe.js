@@ -16,7 +16,7 @@ function AboutMe() {
                     
                     <div id='text-area' className="position-absolute top-50 start-50 translate-middle">
                         <img id='me-edited' className='img-fluid' src={MeEdited} alt='Me'/>
-                        <h3 id='about-h3'>Software Developer</h3><br/>
+                        <h3 id='about-h3'>Software Engineer</h3><br/>
                         <p1 id='about-p1'>My main aim will always remain the same: to create comfortable software experiences.</p1><br/>
                         <p1 id='about-p1'>I take pride in crafting intuitive interfaces & writing clean code, for user-centric software.</p1><br/>
                         <p1 id='about-p1'>I value readability, robustness, rigour, reliability, reusability, low coupling & high cohesion.</p1><br/>

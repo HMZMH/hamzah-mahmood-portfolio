@@ -22,17 +22,15 @@ function App() {
     <div className="container-fluid">
 
         <div className="row justify-content-start">
-            <div className='w-100'><SocialLinks/></div>
+            <div id='social-links-div'><SocialLinks/></div>
           </div>
 
           <div className="row justify-content-center">
-              <div className='w-100'>
-                <div id="about-me-div"><AboutMe/></div>
-              </div>
+              <div id="about-me-div"><AboutMe/></div>
             </div>
 
           <div className='row justify-content-start'>
-            <div id='app-buttons' className='w-100'>    
+            <div id='app-buttons'>    
                 <button id='dark-button' className="btn btn-dark" onClick={PageDark}>Dark</button>
                 <button id='light-button' className="btn btn-light" onClick={PageLight} style={{display:'none'}}>Light</button>
             </div>
