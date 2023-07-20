@@ -3,23 +3,54 @@ body{
     height: 100vh !important;
     text-align: center !important;
     background-color: transparent !important;
-    background-image: linear-gradient(to top, white , gray);
+    background-image: linear-gradient(to right, white , gray);
     animation-name: fadeInOpacity !important;
     animation-iteration-count: 1 !important;
     animation-timing-function: ease-in !important;
     animation-duration: 2s !important;
 }
 
-#background-images-div{
-    max-width: fit-content !important;
-    height: fit-content !important;
-    margin-top: 20vh !important;
-    border-radius: 10% !important;
+#content-container{
+    white-space: nowrap;
+    display: inline-block !important;
+    margin-right: 10vw !important;
+    margin-left: 10vw !important;
+    max-width: 80vw !important;
+    max-height: 90vh !important;
+    padding-top: 5vh !important;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+#content-div-0{
+    display: inline-block !important;
+    margin-top: 15vh !important;
+}
+
+
+#content-div-1{
+    display: inline-block !important;
+    margin-left: 5vw !important;
+    margin-top: 15vh !important;
+}
+
+#content-div-2{
+    display: inline-block !important;
+    margin-left: 5vw !important;
+    margin-top: 15vh !important;
+}
+
+#content-div-3{
+    display: inline-block !important;
+    margin-left: 5vw !important;
+    margin-top: 15vh !important;
 }
 
 #app-buttons{
+    display: inline-flex !important;
     margin-top: 91vh !important;
-    margin-left: 3.5vw !important;
+    margin-left: 2.5vw !important;
+    padding: 5px !important;
     display: flex !important;
     justify-content: center !important;
     position: fixed !important;
@@ -31,6 +62,7 @@ body{
     box-shadow: 0px 5px 5px 0px black !important;
     background-color: black !important;
 }
+
 #dark-button{
     padding: 2 !important;
     font-weight: 600 !important;

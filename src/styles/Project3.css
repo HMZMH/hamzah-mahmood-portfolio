@@ -1,4 +1,4 @@
-#about-me{
+#project-3{
     width: 400px !important;
     height: 600px !important;
     z-index: 999 !important;
@@ -11,12 +11,12 @@
     background-color: lightcyan;
 }
 
-#my-name{
+#project-name-3{
     margin-top: 10vh !important;
     background-color: transparent !important;
 }
 
-#background-video{
+#background-video-3{
     scale: 1.3 !important;
     width: 400px !important;
     height: 600px !important;
@@ -25,7 +25,15 @@
     border-radius: 5% !important;
 }
 
-#text-area{
+#image-3{
+    margin-top: 5vh !important;
+    height: 100px !important;
+    width: 100px !important;
+    border-radius: 10% !important;
+    opacity: 90% !important;
+}
+
+#text-area-3{
     width: 400px !important;
     height: 600px !important;
     display: none !important;
@@ -39,91 +47,72 @@
     background-color: lightcyan !important;
 }
 
-
-#me-edited{
-    margin-top: 5vh !important;
-    height: 100px !important;
-    width: 100px !important;
-    border-radius: 10% !important;
-    opacity: 90% !important;
-}
-
-#about-h3{
+#about-h3-3{
     margin-top: 1vh !important;
     margin-bottom: 5vh !important;
     font-size: larger !important;
 }
 
-#about-p1{
+#about-p1-3{
     margin-top: 5vh !important;
     font-weight: 500 !important;
 }
 
 /*Hovers*/
 
-#me-edited:hover{
-    scale: 1.05 !important;
-}
-
-#about-h3:hover{
+#about-h3-3:hover{
     font-weight: bolder !important;
 }
 
-#about-p1:hover{
+#about-p1-3:hover{
     font-size:large !important;
     font-weight: bold !important;
 }
 
-#background-video:hover ~ #my-name {
+#background-video-3:hover ~ #my-name-3 {
     display: none !important;
 }
 
-#background-video:hover ~ #text-area {
+#background-video-3:hover ~ #text-area-3 {
     display: block !important;
 }
 
-#about-me:hover #my-name {
+#project-3:hover #my-name-3 {
     display: none !important;
 }
 
-#about-me:hover #text-area {
+#project-3:hover #text-area-3 {
     display: block !important;
 }
 
 /*Media*/
 
 @media only screen and (max-height: 900px) {
-    #about-h3 {
+    #about-h3-3 {
         font-size: 1.4rem !important;
     }
 
-    #text-area p1 {
+    #text-area-3 p1 {
         font-size: 0.9rem !important;
-    }
-    #me-edited{
-        margin-top: -1vh !important;
     }
 }
 
 @media only screen and (max-width: 800px) {
-    #about-h3 {
+    #about-h3-3 {
         font-size: 1.4rem !important;
     }
 
-    #text-area p1 {
+    #text-area-3 p1 {
         font-size: 0.9rem !important;
-    }
-    #me-edited{
-        margin-top: -0.5vh !important;
     }
 }
 
 @media only screen and (max-width: 600px) {
-    #about-h3 {
+    #about-h3-3 {
         font-size: 1.3rem !important;
     }
 
-    #text-area p1 {
+    #text-area-3 p1 {
         font-size: 0.8rem !important;
     }
 }

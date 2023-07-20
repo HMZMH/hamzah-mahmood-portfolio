@@ -15,8 +15,8 @@
 }
 
 #social-links-button{
-    height: 100px !important;
-    width: 100px !important;
+    height: 90px !important;
+    width: 90px !important;
     margin-top: 5vh !important;
     border-radius: 10% !important;
     border: 0px  !important;
@@ -24,8 +24,8 @@
 }
 
 #profile-picture{
-    width: 100px !important;
-    height: 100px !important;
+    width: 90px !important;
+    height: 90px !important;
     border-radius: 10% !important;
     box-shadow: 0px 5px 5px 0px black !important;
     background-color: transparent !important;
@@ -37,7 +37,6 @@
 }
 
 #logos-tray{
-    margin-left: 0.5vw;
     position: absolute !important;
     display: none !important;
     border-radius: 10% !important;
@@ -45,12 +44,12 @@
 
 #logos{
     margin-top: 2vh !important;
-    width: 75px !important;
-    height: 75px !important;
+    width: 70px !important;
+    height: 70px !important;
     border-radius: 50% !important;
     box-shadow: 0px 5px 5px 0px black !important;
     background-color: white !important;
-    border-radius: 10% !important;
+    border-radius: 100% !important;
     border: white solid 2px !important;
 }
 
