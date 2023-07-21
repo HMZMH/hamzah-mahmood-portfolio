@@ -3,11 +3,20 @@ body{
     height: 100vh !important;
     text-align: center !important;
     background-color: transparent !important;
-    background-image: linear-gradient(to right, white , gray);
+    background-image: linear-gradient(to bottom right, white, cyan);
+    background-attachment: fixed !important;
     animation-name: fadeInOpacity !important;
     animation-iteration-count: 1 !important;
     animation-timing-function: ease-in !important;
     animation-duration: 2s !important;
+}
+
+h1:hover, h2:hover, h3:hover, h4:hover, p:hover{
+    font-weight: bold !important;
+}
+
+p{
+    font-size: larger !important;
 }
 
 #fixed-components{
@@ -29,6 +38,10 @@ body{
     background-color: transparent !important;
 }
 
+h1:hover{
+    font-weight: bold !important;
+}
+
 @media only screen and (max-width: 400px) {
     #fixed-components {
       text-align: start !important;
@@ -47,9 +60,9 @@ body{
 
 @keyframes fadeInOpacity {
     0% {
-        opacity: 0;
+        opacity: 0 !important;
     }
     100% {
-        opacity: 1;
+        opacity: 1 !important;
     }
 }
