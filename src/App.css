@@ -11,9 +11,10 @@ body{
 }
 
 #fixed-components{
+    text-align: left !important;
     z-index: 999 !important;
     position: fixed !important;
-    margin-left: 0vw !important;
+    margin-left: 1vw !important;
     margin-top: 3vh !important;
     height: 90px !important;
     width: 100vw !important;
