@@ -1,0 +1,31 @@
+#dark-button{
+    font-weight: 600 !important;
+    box-shadow: 0px 5px 5px 0px black !important;
+}
+
+#light-button{
+    font-weight: 600 !important;
+    box-shadow: 0px 5px 5px 0px black !important;
+}
+
+#app-buttons:hover{
+    scale: 1.05 !important;
+}
+
+#dark-button:hover{
+    color: lightcyan !important;
+}
+
+#light-button:hover{
+    background-color: lightcyan !important;
+}
+
+
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

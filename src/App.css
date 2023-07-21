@@ -1,0 +1,54 @@
+body{
+    width: 100vw !important;
+    height: 100vh !important;
+    text-align: center !important;
+    background-color: transparent !important;
+    background-image: linear-gradient(to right, white , gray);
+    animation-name: fadeInOpacity !important;
+    animation-iteration-count: 1 !important;
+    animation-timing-function: ease-in !important;
+    animation-duration: 2s !important;
+}
+
+#fixed-components{
+    z-index: 999 !important;
+    position: fixed !important;
+    margin-left: 0vw !important;
+    margin-top: 3vh !important;
+    height: 90px !important;
+    width: 100vw !important;
+    border-radius: 10% !important;
+    background-color: transparent !important;
+}
+
+#content-components{
+    padding-top: 20vh !important;
+    height: 90vh !important;
+    border-radius: 10% !important;
+    background-color: transparent !important;
+}
+
+@media only screen and (max-width: 400px) {
+    #fixed-components {
+      text-align: start !important;
+      scale: 0.8 !important;
+      margin-left: -13vw !important;
+    }
+  }
+
+  @media only screen and (max-width: 305px) {
+    #fixed-components {
+      scale: 0.6 !important;
+      margin-top: 2vh !important;
+      margin-left: -23vw !important;
+    }
+  }
+
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
