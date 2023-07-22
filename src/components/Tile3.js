@@ -1,3 +1,5 @@
+import React from 'react';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import '../styles/Tile3.css'
 import 'bootstrap/dist/css/bootstrap.css';
 
@@ -6,10 +8,9 @@ function Tile3() {
 
         <div id='tile-3'>
             
-            <h4>System Design Project</h4><br/>
-            <p>🎓 Computer Science graduate</p>
-            <p>⚽ Manchester United supporter</p>
-            <p>🎮 FIFA, Call of Duty & Forza gamer</p>
+            <nav>
+                <Link id='link' to="/project2"><h4>Interface Design Project</h4><br/></Link>
+            </nav>
 
         </div>
 

@@ -7,8 +7,9 @@ function Tile1() {
         <div id='tile-1'>
             
             <h4>About me...</h4><br/>
+
             <p>🎓 Computer Science graduate</p>
-            <p>⚽ Manchester United supporter</p>
+            <p>⚽ Man United fan & recreational player</p>
             <p>🎮 FIFA, Call of Duty & Forza gamer</p>
 
         </div>
