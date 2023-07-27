@@ -6,7 +6,8 @@ function PageDark() {
     document.getElementById("light-button").style.display = "inline";
     document.body.style.backgroundImage = 'linear-gradient(to top left, black, darkcyan)';
     document.body.style.color = 'white';
-    document.querySelectorAll('a').forEach(link => link.style.color = 'white');
+    document.querySelectorAll('p, h1, h2, h3, h4, h5, h6, span, li, td, th, div, strong, em, i, b, a').forEach(element => element.style.color = 'lightcyan');
+
   }
   
   function PageLight() {
@@ -14,7 +15,8 @@ function PageDark() {
     document.getElementById("light-button").style.display = "none";
     document.body.style.backgroundImage = 'linear-gradient(to bottom right, white, cyan)';
     document.body.style.color = 'black';
-    document.querySelectorAll('a').forEach(link => link.style.color = 'black');
+    document.querySelectorAll('p, h1, h2, h3, h4, h5, h6, span, li, td, th, div, strong, em, i, b, a').forEach(element => element.style.color = 'black');
+
 
   }
 

@@ -9,17 +9,32 @@ body{
     animation-iteration-count: 1 !important;
     animation-timing-function: ease-in !important;
     animation-duration: 2s !important;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4{
+    text-shadow: 0 1px 2px rgba(0,0,0,0.15) !important;
+    transition: all 0.3s ease-in-out !important;
 }
 
 h1:hover, h2:hover, h3:hover, h4:hover{
-    font-weight: bold !important;
+    text-shadow: 0 5px 15px rgba(0,0,0,0.3) !important;
+    transition: opacity 0.3s ease-in-out !important;
 }
 
 p{
     font-size: larger !important;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.15) !important;
+    transition: all 0.3s ease-in-out !important;
+}
+
+p:hover{
+    text-shadow: 0 5px 15px rgba(0,0,0,0.3) !important;
+    transition: opacity 0.3s ease-in-out !important;
 }
 
 #link {
+    font-weight: bold !important;
     color: black;
     text-decoration: none;
 }
@@ -42,10 +57,6 @@ p{
     height: 90vh !important;
     border-radius: 10% !important;
     background-color: transparent !important;
-}
-
-h1:hover{
-    font-weight: bold !important;
 }
 
 @media only screen and (max-width: 400px) {

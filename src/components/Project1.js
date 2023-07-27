@@ -21,7 +21,7 @@ function Project1() {
             
             <img id='project1-diagram' alt='project1diagram1' src={project1diagram1}/>       
             <img id='project1-diagram' alt='project1diagram2' src={project1diagram2}/>    
-            <img id='project1-diagram' alt='project1diagram3' src={project1diagram3}/>        
+            <img id='project1-diagram' alt='project1diagram3' src={project1diagram3}/>    
             <img id='project1-diagram' alt='project1diagram4' src={project1diagram4}/>
         
         </div>
