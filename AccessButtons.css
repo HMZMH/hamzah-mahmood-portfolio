@@ -1,0 +1,35 @@
+#dark-button{
+    font-weight: 600 !important;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15) !important;
+    transition: all 0.3s ease-in-out !important;
+}
+
+#light-button{
+    font-weight: 600 !important;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15) !important;
+    transition: all 0.3s ease-in-out !important;
+}
+
+#dark-button:hover{
+    scale: 1.05 !important;
+    color: lightcyan !important;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3) !important;
+    transition: opacity 0.3s ease-in-out !important;
+}
+
+#light-button:hover{
+    scale: 1.05 !important;
+    background-color: lightcyan !important;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3) !important;
+    transition: opacity 0.3s ease-in-out !important;
+}
+
+
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0 !important;
+    }
+    100% {
+        opacity: 1 !important;
+    }
+}

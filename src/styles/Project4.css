@@ -1,5 +1,5 @@
 
-#project1-fixed-component{
+#project4-fixed-component{
     text-align: left !important;
     z-index: 999 !important;
     position: fixed !important;
@@ -10,7 +10,7 @@
     border-radius: 10% !important;
 }
 
-#project1-content-component{
+#project4-content-component{
     text-align: center !important;
     padding-top: 17vh !important;
     height: 90vh !important;
@@ -18,7 +18,7 @@
     border-radius: 10% !important;
 }
 
-#project1-diagram{
+#project4-diagram{
     margin-top: 5vh;
     margin-right: 0.5rem;
     margin-bottom: 0.5rem;
@@ -33,7 +33,7 @@
     transition: all 0.3s ease-in-out;
 }
 
-#project1-diagram:hover {
+#project4-diagram:hover {
     z-index: 999;
     opacity: 1;
     width: 75%;
@@ -43,7 +43,7 @@
 }
 
 @media only screen and (max-width: 400px) {
-    #project1-fixed-component {
+    #project4-fixed-component {
         text-align: start;
         scale: 0.8;
         margin-left: -13vw;
@@ -51,7 +51,7 @@
 }
 
 @media only screen and (max-width: 305px) {
-    #project1-fixed-component {
+    #project4-fixed-component {
         scale: 0.6 !important;
         margin-top: 2vh !important;
         margin-left: -23vw !important;

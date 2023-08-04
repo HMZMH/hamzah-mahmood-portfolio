@@ -1,12 +1,13 @@
 #tile-3{
     padding: 2rem !important;
-    margin-top: 0.5rem !important;
-    margin-right: 0.5rem !important;
-    margin-bottom: 0.5rem !important;
-    margin-left: 0.5rem !important;
+    margin-top: 1rem !important;
+    margin-right: 1rem !important;
+    margin-bottom: 1rem !important;
+    margin-left: 1rem !important;
     text-align: left !important;
-    height: fit-content !important;
-    width: fit-content !important;
+    height: 350px !important;
+    width: 350px !important;
+    border-radius: 10%;
     color: black !important;
     background-color: rgba(255,255,255,0.5);
     box-shadow: 0 1px 2px rgba(0,0,0,0.15) !important;
@@ -19,4 +20,11 @@
     box-shadow: 0 5px 15px rgba(0,0,0,0.3) !important;
     transition: opacity 0.3s ease-in-out !important;
     opacity: 100%;
+}
+
+#tile-3-img{
+    margin-inline-start: 50px;
+    margin-top: 25px;
+    max-width: 200px;
+    max-height: 200px;
 }
