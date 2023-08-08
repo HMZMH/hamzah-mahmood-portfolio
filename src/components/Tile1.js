@@ -9,9 +9,14 @@ function Tile1() {
 
         <div id='tile-1'>
             <nav>
-                <Link id='link' to="/project1"><h4>System Design</h4>Educational Web App<br/></Link>
+                <Link id='link' to="/project1">
+                    <div>
+                        <h4>System Design</h4>
+                        <p>Educational Web App</p>
+                        <img id='tile-1-img' src={System_Design_Icon} alt='System design icon'/>
+                    </div>
+                </Link>
             </nav>
-            <img id='tile-1-img' src={System_Design_Icon} alt='System design icon'/>
         </div>
 
     );

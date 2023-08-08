@@ -5,19 +5,16 @@ function PageDark() {
     document.getElementById("dark-button").style.display = "none";
     document.getElementById("light-button").style.display = "inline";
     document.body.style.backgroundImage = 'linear-gradient(to top left, black, darkcyan)';
-    document.body.style.color = 'white';
-    document.querySelectorAll('p, h1, h2, h3, h4, h5, h6, span, li, td, th, div, strong, em, i, b, a').forEach(element => element.style.color = 'lightcyan');
-
+    document.querySelectorAll('h1, h2, h3, h4, h5, h6, span, li, td, th, div, strong, em, i, b, a').forEach(element => element.style.color = 'lightcyan');
+    document.querySelectorAll('p').forEach(element => element.style.color = 'cyan');
   }
   
   function PageLight() {
     document.getElementById("dark-button").style.display = "inline";
     document.getElementById("light-button").style.display = "none";
     document.body.style.backgroundImage = 'linear-gradient(to bottom right, white, cyan)';
-    document.body.style.color = 'black';
-    document.querySelectorAll('p, h1, h2, h3, h4, h5, h6, span, li, td, th, div, strong, em, i, b, a').forEach(element => element.style.color = 'black');
-
-
+    document.querySelectorAll('h1, h2, h3, h4, h5, h6, span, li, td, th, div, strong, em, i, b, a').forEach(element => element.style.color = 'black');
+    document.querySelectorAll('p').forEach(element => element.style.color = 'slategray');
   }
 
 function AccessButtons() {

@@ -10,9 +10,14 @@ function Tile2() {
         <div id='tile-2'>
             
             <nav>
-                <Link id='link' to="/project2"><h4>Interface Design</h4>Restaurant Kiosk Software<br/></Link>
+                <Link id='link' to="/project2">
+                    <div>
+                        <h4>Interface Design</h4>
+                        <p>Restaurant Kiosk Software</p>
+                        <img id='tile-2-img' src={Interface_Design_Icon} alt='Interface design icon'/>
+                    </div>
+                </Link>
             </nav>
-            <img id='tile-2-img' src={Interface_Design_Icon} alt='Interface design icon'/>
 
         </div>
 

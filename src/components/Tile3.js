@@ -9,9 +9,14 @@ function Tile3() {
 
         <div id='tile-3'>
             <nav>
-                <Link id='link' to="/project3"><h4>Fullstack Development</h4>Indoor Navigation Mobile App<br/></Link>
+                <Link id='link' to="/project3">
+                    <div>
+                        <h4>Fullstack Development</h4>
+                        <p>Indoor Navigation Mobile App</p>
+                        <img id='tile-3-img' src={Mobile_App_Icon} alt='Mobile app icon'/>
+                    </div>
+                </Link>
             </nav>
-            <img id='tile-3-img' src={Mobile_App_Icon} alt='Mobile app icon'/>
         </div>
 
     );

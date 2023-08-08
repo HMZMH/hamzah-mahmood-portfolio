@@ -6,12 +6,17 @@ import Mobile_App_Icon from '../images/mobile-app-icon.png';
 
 function Tile4() {
     return(
-
+        
         <div id='tile-4'>
             <nav>
-                <Link id='link' to="/project4"><h4>Fullstack Development</h4>Mobile Chat App<br/></Link>
+                <Link id='link' to="/project4">
+                    <div>
+                        <h4>Fullstack Development</h4>
+                        <p>Mobile Chat App</p>
+                        <img id='tile-4-img' src={Mobile_App_Icon} alt='Mobile app icon'/>
+                    </div>
+                </Link>
             </nav>
-            <img id='tile-4-img' src={Mobile_App_Icon} alt='Mobile app icon'/>
         </div>
 
     );

@@ -4,8 +4,6 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import SocialsButtons from './components/SocialsButtons.js';
 import AccessButtons from './components/AccessButtons.js';
-import Portrait_Photo from './images/Portrait_Photo.jpg';
-import AboutMe from './components/AboutMe';
 import Tile1 from './components/Tile1.js';
 import Tile2 from './components/Tile2.js';
 import Tile3 from './components/Tile3.js';
@@ -14,16 +12,7 @@ import Project1 from './components/Project1';
 import Project2 from './components/Project2';
 import Project3 from './components/Project3';
 import Project4 from './components/Project4';
-
-function ShowAbout() {
-  document.getElementById("about-me").style.display = "block";
-  document.getElementById("portrait-photo").style.display = "block";
-}
-
-function HideAbout() {
-  document.getElementById("about-me").style.display = "none";
-  document.getElementById("portrait-photo").style.display = "none";
-}
+import Portrait_Photo from './images/Portrait_Photo.jpg';
 
 function Home() {
   return(
@@ -33,13 +22,12 @@ function Home() {
         <div id='fixed-component' className="row justify-content-start"><SocialsButtons/></div>
 
         <div id='content-component' className="row justify-content-center">
-          <h1 style={{fontSize: "75px", textAlign: "left", marginInlineStart:'22vw', marginTop: "20vh"}} onMouseEnter={ShowAbout} onMouseOut={HideAbout}>Hi. I'm Hamzah. A software engineer.</h1>
-          
-          <img id='portrait-photo' src={Portrait_Photo} alt='Portrait'/>
 
-          <div id='about-me'>
-            <AboutMe/>
+          <div id='photo-box'>
+            <img id='portrait-photo' src={Portrait_Photo} alt='Portrait'/>
           </div>
+
+          <h1 style={{fontSize: "75px", textAlign: "left", marginInlineStart:'22vw', marginTop: "20vh"}}>Hi. I'm Hamzah. A software engineer.</h1>
           
           <Tile1/>
           <Tile2/>
