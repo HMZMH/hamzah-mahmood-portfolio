@@ -12,41 +12,93 @@
 
 #project1-content-component{
     text-align: left !important;
-    padding-top: 17vh !important;
+    padding-top: 25vh !important;
     height: 90vh !important;
     border-radius: 10% !important;
     margin-left: 10vw;
-    margin-right: 10vw;
+    margin-right: 5vw;
 }
 
-#project1-diagram{
-    margin-top: 5vh;
-    margin-right: 0.5rem;
-    margin-bottom: 0.5rem;
-    margin-left: 0.5rem;
-    width: 20%;
-    height: 20%;
-    height: auto;
+#project1-diagram1{
+    max-height: 800px;
+    width: auto;
     outline: 5px solid white;
     background-color: white;
     border-radius: 2.5%;
-    opacity: 0.9;
+    opacity: 0.75;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 100px;
+}
+
+#project1-diagram1:hover {
+    z-index: 999;
+    opacity: 1;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: opacity 0.3s ease-in-out;
+}
+
+#project1-diagram2{
+    max-height: 800px;
+    width: auto;
+    margin-left: 20px;
+    outline: 5px solid white;
+    background-color: white;
+    border-radius: 2.5%;
+    opacity: 0.75;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 100px;
+}
+
+#project1-diagram2:hover {
+    z-index: 999;
+    opacity: 1;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: opacity 0.3s ease-in-out;
+}
+
+#project1-diagram3{
+    max-height: 800px;
+    width: auto;
+    margin-left: 20px;
+    outline: 5px solid white;
+    background-color: white;
+    border-radius: 2.5%;
+    opacity: 0.75;
     box-shadow: 0 1px 2px rgba(0,0,0,0.15);
     transition: all 0.3s ease-in-out;
 }
 
-#project1-diagram:hover {
+#project1-diagram3:hover {
     z-index: 999;
     opacity: 1;
-    width: 75%;
-    height: auto;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: opacity 0.3s ease-in-out;
+}
+
+#project1-diagram4{
+    max-height: 800px;
+    width: auto;
+    margin-left: 20px;
+    outline: 5px solid white;
+    background-color: white;
+    border-radius: 2.5%;
+    opacity: 0.75;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: all 0.3s ease-in-out;
+}
+
+#project1-diagram4:hover {
+    z-index: 999;
+    opacity: 1;
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
     transition: opacity 0.3s ease-in-out;
 }
 
 @media only screen and (max-width: 400px) {
     #project1-fixed-component {
-        text-align: start;
+        text-align: left;
         scale: 0.8;
         margin-left: -13vw;
     }

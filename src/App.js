@@ -4,6 +4,11 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import SocialsButtons from './components/SocialsButtons.js';
 import AccessButtons from './components/AccessButtons.js';
+import CSS_Logo from './images/Css_Logo.png';
+import HTML_Logo from './images/Html_Logo.png';
+import Java_Logo from './images/Java_Logo.png';
+import Javascript_Logo from './images/Javascript_Logo.png';
+import React_Logo from './images/React_Logo.png';
 import Tile1 from './components/Tile1.js';
 import Tile2 from './components/Tile2.js';
 import Tile3 from './components/Tile3.js';
@@ -12,7 +17,6 @@ import Project1 from './components/Project1';
 import Project2 from './components/Project2';
 import Project3 from './components/Project3';
 import Project4 from './components/Project4';
-import Portrait_Photo from './images/Portrait_Photo.jpg';
 
 function Home() {
   return(
@@ -21,38 +25,43 @@ function Home() {
 
         <div id='fixed-component' className="row justify-content-start"><SocialsButtons/></div>
 
-        <div id='content-component' className="row justify-content-center">
+        <div id='content-component' className="row justify-content-start">
 
-          <h1 style={{fontSize: "75px", textAlign: "left", marginInlineStart:'22vw', marginTop: "20vh"}}>Hi. I'm Hamzah. A software engineer.</h1>
-          
-          <h1 className='h1-sections'>About me</h1>
-          <div id='about-section' className="row justify-content-center">
-            <div id='photo-box'>
-              <img id='portrait-photo' src={Portrait_Photo} alt='Portrait'/>
-            </div>
+          <h1 style={{fontSize: "75px", marginTop: "20vh"}}>Hi, I'm Hamzah. A software engineer.</h1>
 
-            <div id='about-paragraph'>
-              <p>
-                     I'm a fresh software engineer graduate with a passion for frontend development.
-                <br/>I take pride in creating software that is very simple but very attractive and very effective.
-                <br/>I enjoy the challenge of turning complex problems into elegant, user-centric software.
-                <br/>
-                <br/>Currently, I'm on the lookout for opportunities that allow me to learn new skills and expand my horizons.
-                <br/>I'm keen to contribute to a dynamic team where innovative thinking and problem-solving are celebrated.
-              </p>
+          <div id='about-section' className="row justify-content-start">
+
+            <h1 className='h1-sections'>About me</h1>
+
+            <p>
+                I'm a fresh software engineer graduate with a passion for frontend development.
+              <br/>I take pride in creating software that is very simple but equally attractive and effective.
+              <br/>I enjoy the challenge of turning complex problems into elegant, user-centric software.
+              <br/>I'm looking for opportunities that allow me to learn new skills and expand my horizons.
+            </p>
+
+            <div className='row justify-content-end'>
+              <img src={CSS_Logo} alt='CSS logo' className='skill-logo'/>
+              <img src={HTML_Logo} alt='HTML logo' className='skill-logo'/>
+              <img src={Javascript_Logo} alt='Javascript logo' className='skill-logo'/>
+              <img src={Java_Logo} alt='Java logo' className='skill-logo'/>
+              <img src={React_Logo} alt='React logo' className='skill-logo'/>
             </div>
 
           </div>
 
-          <h1 className='h1-sections'>My projects</h1>
-          <div id='project-section' className="row justify-content-center">
+          <div id='project-section' className="row justify-content-start">
+
+            <h1 className='h1-sections'>My projects</h1>
+
             <Tile1/>
             <Tile2/>
             <Tile3/>
             <Tile4/>
+
           </div>
 
-          <div id='footer' className="row justify-content-center"></div>
+          <div id='footer' className="row justify-content-start"></div>
 
         </div>
         

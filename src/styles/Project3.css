@@ -16,6 +16,8 @@
     height: 90vh !important;
     width: fit-content;
     border-radius: 10% !important;
+    margin-left: 10vw;
+    margin-right: 5vw;
 }
 
 #project3-diagram{

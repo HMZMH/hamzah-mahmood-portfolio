@@ -1,7 +1,7 @@
 body{
     width: 100vw !important;
     height: 100vh !important;
-    text-align: center !important;
+    text-align: left !important;
     background-color: cyan !important;
     background-image: linear-gradient(to bottom right, white, cyan);
     background-attachment: fixed !important;
@@ -23,16 +23,13 @@ h1:hover, h2:hover, h3:hover, h4:hover, p:hover{
 }
 
 .h1-sections{
-    margin-top: 80vh !important;
-    font-size:180px !important;
+    font-size:110px !important;
     opacity: 20% !important;
-    z-index: -10 !important;
-    margin-inline-start: -20vw;
 }
 
 p{
     font-weight: bold;
-    color: slategray;
+    color: navy;
     font-size: larger !important;
     text-shadow: 0 1px 2px rgba(0,0,0,0.15) !important;
     transition: all 0.3s ease-in-out !important;
@@ -50,37 +47,23 @@ p:hover{
 }
 
 #about-section{
-    margin-top: -5vh;
+    margin-top: 100vh;
+}
+
+.skill-logo{
+    height: 100px !important;
+    width: auto !important;
+    margin-top: 1vh !important;
+    border-radius: 10%;
+    opacity: 75%;
 }
 
 #project-section{
-    margin-top: -5vh;
-}
-
-#photo-box{
-    text-align: center;
-    z-index: -9;
-    margin-inline-start: 60vw;
-    height: 180px;
-    width: 180px;
-    overflow: hidden;
-    border-radius: 10%;
-}
-
-#portrait-photo{
-    margin-top: -7px;
-    margin-inline-start: -20px;
-    max-height: 200px;
-    max-width: 200px;
-}
-
-#about-paragraph{
-    text-align: left;
-    max-width: 60vw;
+    margin-top: 100vh;
 }
 
 #footer{
-    min-height: 30vh;
+    min-height: 25vh;
 }
 
 #fixed-component{
@@ -98,11 +81,13 @@ p:hover{
 #content-component{
     height: 90vh !important;
     background-color: transparent !important;
+    margin-left: 10vw;
+    margin-right: 5vw;
 }
 
 @media only screen and (max-width: 400px) {
     #fixed-component {
-      text-align: start !important;
+      text-align: left !important;
       scale: 0.8 !important;
       margin-left: -13vw !important;
     }

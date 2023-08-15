@@ -17,14 +17,15 @@ function Project1() {
           <SocialsButtons/>
         </div>
 
-        <div id='project1-content-component' className="row justify-content-center">
+        <div id='project1-content-component' className="row justify-content-start">
 
           <nav>
             <Link id='link' to="/">
-              <h2>&lt; System Design Project</h2>
-              <br/>
+              <h3>&lt; Home</h3>
             </Link>
           </nav>
+
+          <h1 className='h1-sections'>System Design Project</h1>
 
           <p>This project entailed designing a web-application at system level,
           <br/>to meet requirements identified through analysing a provided problem statement.<br/> 
@@ -35,10 +36,12 @@ function Project1() {
           -Sequence diagrams<br/> 
           </p>
           
-          <img id='project1-diagram' alt='project1diagram1' src={project1diagram1}/>       
-          <img id='project1-diagram' alt='project1diagram2' src={project1diagram2}/>    
-          <img id='project1-diagram' alt='project1diagram3' src={project1diagram3}/>    
-          <img id='project1-diagram' alt='project1diagram4' src={project1diagram4}/>
+          <div className="row justify-content-end">
+          <img id='project1-diagram1' alt='project1diagram1' src={project1diagram1}/>      
+          <img id='project1-diagram2' alt='project1diagram2' src={project1diagram2}/>    
+          <img id='project1-diagram3' alt='project1diagram3' src={project1diagram3}/>    
+          <img id='project1-diagram4' alt='project1diagram4' src={project1diagram4}/>
+          </div>
       
         </div>
 

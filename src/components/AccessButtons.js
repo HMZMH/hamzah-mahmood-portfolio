@@ -14,7 +14,7 @@ function PageDark() {
     document.getElementById("light-button").style.display = "none";
     document.body.style.backgroundImage = 'linear-gradient(to bottom right, white, cyan)';
     document.querySelectorAll('h1, h2, h3, h4, h5, h6, span, li, td, th, div, strong, em, i, b, a').forEach(element => element.style.color = 'black');
-    document.querySelectorAll('p').forEach(element => element.style.color = 'slategray');
+    document.querySelectorAll('p').forEach(element => element.style.color = 'navy');
   }
 
 function AccessButtons() {
