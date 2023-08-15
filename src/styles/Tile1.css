@@ -7,7 +7,7 @@
     text-align: left !important;
     height: 350px !important;
     width: 350px !important;
-    border-radius: 10%;
+    border-radius: 9px/8px;
     color: black !important;
     background-color: rgba(255,255,255,0.5);
     box-shadow: 0 1px 2px rgba(0,0,0,0.15) !important;
@@ -19,6 +19,7 @@
     scale: 1.05 !important;
     box-shadow: 0 5px 15px rgba(0,0,0,0.3) !important;
     transition: opacity 0.3s ease-in-out !important;
+    background-image: linear-gradient(to bottom right, lightcyan, darkcyan);
     opacity: 100%;
 }
 
