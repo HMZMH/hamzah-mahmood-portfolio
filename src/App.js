@@ -27,7 +27,7 @@ function Home() {
 
         <div id='content-component' className="row justify-content-start">
 
-          <h1 style={{fontSize: "75px", marginTop: "20vh"}}>Hi, I'm Hamzah. A software engineer.</h1>
+          <h1 style={{fontSize: "75px", marginTop: "45vh"}}>Hi, I'm Hamzah. A software engineer.</h1>
 
           <div id='about-section' className="row justify-content-start">
 
