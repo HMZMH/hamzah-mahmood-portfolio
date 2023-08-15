@@ -46,7 +46,7 @@ p:hover{
 }
 
 #about-section{
-    margin-top: 100vh;
+    margin-top: 50vh;
 }
 
 .skill-logo{
@@ -57,12 +57,27 @@ p:hover{
     opacity: 75%;
 }
 
+.skill-logo:hover{
+    opacity: 100%;
+}
+
+#spotify-player{
+    border-radius: 5%;
+    width: 39.5%;
+    height: 160px;
+    opacity: 75%;
+}
+
+#spotify-player:hover{
+    opacity: 100%;
+}
+
 #project-section{
-    margin-top: 100vh;
+    margin-top: 50vh;
 }
 
 #footer{
-    min-height: 20vh;
+    min-height: 25vh;
 }
 
 #fixed-component{
