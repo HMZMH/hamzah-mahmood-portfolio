@@ -1,12 +1,11 @@
-#tile-2{
+.tile{
     padding: 2rem !important;
     margin-top: 1rem !important;
-    margin-right: 1rem !important;
-    margin-bottom: 1rem !important;
-    margin-left: 1rem !important;
+    margin-right: 0.5rem !important;
+    margin-left: 0.5rem !important;
     text-align: left !important;
-    height: 350px !important;
-    width: 350px !important;
+    height: 300px !important;
+    width: 360px !important;
     border-radius: 9px/8px;
     color: black !important;
     background-color: rgba(255,255,255,0.5);
@@ -15,17 +14,17 @@
     opacity: 90%;
 }
 
-#tile-2:hover{
+.tile:hover{
     scale: 1.05 !important;
     box-shadow: 0 5px 15px rgba(0,0,0,0.3) !important;
     transition: opacity 0.3s ease-in-out !important;
-    background-image: linear-gradient(to bottom right, lightcyan, darkcyan);
+    background-image: linear-gradient(to top left, lightcyan, darkcyan);
     opacity: 100%;
 }
 
-#tile-2-img{
-    margin-inline-start: 50px;
+.tile-img{
+    margin-inline-start: 90px;
     margin-top: 5px;
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 125px;
+    max-height: 125px;
 }

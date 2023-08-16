@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     width: 100vw !important;
     height: 100vh !important;
@@ -10,6 +14,15 @@ body{
     animation-timing-function: ease-in !important;
     animation-duration: 2s !important;
     overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    background-color: cyan;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: lightcyan;
+    border-radius: 9px/8px;
 }
 
 h1, h2, h3, h4, p{
@@ -28,8 +41,12 @@ h1:hover, h2:hover, h3:hover, h4:hover, p:hover{
     opacity: 20% !important;
 }
 
+h4{
+    font-size: 22px !important;
+}
+
 p{
-    color: navy;
+    color:darkslategray;
     font-size: larger !important;
     text-shadow: 0 1px 2px rgba(0,0,0,0.15) !important;
     transition: all 0.3s ease-in-out !important;
@@ -38,7 +55,7 @@ p{
 p:hover{
     text-shadow: 0 5px 15px rgba(0,0,0,0.3) !important;
     transition: opacity 0.3s ease-in-out !important;
-    font-weight: 500 !important;
+    color: navy !important;
 }
 
 #link {
@@ -50,39 +67,11 @@ p:hover{
     margin-top: 50vh;
 }
 
-#about-divs{
-    background-color: rgba(112, 128, 144, 0.20);
-    padding: 10px;
-    border-radius: 9px/8px;
-    margin-top: 1.5vh;
-}
-
-.skill-div{
-    display: inline-block !important;
-    max-width: fit-content !important;
-    margin-top: -14vh !important;
-}
-
-.skill-logo{
-    height: 100px !important;
-    width: auto !important;
-    margin-top: 1vh !important;
-    margin-right: 1vw;
-    margin-left: 1vw;
-    border-radius: 9px/8px;
-    opacity: 100%;
-}
-
-#spotify-player{
-    margin-top: 7vh;
-    z-index: 999;
-    border-radius: 9px/8px;
-    min-width: 35vw;
-    height: 160px;
-    opacity: 100%;
-}
-
 #project-section{
+    margin-top: 50vh;
+}
+
+#contact-section{
     margin-top: 50vh;
 }
 

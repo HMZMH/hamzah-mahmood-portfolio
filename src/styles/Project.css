@@ -1,5 +1,5 @@
 
-#project4-fixed-component{
+#project-fixed-component{
     text-align: left !important;
     z-index: 999 !important;
     position: fixed !important;
@@ -10,50 +10,49 @@
     border-radius: 9px/8px !important;
 }
 
-#project4-content-component{
-    text-align: center !important;
-    padding-top: 17vh !important;
+#project-content-component{
+    text-align: left !important;
+    padding-top: 15vh !important;
     height: 90vh !important;
-    width: fit-content;
     border-radius: 9px/8px !important;
     margin-left: 10vw;
     margin-right: 5vw;
 }
 
-#project4-diagram{
-    margin-top: 5vh;
-    margin-right: 0.5rem;
-    margin-bottom: 0.5rem;
-    margin-left: 0.5rem;
-    width: 50%;
-    height: auto;
+#project-images{
+    max-height: 800px;
+    width: auto;
     outline: 5px solid white;
     background-color: white;
     border-radius: 9px/8px;
-    opacity: 0.9;
+    opacity: 0.75;
     box-shadow: 0 1px 2px rgba(0,0,0,0.15);
     transition: all 0.3s ease-in-out;
+    margin-bottom: 100px;
 }
 
-#project4-diagram:hover {
+#project-images:hover {
     z-index: 999;
     opacity: 1;
-    width: 75%;
-    height: auto;
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
     transition: opacity 0.3s ease-in-out;
 }
 
+.project-paragraphs{
+    text-align: justify;
+    max-width: 95%;
+}
+
 @media only screen and (max-width: 400px) {
-    #project4-fixed-component {
-        text-align: start;
+    #project-fixed-component {
+        text-align: left;
         scale: 0.8;
         margin-left: -13vw;
     }
 }
 
 @media only screen and (max-width: 305px) {
-    #project4-fixed-component {
+    #project-fixed-component {
         scale: 0.6 !important;
         margin-top: 2vh !important;
         margin-left: -23vw !important;

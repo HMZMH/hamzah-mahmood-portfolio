@@ -1,0 +1,31 @@
+#about-divs{
+    background-color: rgba(112, 128, 144, 0.20);
+    padding: 10px;
+    border-radius: 9px/8px;
+    margin-top: 1.5vh;
+}
+
+.skill-div{
+    display: inline-block !important;
+    max-width: fit-content !important;
+    margin-top: -14vh !important;
+}
+
+.skill-logo{
+    height: 100px !important;
+    width: auto !important;
+    margin-top: 1vh !important;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    border-radius: 9px/8px;
+    opacity: 100%;
+}
+
+#spotify-player{
+    margin-top: 7vh;
+    z-index: 999;
+    border-radius: 9px/8px;
+    min-width: 35vw;
+    height: 160px;
+    opacity: 100%;
+}

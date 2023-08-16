@@ -1,51 +1,54 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
-import '../styles/Project1.css';
+import '../styles/Project.css';
 import SocialsButtons from '../components/SocialsButtons.js';
 import AccessButtons from '../components/AccessButtons.js';
-import project1diagram1 from '../images/Project1_Diagram1.png';
-import project1diagram2 from '../images/Project1_Diagram2.png';
-import project1diagram3 from '../images/Project1_Diagram3.png';
-import project1diagram4 from '../images/Project1_Diagram4.png';
 
 function Project1() {
   return (
     <div className="container-fluid">
 
-        <div id='project1-fixed-component' className="row justify-content-start">
+        <div id='project-fixed-component' className="row justify-content-start">
           <SocialsButtons/>
         </div>
 
-        <div id='project1-content-component' className="row justify-content-start">
+        <div id='project-content-component' className="row justify-content-start">
 
           <nav>
-            <Link id='link' to="/">
+            <Link id='link' to="/#project-section">
               <h3>&lt; Home</h3>
             </Link>
           </nav>
 
-          <h1 className='h1-sections'>System Design Project</h1>
+          <h1 className='h1-sections'>Web App Development</h1>
 
-          <p>This project entailed designing a web-application at system level,
-          <br/>to meet requirements identified through analysing a provided problem statement.<br/> 
-          <br/> 
-          The system was designed through UML diagrams:<br/> 
-          -Use Case diagrams<br/> 
-          -Class diagrams<br/> 
-          -Sequence diagrams<br/> 
-          </p>
-          
-          <div className="row justify-content-end">
-          <img id='project1-diagram1' alt='project1diagram1' src={project1diagram1}/>      
-          <img id='project1-diagram2' alt='project1diagram2' src={project1diagram2}/>    
-          <img id='project1-diagram3' alt='project1diagram3' src={project1diagram3}/>    
-          <img id='project1-diagram4' alt='project1diagram4' src={project1diagram4}/>
+          <div className='project-paragraphs'>
+            <p>
+              I was a dedicated member of an Agile team of CS students, where our mission was to develop a web application
+              addressing a UN Sustainable Development Goal (SDG). Our chosen SDG was to provide accessible education through a
+              'study app' aimed at teaching Key Stage 2 topics to underserved children. This application combined informative
+              reading materials with interactive quizzes, fostering learning for those without access to traditional educational
+              resources.
+            </p>
+            <p>
+              Throughout the project, I took on multiple roles as a software developer, team player, and leader. I actively
+              contributed during the ideation phase, advocating for SDG 4 - Quality Education, which our group ultimately
+              selected. I played a key role in requirement analysis, creating user stories, and designing features like user
+              interfaces, night mode, and progress tracking. As a sprint lead and product owner, I managed tasks, coordinated team
+              efforts, and ensured project progress aligned with our goals.
+            </p>
+            <p>
+              This experience allowed me to expand my technical skills by working with React, JavaScript, and collaborative tools
+              like GitHub. Beyond technical growth, I enhanced my leadership abilities, adapting to challenges, and fostering
+              effective communication within our team. This project has been a transformative journey, equipping me with valuable
+              insights into software development, teamwork, and problem-solving that will undoubtedly shape my future endeavors.
+            </p>
           </div>
-      
+                
         </div>
 
-        <div id='project1-fixed-component' className="row justify-content-start">
+        <div id='project-fixed-component' className="row justify-content-start">
           <AccessButtons/>
         </div>
 
