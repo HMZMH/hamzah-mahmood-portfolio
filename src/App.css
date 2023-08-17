@@ -75,20 +75,20 @@ p:hover{
     margin-top: 50vh;
 }
 
-#footer{
-    min-height: 25vh;
+.footer{
+    height: 20vh;
 }
 
-#fixed-component{
+.fixed-component{
     text-align: left !important;
     z-index: 999 !important;
     position: fixed !important;
     margin-left: 1vw !important;
     margin-top: 3vh !important;
-    height: 90px !important;
-    width: 100vw !important;
+    height: fit-content !important;
+    width: fit-content !important;
     border-radius: 9px/8px !important;
-    background-color: transparent !important;
+    background-color: transparent;
 }
 
 #content-component{

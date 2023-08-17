@@ -14,8 +14,11 @@ function SocialsButtons() {
         <img id='my-logo' src={profilepicture} alt='My logo'/>
         <div id='logos-tray'>
           <a href='https://github.com/HMZMH' target="_blank" rel="noreferrer"><img id='logos' src={githublogo} alt='GitHub logo'/></a>
+          <br/>
           <a href="mailto:hmzmh2020@gmail.com" target="_blank" rel="noreferrer"><img id='logos' src={gmaillogo} alt='Gmail logo'/></a>
+          <br/>
           <a href='https://www.instagram.com/hmzmh20/' target="_blank" rel="noreferrer"><img id='logos' src={instagramlogo} alt='Instagram logo'/></a>
+          <br/>
           <a href='https://www.linkedin.com/in/hamzah-mahmood-20b777262/' target="_blank" rel="noreferrer"><img id='logos' src={linkedinlogo} alt='LinkedIn logo'/></a>
         </div>
       

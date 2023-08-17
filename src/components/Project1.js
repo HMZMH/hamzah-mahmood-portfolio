@@ -4,14 +4,22 @@ import 'bootstrap/dist/css/bootstrap.css';
 import '../styles/Project.css';
 import SocialsButtons from '../components/SocialsButtons.js';
 import AccessButtons from '../components/AccessButtons.js';
+import Project1_Image1 from '../images/project-images/Project1_Image1.png';
+import Project1_Image2 from '../images/project-images/Project1_Image2.png';
+import Project1_Image3 from '../images/project-images/Project1_Image3.png';
+import Project1_Image4 from '../images/project-images/Project1_Image4.png';
+import Project1_Image5 from '../images/project-images/Project1_Image5.png';
+import Project1_Image6 from '../images/project-images/Project1_Image6.png';
+import Project1_Image7 from '../images/project-images/Project1_Image7.png';
+import Project1_Image8 from '../images/project-images/Project1_Image8.png';
+import Project1_Image9 from '../images/project-images/Project1_Image9.png';
+import Project1_Image10 from '../images/project-images/Project1_Image10.png';
 
 function Project1() {
   return (
     <div className="container-fluid">
 
-        <div id='project-fixed-component' className="row justify-content-start">
-          <SocialsButtons/>
-        </div>
+        <div className='fixed-component'><SocialsButtons/></div>
 
         <div id='project-content-component' className="row justify-content-start">
 
@@ -25,7 +33,7 @@ function Project1() {
 
           <div className='project-paragraphs'>
             <p>
-              I was a dedicated member of an Agile team of CS students, where our mission was to develop a web application
+              I was a member of an Agile team of CS students, where our mission was to develop a web application
               addressing a UN Sustainable Development Goal (SDG). Our chosen SDG was to provide accessible education through a
               'study app' aimed at teaching Key Stage 2 topics to underserved children. This application combined informative
               reading materials with interactive quizzes, fostering learning for those without access to traditional educational
@@ -45,12 +53,25 @@ function Project1() {
               insights into software development, teamwork, and problem-solving that will undoubtedly shape my future endeavors.
             </p>
           </div>
+
+          <div className='project-images'>
+            <img src={Project1_Image1} alt=''></img>
+            <img src={Project1_Image2} alt=''></img>
+            <img src={Project1_Image3} alt=''></img>
+            <img src={Project1_Image4} alt=''></img>
+            <img src={Project1_Image5} alt=''></img>
+            <img src={Project1_Image6} alt=''></img>
+            <img src={Project1_Image7} alt=''></img>
+            <img src={Project1_Image8} alt=''></img>
+            <img src={Project1_Image9} alt=''></img>
+            <img src={Project1_Image10} alt=''></img>
+          </div>
+
+          <div className='footer' style={{maxHeight:'9vh'}}></div>
                 
         </div>
 
-        <div id='project-fixed-component' className="row justify-content-start">
-          <AccessButtons/>
-        </div>
+        <div className='fixed-component'><AccessButtons/></div>
 
     </div>
   );

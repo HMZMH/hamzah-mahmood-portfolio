@@ -21,7 +21,7 @@ function Home() {
 
     <div className="container-fluid">
 
-        <div id='fixed-component' className="row justify-content-start"><SocialsButtons/></div>
+        <div className='fixed-component'><SocialsButtons/></div>
 
         <div id='content-component' className="row justify-content-start">
 
@@ -39,11 +39,11 @@ function Home() {
             <ContactMe/>
           </div>
 
-          <div id='footer' className="row justify-content-start"></div>
+          <div className='footer'></div>
 
         </div>
         
-        <div id='fixed-component' className="row justify-content-start"><AccessButtons/></div>
+        <div className='fixed-component'><AccessButtons/></div>
         
       </div>
 
