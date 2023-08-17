@@ -1,11 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import {Parallax, ParallaxLayer} from '@react-spring/parallax';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import SocialsButtons from './components/SocialsButtons.js';
+import SocialsButton from './components/SocialsButton.js';
 import AccessButtons from './components/AccessButtons.js';
 import AboutMe from './components/AboutMe.js';
-import Tiles from './components/Tiles.js';
+import MyProjects from './components/MyProjects.js';
 import Project1 from './components/Project1.js';
 import Project2 from './components/Project2.js';
 import Project3 from './components/Project3.js';
@@ -14,39 +15,38 @@ import Project5 from './components/Project5.js';
 import Project6 from './components/Project6.js';
 import Project7 from './components/Project7.js';
 import Project8 from './components/Project8.js';
-import ContactMe from './components/ContactMe.js';
 
 function Home() {
   return(
+    <div>
 
-    <div className="container-fluid">
-
-        <div className='fixed-component'><SocialsButtons/></div>
-
-        <div id='content-component' className="row justify-content-start">
-
-          <h1 style={{fontSize: "75px", marginTop: "45vh"}}>Hi, I'm Hamzah. A software engineer.</h1>
-
-          <div id='about-section' className="row justify-content-start">
-            <AboutMe/>
-          </div>
-
-          <div id='project-section' className="row justify-content-start">
-            <Tiles/>
-          </div>
-
-          <div id='contact-section' className="row justify-content-start">
-            <ContactMe/>
-          </div>
-
-          <div className='footer'></div>
-
-        </div>
-        
-        <div className='fixed-component'><AccessButtons/></div>
-        
+      <div className='fixed-component'>
+        <SocialsButton/>
       </div>
 
+      <Parallax pages={2}>
+        <ParallaxLayer offset={0} speed={0.5} style={{marginLeft:'10vw'}}>
+          <h1 style={{ fontSize: "75px", marginTop: "45vh" }}>
+            Hi, I'm Hamzah. A software engineer.
+          </h1>
+        </ParallaxLayer>
+
+        <ParallaxLayer offset={0.99} speed={1.0} style={{marginLeft:'10vw'}}>
+          <h1 className='h1-sections'>About me</h1>
+          <AboutMe/>
+        </ParallaxLayer>
+
+        <ParallaxLayer offset={1.01} speed={1.5} style={{marginLeft:'10vw', marginTop:'7.5vh'}}>
+          <h1 className='h1-sections'>My projects</h1>
+          <MyProjects/>
+        </ParallaxLayer>
+      </Parallax>
+
+      <div style={{height:'94vh'}}></div>
+
+      <div className='fixed-component'><AccessButtons/></div>
+
+    </div>
   );
 }
 

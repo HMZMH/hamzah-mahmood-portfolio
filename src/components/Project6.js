@@ -2,8 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../styles/Project.css';
-import SocialsButtons from '../components/SocialsButtons.js';
-import AccessButtons from '../components/AccessButtons.js';
+import SocialsButtons from './SocialsButton.js';
+import AccessButtons from './AccessButtons.js';
 
 function Project6() {
   return (

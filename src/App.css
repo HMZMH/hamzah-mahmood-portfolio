@@ -1,19 +1,10 @@
-html {
-    scroll-behavior: smooth;
-}
+/*PAGE*/
 
 body{
-    width: 100vw !important;
-    height: 100vh !important;
-    text-align: left !important;
-    background-color: cyan !important;
+    text-align: left;
     background-image: linear-gradient(to bottom right, white, cyan);
-    background-attachment: fixed !important;
-    animation-name: fadeInOpacity !important;
-    animation-iteration-count: 1 !important;
-    animation-timing-function: ease-in !important;
-    animation-duration: 2s !important;
-    overflow-x: hidden;
+    background-attachment: fixed;
+    color: black;
 }
 
 ::-webkit-scrollbar {
@@ -25,37 +16,31 @@ body{
     border-radius: 9px/8px;
 }
 
+
+/*TEXT*/
+
 h1, h2, h3, h4, p{
-    text-shadow: 0 1px 2px rgba(0,0,0,0.15);
-    transition: all 0.3s ease-in-out;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.3);
     font-weight:400 !important;
-}
-
-h1:hover, h2:hover, h3:hover, h4:hover, p:hover{
-    text-shadow: 0 5px 15px rgba(0,0,0,0.3);
-    transition: opacity 0.3s ease-in-out;
-}
-
-.h1-sections{
-    font-size:100px !important;
-    opacity: 20% !important;
-}
-
-h4{
-    font-size: 22px !important;
 }
 
 p{
     color:darkslategray;
-    font-size: larger !important;
-    text-shadow: 0 1px 2px rgba(0,0,0,0.15) !important;
-    transition: all 0.3s ease-in-out !important;
+    font-size: larger;
+}
+
+h1:hover, h2:hover, h3:hover, h4:hover, p:hover{
+    text-shadow: 0 5px 15px rgba(0,0,0,0.6);
+    transition: opacity 0.3s ease-in-out;
 }
 
 p:hover{
-    text-shadow: 0 5px 15px rgba(0,0,0,0.3) !important;
-    transition: opacity 0.3s ease-in-out !important;
-    color: navy !important;
+    color: navy;
+}
+
+.h1-sections{
+    font-size:100px;
+    opacity: 20%;
 }
 
 #link {
@@ -63,62 +48,42 @@ p:hover{
     text-decoration: none;
 }
 
-#about-section{
-    margin-top: 50vh;
-}
 
-#project-section{
-    margin-top: 50vh;
-}
-
-#contact-section{
-    margin-top: 50vh;
-}
-
-.footer{
-    height: 20vh;
-}
+/*COMPONENTS*/
 
 .fixed-component{
-    text-align: left !important;
-    z-index: 999 !important;
-    position: fixed !important;
-    margin-left: 1vw !important;
-    margin-top: 3vh !important;
-    height: fit-content !important;
-    width: fit-content !important;
-    border-radius: 9px/8px !important;
-    background-color: transparent;
+    z-index: 999;
+    position: fixed;
+    margin-left: 1vw;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 9px/8px;
 }
 
-#content-component{
-    height: 90vh !important;
-    background-color: transparent !important;
-    margin-left: 10vw;
-    margin-right: 5vw;
-}
+
+/*BEHAVIOUR*/
 
 @media only screen and (max-width: 400px) {
     #fixed-component {
-      text-align: left !important;
-      scale: 0.8 !important;
-      margin-left: -13vw !important;
+      text-align: left;
+      scale: 0.8;
+      margin-left: -13vw;
     }
   }
 
   @media only screen and (max-width: 305px) {
     #fixed-component {
-      scale: 0.6 !important;
-      margin-top: 2vh !important;
-      margin-left: -23vw !important;
+      scale: 0.6;
+      margin-top: 2vh;
+      margin-left: -23vw;
     }
   }
 
 @keyframes fadeInOpacity {
     0% {
-        opacity: 0 !important;
+        opacity: 0;
     }
     100% {
-        opacity: 1 !important;
+        opacity: 1;
     }
 }
