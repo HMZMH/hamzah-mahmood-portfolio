@@ -1,6 +1,6 @@
 #project-content-component{
     text-align: left !important;
-    padding-top: 20vh !important;
+    padding-top: 10vh !important;
     height: 90vh !important;
     border-radius: 9px/8px !important;
     margin-left: 10vw;
@@ -8,15 +8,14 @@
 }
 
 .project-images{
-    margin-top: 5vh;
-    margin-inline-start: 2.5vw;
-    max-height: 800px;
-    width: 75vw;
+    margin-top: 4vh;
+    padding: 10px;
+    max-height: 90vh;
+    width: 95%;
     outline: 5px solid white;
-    background-color: white;
+    background-color: darkcyan;
     border-radius: 9px/8px;
-    opacity: 0.75;
-    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
     transition: all 0.3s ease-in-out;
     display: inline-block;
     overflow: auto;
@@ -25,12 +24,28 @@
 
 .project-images:hover {
     z-index: 999;
-    opacity: 1;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
     transition: opacity 0.3s ease-in-out;
 }
 
+.individual-image{
+    border-radius: 9px/8px;
+    margin-right: 0.5vw;
+    margin-left: 0.5vw;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+    opacity: 75%;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.individual-image:hover{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.8);
+    opacity: 100%;
+}
+
 .project-paragraphs{
+    margin-top: 2vh;
+    border-radius: 9px/8px;
+    background-color: rgba(255, 255, 255, 0.25);
     text-align: justify;
     max-width: 95%;
 }

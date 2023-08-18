@@ -1,46 +1,37 @@
-/*PAGE*/
-
-body{
+body {
     text-align: left;
+    background-color: black !important;
     background-image: linear-gradient(to bottom right, white, cyan);
     background-attachment: fixed;
     color: black;
+    border-radius: 9px/8px !important;
 }
 
 ::-webkit-scrollbar {
-    background-color: cyan;
+    background-color: black;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: lightcyan;
-    border-radius: 9px/8px;
+    background-color: darkcyan;
 }
 
-
-/*TEXT*/
-
-h1, h2, h3, h4, p{
-    text-shadow: 0 1px 2px rgba(0,0,0,0.3);
-    font-weight:400 !important;
+h1, h2, h3, h4, p {
+    font-weight: 400 !important;
 }
 
-p{
-    color:darkslategray;
+p {
+    color: black;
     font-size: larger;
 }
 
-h1:hover, h2:hover, h3:hover, h4:hover, p:hover{
-    text-shadow: 0 5px 15px rgba(0,0,0,0.6);
+h1:hover, h2:hover, h3:hover, h4:hover, p:hover {
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 1);
     transition: opacity 0.3s ease-in-out;
 }
 
-p:hover{
-    color: navy;
-}
-
-.h1-sections{
-    font-size:100px;
-    opacity: 20%;
+.h1-sections {
+    font-size: 5vw;
+    opacity: 0.2;
 }
 
 #link {
@@ -48,36 +39,29 @@ p:hover{
     text-decoration: none;
 }
 
-
-/*COMPONENTS*/
-
-.fixed-component{
+.fixed-component {
     z-index: 999;
-    position: fixed;
-    margin-left: 1vw;
+    position: fixed !important;
     height: fit-content;
     width: fit-content;
     border-radius: 9px/8px;
 }
 
+#home-image1 {
+    position: absolute;
+    width: 70%;
+    margin-inline-start: 15%;
+    opacity: 0.75;
+}
 
-/*BEHAVIOUR*/
-
-@media only screen and (max-width: 400px) {
-    #fixed-component {
-      text-align: left;
-      scale: 0.8;
-      margin-left: -13vw;
-    }
-  }
-
-  @media only screen and (max-width: 305px) {
-    #fixed-component {
-      scale: 0.6;
-      margin-top: 2vh;
-      margin-left: -23vw;
-    }
-  }
+#home-image2 {
+    width: 100vw;
+    height: 200%;
+    position: absolute;
+    opacity: 0.5;
+    -webkit-mask-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 1)), to(rgba(0, 0, 0, 0)));
+    mask-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
 
 @keyframes fadeInOpacity {
     0% {

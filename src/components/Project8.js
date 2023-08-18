@@ -76,46 +76,46 @@ function Project8() {
         </div>
 
         <div className='project-images'>
-          <img src={Project8_Image1} alt=''></img>
-          <img src={Project8_Image2} alt=''></img>
-          <img src={Project8_Image3} alt=''></img>
-          <img src={Project8_Image4} alt=''></img>
-          <img src={Project8_Image5} alt=''></img>
-          <img src={Project8_Image6} alt=''></img>
-          <img src={Project8_Image7} alt=''></img>
-          <img src={Project8_Image8} alt=''></img>
-          <img src={Project8_Image9} alt=''></img>
-          <img src={Project8_Image10} alt=''></img>
-          <img src={Project8_Image11} alt=''></img>
-          <img src={Project8_Image12} alt=''></img>
-          <img src={Project8_Image13} alt=''></img>
-          <img src={Project8_Image14} alt=''></img>
-          <img src={Project8_Image15} alt=''></img>
-          <img src={Project8_Image16} alt=''></img>
-          <img src={Project8_Image17} alt=''></img>
-          <img src={Project8_Image18} alt=''></img>
-          <img src={Project8_Image19} alt=''></img>
-          <img src={Project8_Image20} alt=''></img>
-          <img src={Project8_Image21} alt=''></img>
-          <img src={Project8_Image22} alt=''></img>
-          <img src={Project8_Image23} alt=''></img>
-          <img src={Project8_Image24} alt=''></img>
-          <img src={Project8_Image25} alt=''></img>
-          <img src={Project8_Image26} alt=''></img>
-          <img src={Project8_Image27} alt=''></img>
-          <img src={Project8_Image28} alt=''></img>
-          <img src={Project8_Image29} alt=''></img>
-          <img src={Project8_Image30} alt=''></img>
-          <img src={Project8_Image31} alt=''></img>
-          <img src={Project8_Image32} alt=''></img>
-          <img src={Project8_Image33} alt=''></img>
-          <img src={Project8_Image34} alt=''></img>
-          <img src={Project8_Image35} alt=''></img>
-          <img src={Project8_Image36} alt=''></img>
+          <img className='individual-image' src={Project8_Image1} alt=''></img>
+          <img className='individual-image' src={Project8_Image2} alt=''></img>
+          <img className='individual-image' src={Project8_Image3} alt=''></img>
+          <img className='individual-image' src={Project8_Image4} alt=''></img>
+          <img className='individual-image' src={Project8_Image5} alt=''></img>
+          <img className='individual-image' src={Project8_Image6} alt=''></img>
+          <img className='individual-image' src={Project8_Image7} alt=''></img>
+          <img className='individual-image' src={Project8_Image8} alt=''></img>
+          <img className='individual-image' src={Project8_Image9} alt=''></img>
+          <img className='individual-image' src={Project8_Image10} alt=''></img>
+          <img className='individual-image' src={Project8_Image11} alt=''></img>
+          <img className='individual-image' src={Project8_Image12} alt=''></img>
+          <img className='individual-image' src={Project8_Image13} alt=''></img>
+          <img className='individual-image' src={Project8_Image14} alt=''></img>
+          <img className='individual-image' src={Project8_Image15} alt=''></img>
+          <img className='individual-image' src={Project8_Image16} alt=''></img>
+          <img className='individual-image' src={Project8_Image17} alt=''></img>
+          <img className='individual-image' src={Project8_Image18} alt=''></img>
+          <img className='individual-image' src={Project8_Image19} alt=''></img>
+          <img className='individual-image' src={Project8_Image20} alt=''></img>
+          <img className='individual-image' src={Project8_Image21} alt=''></img>
+          <img className='individual-image' src={Project8_Image22} alt=''></img>
+          <img className='individual-image' src={Project8_Image23} alt=''></img>
+          <img className='individual-image' src={Project8_Image24} alt=''></img>
+          <img className='individual-image' src={Project8_Image25} alt=''></img>
+          <img className='individual-image' src={Project8_Image26} alt=''></img>
+          <img className='individual-image' src={Project8_Image27} alt=''></img>
+          <img className='individual-image' src={Project8_Image28} alt=''></img>
+          <img className='individual-image' src={Project8_Image29} alt=''></img>
+          <img className='individual-image' src={Project8_Image30} alt=''></img>
+          <img className='individual-image' src={Project8_Image31} alt=''></img>
+          <img className='individual-image' src={Project8_Image32} alt=''></img>
+          <img className='individual-image' src={Project8_Image33} alt=''></img>
+          <img className='individual-image' src={Project8_Image34} alt=''></img>
+          <img className='individual-image' src={Project8_Image35} alt=''></img>
+          <img className='individual-image' src={Project8_Image36} alt=''></img>
         </div>
 
-        <div className='footer' style={{maxHeight:'9vh'}}></div>
-      
+        <div style={{height:'7.5vh'}}></div>
+        
       </div>
 
       <div className='fixed-component'><AccessButtons/></div>

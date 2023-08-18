@@ -51,23 +51,23 @@ function Project7() {
         </div>
 
         <div className='project-images'>
-          <img src={Project7_Image1} alt=''></img>
-          <img src={Project7_Image2} alt=''></img>
-          <img src={Project7_Image3} alt=''></img>
-          <img src={Project7_Image4} alt=''></img>
-          <img src={Project7_Image5} alt=''></img>
-          <img src={Project7_Image6} alt=''></img>
-          <img src={Project7_Image7} alt=''></img>
-          <img src={Project7_Image8} alt=''></img>
-          <img src={Project7_Image9} alt=''></img>
-          <img src={Project7_Image10} alt=''></img>
-          <img src={Project7_Image11} alt=''></img>
-          <img src={Project7_Image12} alt=''></img>
-          <img src={Project7_Image13} alt=''></img>
-          <img src={Project7_Image14} alt=''></img>
+          <img className='individual-image' src={Project7_Image1} alt=''></img>
+          <img className='individual-image' src={Project7_Image2} alt=''></img>
+          <img className='individual-image' src={Project7_Image3} alt=''></img>
+          <img className='individual-image' src={Project7_Image4} alt=''></img>
+          <img className='individual-image' src={Project7_Image5} alt=''></img>
+          <img className='individual-image' src={Project7_Image6} alt=''></img>
+          <img className='individual-image' src={Project7_Image7} alt=''></img>
+          <img className='individual-image' src={Project7_Image8} alt=''></img>
+          <img className='individual-image' src={Project7_Image9} alt=''></img>
+          <img className='individual-image' src={Project7_Image10} alt=''></img>
+          <img className='individual-image' src={Project7_Image11} alt=''></img>
+          <img className='individual-image' src={Project7_Image12} alt=''></img>
+          <img className='individual-image' src={Project7_Image13} alt=''></img>
+          <img className='individual-image' src={Project7_Image14} alt=''></img>
         </div>
 
-        <div className='footer' style={{maxHeight:'9vh'}}></div>
+        <div style={{height:'7.5vh'}}></div>
       
       </div>
 

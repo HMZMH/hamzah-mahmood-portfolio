@@ -19,7 +19,7 @@ function Project1() {
   return (
     <div className="container-fluid">
 
-        <div className='fixed-component'><SocialsButtons/></div>
+        <div className='fixed-component' style={{marginLeft:'0.35vw'}}><SocialsButtons/></div>
 
         <div id='project-content-component' className="row justify-content-start">
 
@@ -55,23 +55,23 @@ function Project1() {
           </div>
 
           <div className='project-images'>
-            <img src={Project1_Image1} alt=''></img>
-            <img src={Project1_Image2} alt=''></img>
-            <img src={Project1_Image3} alt=''></img>
-            <img src={Project1_Image4} alt=''></img>
-            <img src={Project1_Image5} alt=''></img>
-            <img src={Project1_Image6} alt=''></img>
-            <img src={Project1_Image7} alt=''></img>
-            <img src={Project1_Image8} alt=''></img>
-            <img src={Project1_Image9} alt=''></img>
-            <img src={Project1_Image10} alt=''></img>
+            <img className='individual-image' src={Project1_Image1} alt=''></img>
+            <img className='individual-image' src={Project1_Image2} alt=''></img>
+            <img className='individual-image' src={Project1_Image3} alt=''></img>
+            <img className='individual-image' src={Project1_Image4} alt=''></img>
+            <img className='individual-image' src={Project1_Image5} alt=''></img>
+            <img className='individual-image' src={Project1_Image6} alt=''></img>
+            <img className='individual-image' src={Project1_Image7} alt=''></img>
+            <img className='individual-image' src={Project1_Image8} alt=''></img>
+            <img className='individual-image' src={Project1_Image9} alt=''></img>
+            <img className='individual-image' src={Project1_Image10} alt=''></img>
           </div>
 
-          <div className='footer' style={{maxHeight:'9vh'}}></div>
+          <div style={{height:'7.5vh'}}></div>
                 
         </div>
 
-        <div className='fixed-component'><AccessButtons/></div>
+        <div className='fixed-component' style={{marginLeft:'0.35vw', marginTop:'4vh'}}><AccessButtons/></div>
 
     </div>
   );

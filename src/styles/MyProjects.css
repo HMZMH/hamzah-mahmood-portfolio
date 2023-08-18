@@ -1,27 +1,26 @@
-.tile{
+.tile {
     display: inline-block;
     margin-top: 2vh;
     margin-right: 0.5vw;
     margin-left: 0.5vw;
     text-align: center;
-    height: 280px;
-    width: 320px;
+    height: auto;
+    width: 16vw;
+    padding: 1vw;
     border-radius: 9px/8px;
-    background-color: rgba(255,255,255,0.5);
-    box-shadow: 0 1px 2px rgba(0,0,0,0.3);
-    opacity: 90%;
+    background-color: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    opacity: 0.9;
 }
 
-.tile:hover{
-    scale: 1.05;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+.tile:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
     transition: opacity 0.3s ease-in-out;
     background-image: linear-gradient(to top left, lightcyan, darkcyan);
-    opacity: 100%;
+    opacity: 1;
 }
 
-.tile-img{
-    margin-top: 5px;
-    max-width: 125px;
-    max-height: 125px;
+.tile-img {
+    width: 7vw;
 }

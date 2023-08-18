@@ -43,14 +43,14 @@ function Project2() {
         </div>
 
         <div className='project-images'>
-          <img src={Project2_Image1} alt=''></img>
-          <img src={Project2_Image2} alt=''></img>
-          <img src={Project2_Image3} alt=''></img>
-          <img src={Project2_Image4} alt=''></img>
-          <img src={Project2_Image5} alt=''></img>
+          <img className='individual-image' src={Project2_Image1} alt=''></img>
+          <img className='individual-image' src={Project2_Image2} alt=''></img>
+          <img className='individual-image' src={Project2_Image3} alt=''></img>
+          <img className='individual-image' src={Project2_Image4} alt=''></img>
+          <img className='individual-image' src={Project2_Image5} alt=''></img>
         </div>
 
-        <div className='footer' style={{maxHeight:'9vh'}}></div>
+        <div style={{height:'7.5vh'}}></div>
     
       </div>
 

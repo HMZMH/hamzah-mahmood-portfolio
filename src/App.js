@@ -15,36 +15,49 @@ import Project5 from './components/Project5.js';
 import Project6 from './components/Project6.js';
 import Project7 from './components/Project7.js';
 import Project8 from './components/Project8.js';
+import Clouds from './images/Clouds.png';
+import Lake from './images/Lake.jpg';
 
 function Home() {
   return(
     <div>
 
-      <div className='fixed-component'>
+      <div className='fixed-component' style={{marginLeft:'1vw'}}>
         <SocialsButton/>
       </div>
 
       <Parallax pages={2}>
-        <ParallaxLayer offset={0} speed={0.5} style={{marginLeft:'10vw'}}>
+
+      <ParallaxLayer offset={0.1} factor={0.5} speed={0.3} style={{marginLeft:'10vw'}}>
+          <img id='home-image1' src={Clouds} alt='Clouds' style={{opacity:'50%'}}></img>
+          <img id='home-image1' src={Clouds} alt='Clouds'></img>
+        </ParallaxLayer>
+        
+        <ParallaxLayer offset={0.1} factor={0.5} speed={0.6} style={{marginLeft:'10vw'}}>
           <h1 style={{ fontSize: "75px", marginTop: "45vh" }}>
             Hi, I'm Hamzah. A software engineer.
           </h1>
         </ParallaxLayer>
 
-        <ParallaxLayer offset={0.99} speed={1.0} style={{marginLeft:'10vw'}}>
+        <ParallaxLayer offset={0.99} factor={0.5} speed={1} style={{marginLeft:'10vw'}}>
           <h1 className='h1-sections'>About me</h1>
           <AboutMe/>
         </ParallaxLayer>
 
-        <ParallaxLayer offset={1.01} speed={1.5} style={{marginLeft:'10vw', marginTop:'7.5vh'}}>
+        <ParallaxLayer offset={1.09} factor={0.5} speed={0.8} style={{marginLeft:'10vw'}}>
           <h1 className='h1-sections'>My projects</h1>
           <MyProjects/>
         </ParallaxLayer>
+
+        <ParallaxLayer style={{zIndex:'-999'}}>
+          <img id='home-image2' src={Lake} alt='Lake'></img>
+        </ParallaxLayer>
+
       </Parallax>
 
       <div style={{height:'94vh'}}></div>
 
-      <div className='fixed-component'><AccessButtons/></div>
+      <div className='fixed-component' style={{marginLeft:'1vw'}}><AccessButtons/></div>
 
     </div>
   );

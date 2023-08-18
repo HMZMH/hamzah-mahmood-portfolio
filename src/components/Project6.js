@@ -34,8 +34,8 @@ function Project6() {
           The study's research methods include questionnaires, experiments, and interviews. Questionnaires gather demographic information and subjective feedback, while experiments replicate real-world scenarios to collect data on switching and docking times. Despite methodological rigor demonstrated through internal and statistical validity, the research's external validity raises concerns due to participant and device limitations. The project contributes to Human-Computer Interaction (HCI) knowledge by offering concrete data and insights that can aid designers, manufacturers, and researchers in creating more efficient and user-friendly computer form factors and pointing devices.
           </p>
         </div>
-        
-        <div className='footer' style={{maxHeight:'9vh'}}></div>
+
+        <div style={{height:'7.5vh'}}></div>
       
       </div>
 

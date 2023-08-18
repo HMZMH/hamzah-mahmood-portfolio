@@ -2,7 +2,7 @@
     max-width: 80vw;
     margin-top: 2vh;
     padding: 1vh;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255, 255, 255, 0.25);
     border-radius: 9px/8px;
     text-align: justify;
 }
@@ -11,19 +11,33 @@
     height: 90px;
     border-radius: 9px/8px;
     margin-right: 11vw;
+    opacity: 0.9;
+}
+
+.skill-logo:hover{
+    opacity: 1;
 }
 
 #spotify-player{
     height: 200px;
     width: 680px;
     margin-bottom: -5.5vh;
+    opacity: 0.9;
+}
+
+#spotify-player:hover{
+    opacity: 1;
 }
 
 #my-selfie{
     max-height: 300px;
     position: fixed;
-    margin-top: -14.7vh;
+    margin-top: -14.6vh;
     margin-inline-start: 29.5vw;
-    opacity: 95%;
+    opacity: 0.9;
     border-radius: 9px/8px;
+}
+
+#my-selfie:hover{
+    opacity: 1;
 }

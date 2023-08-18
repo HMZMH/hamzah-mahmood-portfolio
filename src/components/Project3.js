@@ -52,25 +52,25 @@ function Project3() {
         </div>
 
         <div className='project-images'>
-          <img src={Project3_Image1} alt=''></img>
-          <img src={Project3_Image2} alt=''></img>
-          <img src={Project3_Image3} alt=''></img>
-          <img src={Project3_Image4} alt=''></img>
-          <img src={Project3_Image5} alt=''></img>
-          <img src={Project3_Image6} alt=''></img>
-          <img src={Project3_Image7} alt=''></img>
-          <img src={Project3_Image8} alt=''></img>
-          <img src={Project3_Image9} alt=''></img>
-          <img src={Project3_Image10} alt=''></img>
-          <img src={Project3_Image11} alt=''></img>
-          <img src={Project3_Image12} alt=''></img>
-          <img src={Project3_Image13} alt=''></img>
-          <img src={Project3_Image14} alt=''></img>
-          <img src={Project3_Image15} alt=''></img>
-          <img src={Project3_Image16} alt=''></img>
+          <img className='individual-image' src={Project3_Image1} alt=''></img>
+          <img className='individual-image' src={Project3_Image2} alt=''></img>
+          <img className='individual-image' src={Project3_Image3} alt=''></img>
+          <img className='individual-image' src={Project3_Image4} alt=''></img>
+          <img className='individual-image' src={Project3_Image5} alt=''></img>
+          <img className='individual-image' src={Project3_Image6} alt=''></img>
+          <img className='individual-image' src={Project3_Image7} alt=''></img>
+          <img className='individual-image' src={Project3_Image8} alt=''></img>
+          <img className='individual-image' src={Project3_Image9} alt=''></img>
+          <img className='individual-image' src={Project3_Image10} alt=''></img>
+          <img className='individual-image' src={Project3_Image11} alt=''></img>
+          <img className='individual-image' src={Project3_Image12} alt=''></img>
+          <img className='individual-image' src={Project3_Image13} alt=''></img>
+          <img className='individual-image' src={Project3_Image14} alt=''></img>
+          <img className='individual-image' src={Project3_Image15} alt=''></img>
+          <img className='individual-image' src={Project3_Image16} alt=''></img>
         </div>
 
-        <div className='footer' style={{maxHeight:'9vh'}}></div>
+        <div style={{height:'7.5vh'}}></div>
       
       </div>
 

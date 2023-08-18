@@ -10,7 +10,7 @@ function SocialsButton() {
   return(
       <div id='socials-button'>
 
-        <img id='logos' src={profilepicture} alt='My logo'/>
+        <img id='logos' src={profilepicture} alt='My logo' style={{padding:'0'}}/>
 
         <div id='logos-tray'>
           <a href='https://github.com/HMZMH' target="_blank" rel="noreferrer">
