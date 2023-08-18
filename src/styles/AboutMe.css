@@ -18,3 +18,12 @@
     width: 680px;
     margin-bottom: -5.5vh;
 }
+
+#my-selfie{
+    max-height: 300px;
+    position: fixed;
+    margin-top: -14.7vh;
+    margin-inline-start: 29.5vw;
+    opacity: 95%;
+    border-radius: 9px/8px;
+}

@@ -9,6 +9,7 @@ import football from '../images/Football.png';
 import gaming from '../images/Gaming.png';
 import cardio from '../images/Cardio.png';
 import headphones from '../images/Headphones.png';
+import my_selfie from '../images/My_Selfie.png';
 
 function AboutMe() {
     return(
@@ -47,7 +48,10 @@ function AboutMe() {
                 <p>
                     Also, whether I'm working or playing, I like to have a few songs playing in the background...
                 </p>
-                <iframe id='spotify-player' src="https://open.spotify.com/embed/playlist/1Y9gUnk8OPtkAlDX4qKb5Y?utm_source=generator&theme=0" title='Spotify player' frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <iframe id='spotify-player' src="https://open.spotify.com/embed/playlist/1Y9gUnk8OPtkAlDX4qKb5Y?utm_source=generator&theme=0" title='Spotify player'
+                    frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                </iframe>
+                <img id='my-selfie' src={my_selfie} alt='My selfie'></img>
             </div>
 
         </div>
