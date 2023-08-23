@@ -23,6 +23,7 @@ function AccessButtons() {
   return(
     <div>
 
+      <div id='buttons-container'>
         <button id='access-button' className="btn btn-dark" onClick={PageDark}>
           Dark
         </button>
@@ -30,6 +31,7 @@ function AccessButtons() {
         <button id='access-button' className="btn btn-light" onClick={PageLight} style={{display:'none'}}>
           Light
         </button>
+      </div>
     
     </div>
   );

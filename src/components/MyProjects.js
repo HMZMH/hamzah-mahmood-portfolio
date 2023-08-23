@@ -13,7 +13,7 @@ import Research_Icon from '../images/Research_Icon.png';
 
 function MyProjects() {
     return(
-        <div className='row justify-content-center'>
+        <div id='tiles-container' className="fluid-container justify-content-center">
                 
                 <nav>
                     <Link id='link' to="/project1">

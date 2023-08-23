@@ -24,3 +24,20 @@
 .tile-img {
     width: 7vw;
 }
+
+@media (max-width: 768px){
+    #tiles-container{
+        max-width: 75vw;
+        margin-inline-start: 10vw;
+    }
+
+    .tile{
+        font-size: small !important;
+        width: 28vw;
+        height: auto;
+    }
+
+    h5{
+        font-size: 15px;
+    }
+}

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import {Parallax, ParallaxLayer} from '@react-spring/parallax';
 import './App.css';
@@ -19,32 +19,58 @@ import Clouds from './images/Clouds.png';
 import Lake from './images/Lake.jpg';
 
 function Home() {
+  const [numParallaxPages, setNumParallaxPages] = useState(2);
+  const [layer1Offset, setLayer1Offset] = useState(0.05);
+  const [layer2Offset, setLayer2Offset] = useState(0.05);
+  const [layer3Offset, setLayer3Offset] = useState(0.999);
+  const [layer4Offset, setLayer4Offset] = useState(1.09);
+
+  const updateOffsets = () => {
+    const screenWidth = window.innerWidth;
+
+    if (screenWidth <= 768) {
+      setNumParallaxPages(3);
+      setLayer1Offset(0);
+      setLayer2Offset(0);
+      setLayer3Offset(0.99);
+      setLayer4Offset(1.19);
+    }
+  };
+
+  useEffect(() => {
+    updateOffsets();
+    window.addEventListener('resize', updateOffsets);
+    return () => {
+      window.removeEventListener('resize', updateOffsets);
+    };
+  }, []);
+
   return(
-    <div>
+    <div className="fluid-container">
 
       <div className='fixed-component' style={{marginLeft:'1vw'}}>
         <SocialsButton/>
       </div>
 
-      <Parallax pages={2}>
+      <Parallax id='homepage-container' pages={numParallaxPages}>
 
-      <ParallaxLayer offset={0.1} factor={0.5} speed={0.3} style={{marginLeft:'10vw'}}>
+      <ParallaxLayer offset={layer1Offset} factor={0.5} speed={0.3} style={{marginLeft:'10vw'}}>
           <img id='home-image1' src={Clouds} alt='Clouds' style={{opacity:'50%'}}></img>
           <img id='home-image1' src={Clouds} alt='Clouds'></img>
         </ParallaxLayer>
         
-        <ParallaxLayer offset={0.1} factor={0.5} speed={0.6} style={{marginLeft:'10vw'}}>
-          <h1 style={{ fontSize: "75px", marginTop: "45vh" }}>
+        <ParallaxLayer offset={layer2Offset} factor={0.5} speed={0.6} style={{marginLeft:'10vw'}}>
+          <h1 id='title-heading'>
             Hi, I'm Hamzah. A software engineer.
           </h1>
         </ParallaxLayer>
 
-        <ParallaxLayer offset={0.99} factor={0.5} speed={1} style={{marginLeft:'10vw'}}>
+        <ParallaxLayer offset={layer3Offset} factor={0.5} speed={1} style={{marginLeft:'10vw'}}>
           <h1 className='h1-sections'>About me</h1>
           <AboutMe/>
         </ParallaxLayer>
 
-        <ParallaxLayer offset={1.09} factor={0.5} speed={0.8} style={{marginLeft:'10vw'}}>
+        <ParallaxLayer offset={layer4Offset} factor={0.5} speed={0.8} style={{marginLeft:'10vw'}}>
           <h1 className='h1-sections'>My projects</h1>
           <MyProjects/>
         </ParallaxLayer>

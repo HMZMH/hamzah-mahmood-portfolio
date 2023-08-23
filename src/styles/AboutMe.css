@@ -31,13 +31,34 @@
 
 #my-selfie{
     max-height: 300px;
-    position: fixed;
+    position: absolute;
     margin-top: -14.6vh;
-    margin-inline-start: 29.5vw;
+    margin-left: 29.5vw;
     opacity: 0.9;
     border-radius: 9px/8px;
 }
 
 #my-selfie:hover{
     opacity: 1;
+}
+
+@media (max-width:768px){
+    #about-div{
+        font-size: small !important;
+    }
+    .skill-logo{
+        margin-right: 1vw;
+        width: 50px !important;
+        height: 50px !important;
+    }
+    #my-selfie{
+        max-width: 100px;
+        max-height: 100px;
+        margin-inline-start: -0.5vw;
+        margin-top: -4vh;
+    }
+    #spotify-player{
+        width: auto;
+        height: 100px;
+    }
 }

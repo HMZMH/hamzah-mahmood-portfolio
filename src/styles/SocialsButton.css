@@ -30,18 +30,6 @@
     background-image: linear-gradient(to bottom right, lightcyan, darkcyan);
 }
 
-@media only screen and (max-width: 400px) {
-    #socials-button{
-        min-width: 125vw;
-    }
-  }
-
-  @media only screen and (max-width: 305px) {
-    #socials-button{
-        min-width: 125vw;
-    }
-  }
-
 @keyframes fadeInOpacity {
     0% {
         opacity: 0;
@@ -50,3 +38,11 @@
         opacity: 1;
     }
 }
+
+@media (max-width: 768px){
+    #logos{
+        width: 10% !important;
+        height: 10% !important;
+        margin-top: 0.5vh;
+    }
+  }

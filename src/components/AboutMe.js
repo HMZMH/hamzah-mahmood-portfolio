@@ -13,7 +13,7 @@ import my_selfie from '../images/My_Selfie.png';
 
 function AboutMe() {
     return(
-        <div className='row'>
+        <div className="fluid-container">
                         
             <div id='about-div'>
                 <p>
@@ -48,10 +48,10 @@ function AboutMe() {
                 <p>
                     Also, whether I'm working or playing, I like to have a few songs playing in the background...
                 </p>
-                <iframe id='spotify-player' src="https://open.spotify.com/embed/playlist/1Y9gUnk8OPtkAlDX4qKb5Y?utm_source=generator&theme=0" title='Spotify player'
+                <iframe id='spotify-player' className='img-fluid' src="https://open.spotify.com/embed/playlist/1Y9gUnk8OPtkAlDX4qKb5Y?utm_source=generator&theme=0" title='Spotify player'
                     frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
                 </iframe>
-                <img id='my-selfie' src={my_selfie} alt='My selfie'></img>
+                <img id='my-selfie' className='img-fluid' src={my_selfie} alt='My selfie'></img>
             </div>
 
         </div>

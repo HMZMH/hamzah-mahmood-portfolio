@@ -20,3 +20,14 @@
         opacity: 1 !important;
     }
 }
+
+@media (max-width: 768px){
+    #buttons-container{
+        margin-top: 1vh;
+    }
+
+    #access-button{
+        margin-top: 1vh;
+        font-size: smaller;
+    }
+  }

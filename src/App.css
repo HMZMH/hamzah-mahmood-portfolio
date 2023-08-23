@@ -5,6 +5,7 @@ body {
     background-attachment: fixed;
     color: black;
     border-radius: 9px/8px !important;
+    overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
@@ -47,6 +48,11 @@ h1:hover, h2:hover, h3:hover, h4:hover, p:hover {
     border-radius: 9px/8px;
 }
 
+#title-heading{
+    font-size: 75px;
+    margin-top: 45vh;
+}
+
 #home-image1 {
     position: absolute;
     width: 70%;
@@ -71,3 +77,36 @@ h1:hover, h2:hover, h3:hover, h4:hover, p:hover {
         opacity: 1;
     }
 }
+
+.parallax-layer {
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 100px;
+}
+
+@media (max-width: 768px) {
+    body{
+        font-size: small !important;
+    }
+
+    #homepage-container{
+        padding-left: 0vw;
+    }
+
+    #title-heading{
+        margin-top: 45vh;
+        font-size: 40px;
+        max-width: 80vw;
+    }
+
+    #home-image1{
+        margin-top: 30vh;
+        width: 90%;
+        margin-left: -5vw;
+    }
+
+    .parallax-layer {
+      transform: none !important;
+      background-position: center center !important;
+    }
+  }
