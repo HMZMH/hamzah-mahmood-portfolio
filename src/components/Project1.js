@@ -55,16 +55,16 @@ function Project1() {
           </div>
 
           <div className='project-images'>
-            <img className='individual-image' src={Project1_Image1} alt=''></img>
-            <img className='individual-image' src={Project1_Image2} alt=''></img>
-            <img className='individual-image' src={Project1_Image3} alt=''></img>
-            <img className='individual-image' src={Project1_Image4} alt=''></img>
-            <img className='individual-image' src={Project1_Image5} alt=''></img>
-            <img className='individual-image' src={Project1_Image6} alt=''></img>
-            <img className='individual-image' src={Project1_Image7} alt=''></img>
-            <img className='individual-image' src={Project1_Image8} alt=''></img>
-            <img className='individual-image' src={Project1_Image9} alt=''></img>
-            <img className='individual-image' src={Project1_Image10} alt=''></img>
+            <img className='individual-image' src={Project1_Image1} alt='' loading="lazy"></img>
+            <img className='individual-image' src={Project1_Image2} alt='' loading="lazy"></img>
+            <img className='individual-image' src={Project1_Image3} alt='' loading="lazy"></img>
+            <img className='individual-image' src={Project1_Image4} alt='' loading="lazy"></img>
+            <img className='individual-image' src={Project1_Image5} alt='' loading="lazy"></img>
+            <img className='individual-image' src={Project1_Image6} alt='' loading="lazy"></img>
+            <img className='individual-image' src={Project1_Image7} alt='' loading="lazy"></img>
+            <img className='individual-image' src={Project1_Image8} alt='' loading="lazy"></img>
+            <img className='individual-image' src={Project1_Image9} alt='' loading="lazy"></img>
+            <img className='individual-image' src={Project1_Image10} alt='' loading="lazy"></img>
           </div>
 
           <div style={{height:'7.5vh'}}></div>

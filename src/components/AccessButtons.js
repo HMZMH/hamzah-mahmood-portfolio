@@ -7,7 +7,7 @@ function PageDark() {
 
     document.body.style.backgroundImage = 'linear-gradient(to top left, black, darkcyan)';
 
-    document.querySelectorAll('h1, h2, h3, h4, h5, h6, span, li, td, th, div, strong, em, i, b, a').forEach(element => element.style.color = 'lightcyan');
+    document.querySelectorAll('h1, h2, h3, h4, h5, h6, p, span, li, td, th, div, strong, em, i, b, a').forEach(element => element.style.color = 'lightcyan');
   }
   
   function PageLight() {
@@ -16,7 +16,7 @@ function PageDark() {
 
     document.body.style.backgroundImage = 'linear-gradient(to bottom right, white, cyan)';
 
-    document.querySelectorAll('h1, h2, h3, h4, h5, h6, span, li, td, th, div, strong, em, i, b, a').forEach(element => element.style.color = 'black');
+    document.querySelectorAll('h1, h2, h3, h4, h5, h6, p, span, li, td, th, div, strong, em, i, b, a').forEach(element => element.style.color = 'black');
   }
 
 function AccessButtons() {

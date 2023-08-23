@@ -20,7 +20,7 @@ import Lake from './images/Lake.jpg';
 
 function Home() {
   const [numParallaxPages, setNumParallaxPages] = useState(2);
-  const [layer1Offset, setLayer1Offset] = useState(0.05);
+  const [layer1Offset, setLayer1Offset] = useState(0.1);
   const [layer2Offset, setLayer2Offset] = useState(0.05);
   const [layer3Offset, setLayer3Offset] = useState(0.999);
   const [layer4Offset, setLayer4Offset] = useState(1.09);
@@ -30,10 +30,10 @@ function Home() {
 
     if (screenWidth <= 768) {
       setNumParallaxPages(3);
-      setLayer1Offset(0);
-      setLayer2Offset(0);
-      setLayer3Offset(0.99);
-      setLayer4Offset(1.19);
+      setLayer1Offset(0.1);
+      setLayer2Offset(0.05);
+      setLayer3Offset(0.999);
+      setLayer4Offset(1.15);
     }
   };
 
@@ -48,20 +48,20 @@ function Home() {
   return(
     <div className="fluid-container">
 
-      <div className='fixed-component' style={{marginLeft:'1vw'}}>
+      <div className='fixed-component' style={{marginLeft:'2.5vw'}}>
         <SocialsButton/>
       </div>
 
       <Parallax id='homepage-container' pages={numParallaxPages}>
 
       <ParallaxLayer offset={layer1Offset} factor={0.5} speed={0.3} style={{marginLeft:'10vw'}}>
-          <img id='home-image1' src={Clouds} alt='Clouds' style={{opacity:'50%'}}></img>
+          <img id='home-image1' src={Clouds} alt='Clouds' style={{opacity:'60%'}}></img>
           <img id='home-image1' src={Clouds} alt='Clouds'></img>
         </ParallaxLayer>
         
-        <ParallaxLayer offset={layer2Offset} factor={0.5} speed={0.6} style={{marginLeft:'10vw'}}>
+        <ParallaxLayer offset={layer2Offset} factor={0.5} speed={0.8} style={{marginLeft:'10vw'}}>
           <h1 id='title-heading'>
-            Hi, I'm Hamzah. A software engineer.
+            Hi, I'm Hamzah. <br/>A software engineer.
           </h1>
         </ParallaxLayer>
 
@@ -70,7 +70,7 @@ function Home() {
           <AboutMe/>
         </ParallaxLayer>
 
-        <ParallaxLayer offset={layer4Offset} factor={0.5} speed={0.8} style={{marginLeft:'10vw'}}>
+        <ParallaxLayer offset={layer4Offset} factor={0.5} speed={0.6} style={{marginLeft:'10vw'}}>
           <h1 className='h1-sections'>My projects</h1>
           <MyProjects/>
         </ParallaxLayer>
@@ -83,7 +83,7 @@ function Home() {
 
       <div style={{height:'94vh'}}></div>
 
-      <div className='fixed-component' style={{marginLeft:'1vw'}}><AccessButtons/></div>
+      <div className='fixed-component' style={{marginLeft:'2.5vw'}}><AccessButtons/></div>
 
     </div>
   );

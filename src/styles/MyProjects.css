@@ -1,3 +1,7 @@
+#tiles-container{
+    text-align: start;
+}
+
 .tile {
     display: inline-block;
     margin-top: 2vh;
@@ -6,6 +10,7 @@
     text-align: center;
     height: auto;
     width: 16vw;
+    min-width: 200px !important;
     padding: 1vw;
     border-radius: 9px/8px;
     background-color: rgba(255, 255, 255, 0.25);
@@ -28,16 +33,26 @@
 @media (max-width: 768px){
     #tiles-container{
         max-width: 75vw;
-        margin-inline-start: 10vw;
     }
 
     .tile{
         font-size: small !important;
-        width: 28vw;
+        width: 30vw;
+        min-width: 160px !important;
         height: auto;
+        margin-right: 1vw;
+        margin-left: 1vw;
+    }
+
+    .tile-img{
+        margin-bottom: 1vh;
     }
 
     h5{
-        font-size: 15px;
+        font-size: 17.5px;
+    }
+
+    .tile-text{
+        font-size: small;
     }
 }

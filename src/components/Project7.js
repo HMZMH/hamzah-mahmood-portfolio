@@ -51,20 +51,20 @@ function Project7() {
         </div>
 
         <div className='project-images'>
-          <img className='individual-image' src={Project7_Image1} alt=''></img>
-          <img className='individual-image' src={Project7_Image2} alt=''></img>
-          <img className='individual-image' src={Project7_Image3} alt=''></img>
-          <img className='individual-image' src={Project7_Image4} alt=''></img>
-          <img className='individual-image' src={Project7_Image5} alt=''></img>
-          <img className='individual-image' src={Project7_Image6} alt=''></img>
-          <img className='individual-image' src={Project7_Image7} alt=''></img>
-          <img className='individual-image' src={Project7_Image8} alt=''></img>
-          <img className='individual-image' src={Project7_Image9} alt=''></img>
-          <img className='individual-image' src={Project7_Image10} alt=''></img>
-          <img className='individual-image' src={Project7_Image11} alt=''></img>
-          <img className='individual-image' src={Project7_Image12} alt=''></img>
-          <img className='individual-image' src={Project7_Image13} alt=''></img>
-          <img className='individual-image' src={Project7_Image14} alt=''></img>
+          <img className='individual-image' src={Project7_Image1} alt='' loading="lazy"></img>
+          <img className='individual-image' src={Project7_Image2} alt='' loading="lazy"></img>
+          <img className='individual-image' src={Project7_Image3} alt='' loading="lazy"></img>
+          <img className='individual-image' src={Project7_Image4} alt='' loading="lazy"></img>
+          <img className='individual-image' src={Project7_Image5} alt='' loading="lazy"></img>
+          <img className='individual-image' src={Project7_Image6} alt='' loading="lazy"></img>
+          <img className='individual-image' src={Project7_Image7} alt='' loading="lazy"></img>
+          <img className='individual-image' src={Project7_Image8} alt='' loading="lazy"></img>
+          <img className='individual-image' src={Project7_Image9} alt='' loading="lazy"></img>
+          <img className='individual-image' src={Project7_Image10} alt='' loading="lazy"></img>
+          <img className='individual-image' src={Project7_Image11} alt='' loading="lazy"></img>
+          <img className='individual-image' src={Project7_Image12} alt='' loading="lazy"></img>
+          <img className='individual-image' src={Project7_Image13} alt='' loading="lazy"></img>
+          <img className='individual-image' src={Project7_Image14} alt='' loading="lazy"></img>
         </div>
 
         <div style={{height:'7.5vh'}}></div>

@@ -62,32 +62,32 @@ function Project4() {
         </div>
 
         <div className='project-images'>
-          <img className='individual-image' src={Project4_Image1} alt=''></img>
-          <img className='individual-image' src={Project4_Image2} alt=''></img>
-          <img className='individual-image' src={Project4_Image3} alt=''></img>
-          <img className='individual-image' src={Project4_Image4} alt=''></img>
-          <img className='individual-image' src={Project4_Image5} alt=''></img>
-          <img className='individual-image' src={Project4_Image6} alt=''></img>
-          <img className='individual-image' src={Project4_Image7} alt=''></img>
-          <img className='individual-image' src={Project4_Image8} alt=''></img>
-          <img className='individual-image' src={Project4_Image9} alt=''></img>
-          <img className='individual-image' src={Project4_Image10} alt=''></img>
-          <img className='individual-image' src={Project4_Image11} alt=''></img>
-          <img className='individual-image' src={Project4_Image12} alt=''></img>
-          <img className='individual-image' src={Project4_Image13} alt=''></img>
-          <img className='individual-image' src={Project4_Image14} alt=''></img>
-          <img className='individual-image' src={Project4_Image15} alt=''></img>
-          <img className='individual-image' src={Project4_Image16} alt=''></img>
-          <img className='individual-image' src={Project4_Image17} alt=''></img>
-          <img className='individual-image' src={Project4_Image18} alt=''></img>
-          <img className='individual-image' src={Project4_Image19} alt=''></img>
-          <img className='individual-image' src={Project4_Image20} alt=''></img>
-          <img className='individual-image' src={Project4_Image21} alt=''></img>
-          <img className='individual-image' src={Project4_Image22} alt=''></img>
-          <img className='individual-image' src={Project4_Image23} alt=''></img>
-          <img className='individual-image' src={Project4_Image24} alt=''></img>
-          <img className='individual-image' src={Project4_Image25} alt=''></img>
-          <img className='individual-image' src={Project4_Image26} alt=''></img>
+          <img className='individual-image' src={Project4_Image1} alt='' loading="lazy"></img>
+          <img className='individual-image' src={Project4_Image2} alt='' loading="lazy"></img>
+          <img className='individual-image' src={Project4_Image3} alt='' loading="lazy"></img>
+          <img className='individual-image' src={Project4_Image4} alt='' loading="lazy"></img>
+          <img className='individual-image' src={Project4_Image5} alt='' loading="lazy"></img>
+          <img className='individual-image' src={Project4_Image6} alt='' loading="lazy"></img>
+          <img className='individual-image' src={Project4_Image7} alt='' loading="lazy"></img>
+          <img className='individual-image' src={Project4_Image8} alt='' loading="lazy"></img>
+          <img className='individual-image' src={Project4_Image9} alt='' loading="lazy"></img>
+          <img className='individual-image' src={Project4_Image10} alt='' loading="lazy"></img>
+          <img className='individual-image' src={Project4_Image11} alt='' loading="lazy"></img>
+          <img className='individual-image' src={Project4_Image12} alt='' loading="lazy"></img>
+          <img className='individual-image' src={Project4_Image13} alt='' loading="lazy"></img>
+          <img className='individual-image' src={Project4_Image14} alt='' loading="lazy"></img>
+          <img className='individual-image' src={Project4_Image15} alt='' loading="lazy"></img>
+          <img className='individual-image' src={Project4_Image16} alt='' loading="lazy"></img>
+          <img className='individual-image' src={Project4_Image17} alt='' loading="lazy"></img>
+          <img className='individual-image' src={Project4_Image18} alt='' loading="lazy"></img>
+          <img className='individual-image' src={Project4_Image19} alt='' loading="lazy"></img>
+          <img className='individual-image' src={Project4_Image20} alt='' loading="lazy"></img>
+          <img className='individual-image' src={Project4_Image21} alt='' loading="lazy"></img>
+          <img className='individual-image' src={Project4_Image22} alt='' loading="lazy"></img>
+          <img className='individual-image' src={Project4_Image23} alt='' loading="lazy"></img>
+          <img className='individual-image' src={Project4_Image24} alt='' loading="lazy"></img>
+          <img className='individual-image' src={Project4_Image25} alt='' loading="lazy"></img>
+          <img className='individual-image' src={Project4_Image26} alt='' loading="lazy"></img>
         </div>
 
         <div style={{height:'7.5vh'}}></div>

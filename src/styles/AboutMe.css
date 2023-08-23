@@ -8,9 +8,9 @@
 }
 
 .skill-logo{
-    height: 90px;
+    height: 75px;
     border-radius: 9px/8px;
-    margin-right: 11vw;
+    margin-right: 1vw;
     opacity: 0.9;
 }
 
@@ -19,9 +19,11 @@
 }
 
 #spotify-player{
-    height: 200px;
-    width: 680px;
-    margin-bottom: -5.5vh;
+    height: 160px;
+    width: 450px;
+    margin-top: -4.5vh;
+    margin-bottom: -1vh;
+    margin-right: 0.75vw;
     opacity: 0.9;
 }
 
@@ -30,10 +32,8 @@
 }
 
 #my-selfie{
-    max-height: 300px;
-    position: absolute;
-    margin-top: -14.6vh;
-    margin-left: 29.5vw;
+    height: 30%;
+    width: auto;
     opacity: 0.9;
     border-radius: 9px/8px;
 }
@@ -59,7 +59,9 @@
         padding-top: 1vh;
     }
     #spotify-player{
-        width: auto;
+        width: 275px;
         height: 100px;
+        margin-top: 0vh;
+        margin-bottom: -2vh;
     }
 }

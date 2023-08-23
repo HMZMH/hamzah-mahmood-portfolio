@@ -50,21 +50,21 @@ h1:hover, h2:hover, h3:hover, h4:hover, p:hover {
 
 #title-heading{
     font-size: 75px;
-    margin-top: 45vh;
+    margin-top: 35vh;
 }
 
 #home-image1 {
     position: absolute;
     width: 70%;
     margin-inline-start: 15%;
-    opacity: 0.75;
+    opacity: 0.8;
 }
 
 #home-image2 {
     width: 100vw;
     height: 200%;
     position: absolute;
-    opacity: 0.5;
+    opacity: 0.6;
     -webkit-mask-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 1)), to(rgba(0, 0, 0, 0)));
     mask-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 }
@@ -109,4 +109,6 @@ h1:hover, h2:hover, h3:hover, h4:hover, p:hover {
       transform: none !important;
       background-position: center center !important;
     }
+
+    
   }
