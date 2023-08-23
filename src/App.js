@@ -33,7 +33,7 @@ function Home() {
       setLayer1Offset(0.1);
       setLayer2Offset(0.05);
       setLayer3Offset(0.999);
-      setLayer4Offset(1.15);
+      setLayer4Offset(1.18);
     }
   };
 
