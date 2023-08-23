@@ -54,8 +54,9 @@
     #my-selfie{
         max-width: 100px;
         max-height: 100px;
-        margin-inline-start: -0.5vw;
+        margin-inline-start: 25vw;
         margin-top: -4vh;
+        padding-top: 1vh;
     }
     #spotify-player{
         width: auto;
