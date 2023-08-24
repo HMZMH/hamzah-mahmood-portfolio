@@ -36,9 +36,12 @@ h1:hover, h2:hover, h3:hover, h4:hover, p:hover {
     opacity: 0.2;
 }
 
-#link {
+.link {
     color: black;
     text-decoration: none;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: large;
 }
 
 .fixed-component {

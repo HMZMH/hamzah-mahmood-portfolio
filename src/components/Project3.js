@@ -29,11 +29,13 @@ function Project3() {
 
       <div id='project-content-component' className="row justify-content-start">
 
-      <nav>
-          <Link id='link' to="/" style={{position:'absolute'}}>
+       <nav>
+          <Link id='return-link' className='link' to="/" style={{position:'absolute'}}>
             <h3>&lt;</h3>
           </Link>
         </nav>
+
+        <br/><br/>
 
         <h1 className='h1-sections'>UI Usability Engineering</h1>
 
@@ -75,7 +77,7 @@ function Project3() {
       </div>
 
       <div className='fixed-component'>
-         <a className="scroll-button" href='#link'>^</a>
+         <a className="scroll-button" href='#return-link'>^</a>
         </div>
 
       <div className='fixed-component'><AccessButtons/></div>

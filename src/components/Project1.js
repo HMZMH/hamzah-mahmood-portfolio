@@ -19,15 +19,17 @@ function Project1() {
   return (
     <div className="container-fluid">
 
-        <div className='fixed-component' style={{marginLeft:'0.35vw'}}><SocialsButtons/></div>
+        <div className='fixed-component'><SocialsButtons/></div>
 
         <div id='project-content-component' className="row justify-content-start">
 
           <nav>
-            <Link id='link' to="/#project-section" style={{position:'absolute'}}>
+            <Link id='return-link' className='link' to="/#project-section" style={{position:'absolute'}}>
               <h3>&lt;</h3>
             </Link>
           </nav>
+
+          <br/><br/>
 
           <h1 className='h1-sections'>Web App Development</h1>
 
@@ -72,10 +74,10 @@ function Project1() {
         </div>
 
         <div className='fixed-component'>
-         <a className="scroll-button" href='#link'>^</a>
+         <a className="scroll-button" href='#return-link'>^</a>
         </div>
 
-        <div className='fixed-component' style={{marginLeft:'0.35vw', marginTop:'4vh'}}><AccessButtons/></div>
+        <div className='fixed-component' style={{marginTop:'4vh'}}><AccessButtons/></div>
 
     </div>
   );
