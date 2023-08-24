@@ -31,7 +31,7 @@ function Project3() {
 
       <nav>
           <Link id='link' to="/">
-            <h3>&lt; Home</h3>
+            <h3>&lt;</h3>
           </Link>
         </nav>
 

@@ -6,6 +6,7 @@ body {
     color: black;
     border-radius: 9px/8px !important;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {
@@ -70,6 +71,37 @@ h1:hover, h2:hover, h3:hover, h4:hover, p:hover {
     mask-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 }
 
+.scroll-button{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    margin-right: 1.1vw;
+    z-index: 999;
+    background-color: darkcyan;
+    color: #fff;
+    border: none;
+    border-radius: 9px/8px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 10px;
+    scroll-behavior: smooth;
+}
+
+.scroll-to-top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    margin-right: 0.5vw;
+    z-index: 999;
+    background-color: darkcyan;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    font-weight: bold;
+    scroll-behavior: smooth;
+  }
+
 @keyframes fadeInOpacity {
     0% {
         opacity: 0;
@@ -85,7 +117,7 @@ h1:hover, h2:hover, h3:hover, h4:hover, p:hover {
     margin-bottom: 100px;
 }
 
-@media (max-width: 959px) {
+@media (max-width: 800px) {
     body{
         font-size: small !important;
     }
@@ -114,7 +146,7 @@ h1:hover, h2:hover, h3:hover, h4:hover, p:hover {
     
   }
 
-  @media (max-width: 390px) {
+  @media (max-width: 400px) {
     body{
         font-size: smaller !important;
     }

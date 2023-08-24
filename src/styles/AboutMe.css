@@ -42,7 +42,7 @@
     opacity: 1;
 }
 
-@media (max-width:959px){
+@media (max-width:800px){
     #about-div{
         font-size: small !important;
     }
@@ -66,7 +66,7 @@
     }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 400px) {
     #about-div{
         font-size: smaller !important;
     }

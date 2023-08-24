@@ -30,7 +30,7 @@
     width: 7vw;
 }
 
-@media (max-width: 959px){
+@media (max-width: 800px){
     #tiles-container{
         max-width: 90vw;
         text-align: center;
@@ -58,7 +58,7 @@
     }
 }
 
-@media (max-width: 390px){
+@media (max-width: 400px){
     #tiles-container{
         max-width: 90vw;
         text-align: start;
@@ -67,7 +67,7 @@
     .tile{
         font-size: small !important;
         width: 25vw;
-        min-width: 120px !important;
+        min-width: 100px !important;
         height: auto;
         margin-right: 2vw;
         margin-left: 1vw;
