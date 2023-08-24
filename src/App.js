@@ -63,15 +63,13 @@ function Home() {
         </ParallaxLayer>
         
         <ParallaxLayer offset={layer2Offset} factor={0.5} speed={0.8} style={{marginLeft:'10vw'}}>
-          <h1 id='title-heading'>
+          <h1 id='title-heading' style={{position:'absolute'}}>
             Hi, I'm Hamzah. <br/>A software engineer.
           </h1>
-          <div id='main-title-heading' style={{ position: 'absolute'}}></div>
         </ParallaxLayer>
 
         <ParallaxLayer offset={layer3Offset} factor={0.5} speed={1} style={{marginLeft:'10vw'}}>
           <h1 className='h1-sections'>About me</h1>
-          <div id='about-me-heading' style={{ position: 'absolute', top:'-20vh'}}></div>
           <AboutMe/>
         </ParallaxLayer>
 
@@ -88,9 +86,7 @@ function Home() {
       </Parallax>
 
       <div className='fixed-component'>
-        <a className="scroll-button" href='#about-me-heading' style={{marginBottom:'10vh'}}></a>
-        <a className="scroll-button" href='#my-projects-heading' style={{marginBottom:'7vh'}}></a>
-        <a className="scroll-to-top-button" href='#main-title-heading' style={{textDecoration:'none'}}>^</a>
+        <a className="scroll-button" href='#title-heading'>^</a>
       </div>
       
       <div style={{height:'94vh'}}></div>

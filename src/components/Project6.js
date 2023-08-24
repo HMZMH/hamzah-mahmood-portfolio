@@ -14,7 +14,7 @@ function Project6() {
       <div id='project-content-component' className="row justify-content-start">
 
       <nav>
-          <Link id='link' to="/">
+          <Link id='link' to="/" style={{position:'absolute'}}>
             <h3>&lt;</h3>
           </Link>
         </nav>
@@ -38,6 +38,10 @@ function Project6() {
         <div style={{height:'7.5vh'}}></div>
       
       </div>
+
+      <div className='fixed-component'>
+         <a className="scroll-button" href='#link'>^</a>
+        </div>
 
       <div className='fixed-component'><AccessButtons/></div>
 

@@ -87,21 +87,6 @@ h1:hover, h2:hover, h3:hover, h4:hover, p:hover {
     scroll-behavior: smooth;
 }
 
-.scroll-to-top-button {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    margin-right: 0.5vw;
-    z-index: 999;
-    background-color: darkcyan;
-    color: #fff;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 50%;
-    font-weight: bold;
-    scroll-behavior: smooth;
-  }
-
 @keyframes fadeInOpacity {
     0% {
         opacity: 0;
