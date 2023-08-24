@@ -63,6 +63,8 @@ function AboutMe() {
                 </div>
             </div>
 
+            <div style={{height:'1px'}}></div>
+
         </div>
     );
 }

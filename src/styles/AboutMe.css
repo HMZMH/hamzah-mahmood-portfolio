@@ -21,7 +21,7 @@
 #spotify-player{
     height: 160px;
     width: 450px;
-    margin-top: -4.5vh;
+    margin-top: 0vh;
     margin-bottom: -1vh;
     margin-right: 0.75vw;
     opacity: 0.9;
@@ -42,7 +42,7 @@
     opacity: 1;
 }
 
-@media (max-width:768px){
+@media (max-width:959px){
     #about-div{
         font-size: small !important;
     }
@@ -65,3 +65,27 @@
         margin-bottom: -2vh;
     }
 }
+
+@media (max-width: 390px) {
+    #about-div{
+        font-size: smaller !important;
+    }
+    .skill-logo{
+        margin-right: 1vw;
+        width: 30px !important;
+        height: 30px !important;
+    }
+    #my-selfie{
+        max-width: 100px;
+        max-height: 100px;
+        margin-inline-start: 25vw;
+        margin-top: -4vh;
+        padding-top: 1vh;
+    }
+    #spotify-player{
+        width: 235px;
+        height: 100px;
+        margin-top: 0vh;
+        margin-bottom: -2vh;
+    }
+  }

@@ -46,6 +46,7 @@ h1:hover, h2:hover, h3:hover, h4:hover, p:hover {
     height: fit-content;
     width: fit-content;
     border-radius: 9px/8px;
+    margin-inline-start: 2vw;
 }
 
 #title-heading{
@@ -84,7 +85,7 @@ h1:hover, h2:hover, h3:hover, h4:hover, p:hover {
     margin-bottom: 100px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 959px) {
     body{
         font-size: small !important;
     }
@@ -111,4 +112,10 @@ h1:hover, h2:hover, h3:hover, h4:hover, p:hover {
     }
 
     
+  }
+
+  @media (max-width: 390px) {
+    body{
+        font-size: smaller !important;
+    }
   }

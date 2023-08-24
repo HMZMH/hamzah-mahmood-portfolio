@@ -19,21 +19,23 @@ import Clouds from './images/Clouds.png';
 import Lake from './images/Lake.jpg';
 
 function Home() {
-  const [numParallaxPages, setNumParallaxPages] = useState(2);
   const [layer1Offset, setLayer1Offset] = useState(0.1);
   const [layer2Offset, setLayer2Offset] = useState(0.05);
   const [layer3Offset, setLayer3Offset] = useState(0.999);
-  const [layer4Offset, setLayer4Offset] = useState(1.09);
+  const [layer4Offset, setLayer4Offset] = useState(1.07);
 
   const updateOffsets = () => {
     const screenWidth = window.innerWidth;
 
-    if (screenWidth <= 768) {
-      setNumParallaxPages(3);
+    if (screenWidth <= 959) {
       setLayer1Offset(0.1);
       setLayer2Offset(0.05);
       setLayer3Offset(0.999);
-      setLayer4Offset(1.18);
+      setLayer4Offset(1.09);
+    }
+
+    if (screenWidth <= 390) {
+      setLayer4Offset(1.20);
     }
   };
 
@@ -48,11 +50,11 @@ function Home() {
   return(
     <div className="fluid-container">
 
-      <div className='fixed-component' style={{marginLeft:'2.5vw'}}>
+      <div className='fixed-component'>
         <SocialsButton/>
       </div>
 
-      <Parallax id='homepage-container' pages={numParallaxPages}>
+      <Parallax id='homepage-container' pages={2}>
 
       <ParallaxLayer offset={layer1Offset} factor={0.5} speed={0.3} style={{marginLeft:'10vw'}}>
           <img id='home-image1' src={Clouds} alt='Clouds' style={{opacity:'60%'}}></img>
@@ -83,7 +85,7 @@ function Home() {
 
       <div style={{height:'94vh'}}></div>
 
-      <div className='fixed-component' style={{marginLeft:'2.5vw'}}><AccessButtons/></div>
+      <div className='fixed-component'><AccessButtons/></div>
 
     </div>
   );

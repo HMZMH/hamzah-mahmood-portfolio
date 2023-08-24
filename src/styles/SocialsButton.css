@@ -1,5 +1,5 @@
 #socials-button{
-    margin-left: -1.5vw;
+    margin-left: -1vw;
     border-radius: 9px/8px;
     height: fit-content;
     width: fit-content;
@@ -29,6 +29,7 @@
     scale: 1.05;
     box-shadow: 0 5px 15px rgba(0,0,0,0.4);
     background-image: linear-gradient(to bottom right, lightcyan, darkcyan);
+    transition: opacity 0.3s ease-in-out !important;
 }
 
 @keyframes fadeInOpacity {
@@ -40,7 +41,7 @@
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 959px){
     #logos{
         width: 9% !important;
         height: 9% !important;
@@ -48,6 +49,7 @@
     }
 
     #socials-button {
+        margin-top: 0.25vh;
         width: auto;
     }
   }
