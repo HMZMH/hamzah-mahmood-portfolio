@@ -45,6 +45,7 @@ h1:hover, h2:hover, h3:hover, h4:hover, p:hover {
 }
 
 .fixed-component {
+    margin-bottom: 1vh;
     z-index: 999;
     position: fixed !important;
     height: fit-content;
@@ -72,22 +73,6 @@ h1:hover, h2:hover, h3:hover, h4:hover, p:hover {
     opacity: 0.6;
     -webkit-mask-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 1)), to(rgba(0, 0, 0, 0)));
     mask-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
-}
-
-.scroll-button{
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    margin-right: 1.1vw;
-    z-index: 999;
-    background-color: darkcyan;
-    color: #fff;
-    border: none;
-    border-radius: 9px/8px;
-    font-weight: bold;
-    text-decoration: none;
-    padding: 5px 10px;
-    scroll-behavior: smooth;
 }
 
 @keyframes fadeInOpacity {
@@ -134,7 +119,7 @@ h1:hover, h2:hover, h3:hover, h4:hover, p:hover {
     
   }
 
-  @media (max-width: 400px) {
+  @media (max-width: 500px) {
     body{
         font-size: smaller !important;
     }

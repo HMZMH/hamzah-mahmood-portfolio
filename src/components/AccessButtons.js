@@ -25,11 +25,11 @@ function AccessButtons() {
 
       <div id='buttons-container'>
         <button id='access-button' className="btn btn-dark" onClick={PageDark}>
-          Dark
+          ☾
         </button>
 
         <button id='access-button' className="btn btn-light" onClick={PageLight} style={{display:'none'}}>
-          Light
+          ☼
         </button>
       </div>
     

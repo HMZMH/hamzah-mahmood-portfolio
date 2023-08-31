@@ -35,7 +35,7 @@ function Home() {
       setLayer4Offset(1.09);
     }
 
-    if (screenWidth <= 400) {
+    if (screenWidth <= 500) {
       setLayer4Offset(1.20);
     }
   };
@@ -84,10 +84,6 @@ function Home() {
         </ParallaxLayer>
 
       </Parallax>
-
-      <div className='fixed-component'>
-        <a className="scroll-button" href='#title-heading'>^</a>
-      </div>
 
       <div className='fixed-component' style={{position: 'absolute', left:'0', bottom: '0', right: '0'}}><AccessButtons/></div>
 

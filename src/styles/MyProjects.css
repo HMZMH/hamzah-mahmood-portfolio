@@ -50,7 +50,7 @@
     }
 
     h5{
-        font-size: 16.5px;
+        font-size: 15.5px;
     }
 
     .tile-text{
@@ -58,9 +58,9 @@
     }
 }
 
-@media (max-width: 400px){
+@media (max-width: 500px){
     #tiles-container{
-        max-width: 90vw;
+        max-width:85vw;
         text-align: start;
     }
 
@@ -78,7 +78,7 @@
     }
 
     h5{
-        font-size: 12.5px;
+        font-size: 11.5px;
     }
 
     .tile-text{
