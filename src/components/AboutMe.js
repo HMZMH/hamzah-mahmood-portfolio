@@ -19,7 +19,7 @@ function AboutMe() {
 
                 <div id='spotify-div'>
                     <iframe id='spotify-player'  src="https://open.spotify.com/embed/playlist/1Y9gUnk8OPtkAlDX4qKb5Y?utm_source=generator&theme=0" title='Spotify player'
-                        frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                        frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
                     </iframe>
                 </div>
 
@@ -47,10 +47,10 @@ function AboutMe() {
 
                 <p className='about-paragraphs'>
                 <br/>
-                    I dedicate my free time to improving my health and learning.
-                    I love to play football, go for long walks and hit the gym.
-                    I watch tech channels like MKBHD and listen to podcasts like JRE.
-                    But sometimes I just like to relax, playing PS5 and listening to music...
+                    Away from work, I dedicate my free time to improving my health and learning.
+                    I love to play football, go for long walks and hit the gym to stay fit.
+                    I watch tech channels like MKBHD and Fireship, which I find very informative.
+                    But sometimes I just like to relax, playing FIFA on my PS5 and listening to music...
                 </p>
             
             </div>
