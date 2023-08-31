@@ -47,9 +47,7 @@ function MyProjects() {
                             <img className='tile-img' src={Network_Icon} alt='Network icon'/>
                         </div>
                     </Link>
-                </nav>
-
-                <nav>
+                    
                     <Link id='link' to="/project5">
                         <div className='tile'>
                             <h5>System Metrics<br/>Analysis</h5>
