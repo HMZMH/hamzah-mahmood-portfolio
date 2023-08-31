@@ -28,7 +28,7 @@ function AccessButtons() {
           ☾
         </button>
 
-        <button id='access-button' className="btn btn-light" onClick={PageLight} style={{display:'none'}}>
+        <button id='access-button' className="btn btn-light" onClick={PageLight} style={{display:'none', paddingLeft:'9.5px'}}>
           ☼
         </button>
       </div>

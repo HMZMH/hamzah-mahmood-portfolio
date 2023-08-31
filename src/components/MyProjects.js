@@ -13,9 +13,9 @@ import Research_Icon from '../images/Research_Icon.png';
 
 function MyProjects() {
     return(
-        <div id='tiles-container' className="fluid-container">
+        <div className="fluid-container">
                 
-                <nav>
+                <nav id='tiles-container'>
                     <Link id='link' to="/project1">
                         <div className='tile'>
                             <h5>Web App<br/>Development</h5>

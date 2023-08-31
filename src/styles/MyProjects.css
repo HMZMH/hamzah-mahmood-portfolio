@@ -1,5 +1,5 @@
 #tiles-container{
-    text-align: start;
+    text-align: center;
 }
 
 .tile {
@@ -7,9 +7,8 @@
     margin-top: 2vh;
     margin-right: 0.5vw;
     margin-left: 0.5vw;
-    text-align: center;
     height: auto;
-    width: 16vw;
+    width: 15vw;
     min-width: 200px !important;
     padding: 1vw;
     border-radius: 9px/8px;
@@ -27,7 +26,7 @@
 }
 
 .tile-img {
-    width: 7vw;
+    width: 5vw;
 }
 
 @media (max-width: 800px){
@@ -60,7 +59,7 @@
 
 @media (max-width: 500px){
     #tiles-container{
-        max-width:85vw;
+        max-width:75vw;
         text-align: start;
     }
 

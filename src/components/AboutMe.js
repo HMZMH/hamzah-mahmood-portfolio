@@ -9,7 +9,6 @@ import football from '../images/Football.png';
 import gaming from '../images/Gaming.png';
 import cardio from '../images/Cardio.png';
 import headphones from '../images/Headphones.png';
-import my_selfie from '../images/My_Selfie.png';
 import sleeping from '../images/sleeping.png';
 
 function AboutMe() {
@@ -17,50 +16,43 @@ function AboutMe() {
         <div className="fluid-container">
                         
             <div id='about-div'>
-                <p>
-                    I'm a recent software engineer graduate with a strong interest in frontend development.
-                    I take pride in creating software that is very simple but equally attractive and effective.
-                    <br/>
-                    I enjoy the challenge of turning complex problems into elegant, user-centric software.
-                    I'm looking for opportunities that allow me to learn new skills and expand my horizons.
-                </p>
 
-                <div style={{textAlign:'end'}}>
+                <div id='spotify-div'>
+                    <iframe id='spotify-player'  src="https://open.spotify.com/embed/playlist/1Y9gUnk8OPtkAlDX4qKb5Y?utm_source=generator&theme=0" title='Spotify player'
+                        frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                    </iframe>
+                </div>
+
+                <div id='skill-div'>
                     <img src={CSS_Logo} alt='CSS logo' className='skill-logo'/>
                     <img src={HTML_Logo} alt='HTML logo' className='skill-logo'/>
                     <img src={Javascript_Logo} alt='Javascript logo' className='skill-logo'/>
                     <img src={Java_Logo} alt='Java logo' className='skill-logo'/>
                     <img src={React_Logo} alt='React logo' className='skill-logo'/>
-                </div>
-            </div>
-
-            <div id='about-div'>
-                <p>
-                    Away from work, I love football: playing 5-a-side, watching Man United and playing FIFA.
-                    I often enjoy PS5 multiplayer games with friends, to satisfy my need for competitive fun.
-                    <br/>
-                    I also go for long walks and hit the gym regularly, as to ensure I remain fit and healthy.
-                    And to stay up-to-date with tech, I spend time watching channels like MKBHD and Fireship.
-                </p>
-                <div style={{textAlign:'end'}}>
                     <img src={headphones} alt='Headphones icon' className='skill-logo'/>
                     <img src={cardio} alt='Cardio icon' className='skill-logo'/>
                     <img src={football} alt='Football icon' className='skill-logo'/>
                     <img src={gaming} alt='Gaming icon' className='skill-logo'/>
                     <img src={sleeping} alt='Sleeping icon' className='skill-logo'/>
+                    <br/>
                 </div>
-            </div>
 
-            <div id='about-div'>
-                <p>
-                    Also, whether I'm working or playing, I like to have a few songs playing in the background...
+                <p className='about-paragraphs'>
+                    <br/>
+                    I'm a recent computer science graduate who studied with an emphasis in software engineering.
+                    What I enjoy about software engineering is the challenge of trying to solve complex problems with smart software solutions.
+                    As a software engineer, I follow the belief that software should be simple, seamless, comfortably intuitive and easy on the eye.
+                    I'm seeking opportunities that will expose me to new skills and that allow me to contribute to meaningful projects, as I look to forge a strong career in frontend development.
                 </p>
-                
-                <div style={{textAlign:'end'}}>
-                <iframe id='spotify-player'  src="https://open.spotify.com/embed/playlist/1Y9gUnk8OPtkAlDX4qKb5Y?utm_source=generator&theme=0" title='Spotify player'
-                    frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
-                </iframe>
-                </div>
+
+                <p className='about-paragraphs'>
+                <br/>
+                    I dedicate my free time to improving my health and learning.
+                    I love to play football, go for long walks and hit the gym.
+                    I watch tech channels like MKBHD and listen to podcasts like JRE.
+                    But sometimes I just like to relax, playing PS5 and listening to music...
+                </p>
+            
             </div>
 
             <div style={{height:'1px'}}></div>

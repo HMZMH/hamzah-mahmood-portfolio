@@ -23,7 +23,7 @@ function Home() {
   const [layer1Offset, setLayer1Offset] = useState(0.1);
   const [layer2Offset, setLayer2Offset] = useState(0.05);
   const [layer3Offset, setLayer3Offset] = useState(0.999);
-  const [layer4Offset, setLayer4Offset] = useState(1.15);
+  const [layer4Offset, setLayer4Offset] = useState(1.14);
 
   const updateOffsets = () => {
     const screenWidth = window.innerWidth;
@@ -32,11 +32,11 @@ function Home() {
       setLayer1Offset(0.1);
       setLayer2Offset(0.05);
       setLayer3Offset(0.999);
-      setLayer4Offset(1.09);
+      setLayer4Offset(1.08);
     }
 
     if (screenWidth <= 500) {
-      setLayer4Offset(1.20);
+      setLayer4Offset(1.19);
     }
   };
 
@@ -75,7 +75,6 @@ function Home() {
 
         <ParallaxLayer offset={layer4Offset} factor={0.5} speed={0.6} style={{marginLeft:'10vw'}}>
           <h1 className='h1-sections'>My projects</h1>
-          <div id='my-projects-heading' style={{ position: 'absolute'}}></div>
           <MyProjects/>
         </ParallaxLayer>
 
