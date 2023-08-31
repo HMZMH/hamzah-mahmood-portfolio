@@ -88,10 +88,8 @@ function Home() {
       <div className='fixed-component'>
         <a className="scroll-button" href='#title-heading'>^</a>
       </div>
-      
-      <div style={{height:'94vh'}}></div>
 
-      <div className='fixed-component'><AccessButtons/></div>
+      <div className='fixed-component' style={{position: 'absolute', left:'0', bottom: '0', right: '0'}}><AccessButtons/></div>
 
     </div>
   );
