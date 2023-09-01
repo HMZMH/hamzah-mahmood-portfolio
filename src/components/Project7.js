@@ -73,10 +73,6 @@ function Project7() {
       
       </div>
 
-      <div className='fixed-component'>
-         <a className="scroll-button" href='#return-link'>^</a>
-        </div>
-
       <div className='fixed-component'><AccessButtons/></div>
 
     </div>

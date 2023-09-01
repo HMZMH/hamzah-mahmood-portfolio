@@ -17,13 +17,13 @@ function AboutMe() {
                         
             <div id='about-div'>
 
-                <div id='spotify-div'>
+                <div id='spotify-div' className='fluid-container'>
                     <iframe id='spotify-player'  src="https://open.spotify.com/embed/playlist/1Y9gUnk8OPtkAlDX4qKb5Y?utm_source=generator&theme=0" title='Spotify player'
                         frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
                     </iframe>
                 </div>
 
-                <div id='skill-div'>
+                <div id='skill-div' className='fluid-container'>
                     <img src={CSS_Logo} alt='CSS logo' className='skill-logo'/>
                     <img src={HTML_Logo} alt='HTML logo' className='skill-logo'/>
                     <img src={Javascript_Logo} alt='Javascript logo' className='skill-logo'/>
