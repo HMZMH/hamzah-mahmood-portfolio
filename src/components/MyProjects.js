@@ -16,6 +16,9 @@ function MyProjects() {
         <div className="fluid-container">
                 
                 <nav id='tiles-container'>
+
+                    <h1 className='h1-sections'>My projects</h1>
+
                     <Link to="/project1">
                         <div className='tile'>
                             <h5>Web App<br/>Development</h5>

@@ -1,10 +1,8 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import {Parallax, ParallaxLayer} from '@react-spring/parallax';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import SocialsButton from './components/SocialsButton.js';
-import AccessButtons from './components/AccessButtons.js';
 import AboutMe from './components/AboutMe.js';
 import MyProjects from './components/MyProjects.js';
 import Project1 from './components/Project1.js';
@@ -15,76 +13,29 @@ import Project5 from './components/Project5.js';
 import Project6 from './components/Project6.js';
 import Project7 from './components/Project7.js';
 import Project8 from './components/Project8.js';
-import Clouds from './images/Clouds.png';
-import Lake from './images/Lake.jpg';
+
 
 function Home() {
 
-  const [layer1Offset, setLayer1Offset] = useState(0.1);
-  const [layer2Offset, setLayer2Offset] = useState(0.05);
-  const [layer3Offset, setLayer3Offset] = useState(0.999);
-  const [layer4Offset, setLayer4Offset] = useState(1.14);
-
-  const updateOffsets = () => {
-    const screenWidth = window.innerWidth;
-
-    if (screenWidth <= 800) {
-      setLayer1Offset(0.1);
-      setLayer2Offset(0.05);
-      setLayer3Offset(0.999);
-      setLayer4Offset(1.08);
-    }
-
-    if (screenWidth <= 500) {
-      setLayer4Offset(1.29);
-    }
-  };
-
-  useEffect(() => {
-    updateOffsets();
-    window.addEventListener('resize', updateOffsets);
-    return () => {
-      window.removeEventListener('resize', updateOffsets);
-    };
-  }, []);
-
-  return(
+  return (
     <div className="fluid-container">
 
-      <div className='socials-component' style={{zIndex:'999'}}>
-        <SocialsButton/>
+      <div className='socials-component' style={{ zIndex: '999' }}>
+        <SocialsButton />
       </div>
 
-      <Parallax pages={2}>
+      <div className='content-component'>
 
-      <ParallaxLayer className='content-component' offset={layer1Offset} speed={0.3}>
-          <img id='home-image1' src={Clouds} alt='Clouds'></img>
-        </ParallaxLayer>
-        
-        <ParallaxLayer className='content-component' offset={layer2Offset} speed={0.8}>
-          <h1 id='title-heading'>
-            Hi, I'm Hamzah. <br/>A software engineer.
-          </h1>
-        </ParallaxLayer>
+        <div style={{height:'45vh'}}></div>
+        <h1 id='title-heading'>Hi, I'm Hamzah. <br />A software engineer.</h1>
+        <div style={{height:'50vh'}}></div>
 
-        <ParallaxLayer className='content-component' offset={layer3Offset} speed={1}>
-          <h1 className='h1-sections'>About me</h1>
-          <AboutMe/>
-        </ParallaxLayer>
+        <AboutMe/>
+        <div style={{height:'50vh'}}></div>
 
-        <ParallaxLayer className='content-component' offset={layer4Offset} speed={0.6}>
-          <h1 className='h1-sections'>My projects</h1>
-          <MyProjects/>
-        </ParallaxLayer>
+        <MyProjects/>
+        <div style={{height:'25vh'}}></div>
 
-        <ParallaxLayer factor={2} style={{zIndex:'-999'}}>
-          <img id='home-image2' src={Lake} alt='Lake'></img>
-        </ParallaxLayer>
-
-      </Parallax>
-
-      <div className='access-component' style={{zIndex:'999'}}>
-        <AccessButtons/>
       </div>
 
     </div>
@@ -112,4 +63,5 @@ function App() {
 
   );
 }
+
 export default App;

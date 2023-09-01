@@ -1,10 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import {Parallax, ParallaxLayer} from '@react-spring/parallax';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../styles/Project.css';
 import SocialsButton from './SocialsButton.js';
-import AccessButtons from './AccessButtons.js';
 import Project4_Image1 from '../images/project-images/Project4_Image1.png';
 import Project4_Image2 from '../images/project-images/Project4_Image2.png';
 import Project4_Image3 from '../images/project-images/Project4_Image3.png';
@@ -40,13 +38,15 @@ function Project4() {
         <SocialsButton/>
       </div>
 
-      <nav className='return-link'>
+      <div className='content-component'>
+
+      <div style={{height:'10vh'}}></div>
+
+      <nav>
         <Link to="/#project-section">
           <h3>🡐</h3>
         </Link>
       </nav>
-
-      <div className='content-component'>
 
         <h1 className='h1-sections'>Network Troubleshooting</h1>
 
@@ -95,9 +95,7 @@ function Project4() {
       
       </div>
 
-      <div className='access-component' style={{zIndex:'999'}}>
-        <AccessButtons/>
-      </div>
+      <div style={{height:'5vh'}}></div>
 
     </div>
   );

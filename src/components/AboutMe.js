@@ -17,7 +17,10 @@ function AboutMe() {
                         
             <div id='about-div'>
 
+                <h1 className='h1-sections'>About me</h1>
+
                 <p className='about-paragraphs'>
+                    <br/>
                     I'm a recent computer science graduate who studied with an emphasis in software engineering.
                     What I enjoy about software engineering is the challenge of trying to solve complex problems with smart software solutions.
                     As a software engineer, I follow the belief that software should be simple, seamless, comfortably intuitive and easy on the eye.
