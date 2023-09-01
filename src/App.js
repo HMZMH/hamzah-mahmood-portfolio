@@ -36,7 +36,7 @@ function Home() {
     }
 
     if (screenWidth <= 500) {
-      setLayer4Offset(1.19);
+      setLayer4Offset(1.29);
     }
   };
 
@@ -51,40 +51,41 @@ function Home() {
   return(
     <div className="fluid-container">
 
-      <div className='fixed-component'>
+      <div className='socials-component' style={{zIndex:'999'}}>
         <SocialsButton/>
       </div>
 
-      <Parallax id='homepage-container' pages={2}>
+      <Parallax pages={2}>
 
-      <ParallaxLayer offset={layer1Offset} factor={0.5} speed={0.3} style={{marginLeft:'10vw'}}>
-          <img id='home-image1' src={Clouds} alt='Clouds' style={{opacity:'60%'}}></img>
+      <ParallaxLayer className='content-component' offset={layer1Offset} speed={0.3}>
           <img id='home-image1' src={Clouds} alt='Clouds'></img>
         </ParallaxLayer>
         
-        <ParallaxLayer offset={layer2Offset} factor={0.5} speed={0.8} style={{marginLeft:'10vw'}}>
-          <h1 id='title-heading' style={{position:'absolute'}}>
+        <ParallaxLayer className='content-component' offset={layer2Offset} speed={0.8}>
+          <h1 id='title-heading'>
             Hi, I'm Hamzah. <br/>A software engineer.
           </h1>
         </ParallaxLayer>
 
-        <ParallaxLayer offset={layer3Offset} factor={0.5} speed={1} style={{marginLeft:'10vw'}}>
+        <ParallaxLayer className='content-component' offset={layer3Offset} speed={1}>
           <h1 className='h1-sections'>About me</h1>
           <AboutMe/>
         </ParallaxLayer>
 
-        <ParallaxLayer offset={layer4Offset} factor={0.5} speed={0.6} style={{marginLeft:'10vw'}}>
+        <ParallaxLayer className='content-component' offset={layer4Offset} speed={0.6}>
           <h1 className='h1-sections'>My projects</h1>
           <MyProjects/>
         </ParallaxLayer>
 
-        <ParallaxLayer style={{zIndex:'-999'}}>
+        <ParallaxLayer factor={2} style={{zIndex:'-999'}}>
           <img id='home-image2' src={Lake} alt='Lake'></img>
         </ParallaxLayer>
 
       </Parallax>
 
-      <div className='fixed-component' style={{position: 'absolute', left:'0', bottom: '0', right: '0'}}><AccessButtons/></div>
+      <div className='access-component' style={{zIndex:'999'}}>
+        <AccessButtons/>
+      </div>
 
     </div>
   );

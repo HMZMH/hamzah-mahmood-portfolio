@@ -1,21 +1,17 @@
 #tiles-container{
-    text-align: center;
-    max-width: 80vw;
+    max-width: 81%;
 }
 
 .tile {
+    margin-right: 1%;
+    margin-top: 1%;
     display: inline-block;
-    margin-top: 2vh;
-    margin-right: 0.5vw;
-    margin-left: 0.5vw;
-    height: auto;
-    width: 15vw;
-    min-width: 200px !important;
-    padding: 1vw;
+    width: 190px;
+    padding: 20px;
     border-radius: 9px/8px;
     background-color: rgba(255, 255, 255, 0.25);
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 .tile:hover {
@@ -23,64 +19,9 @@
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
     transition: opacity 0.3s ease-in-out;
     background-image: linear-gradient(to top left, lightcyan, darkcyan);
-    opacity: 1;
+    opacity: 0.9;
 }
 
 .tile-img {
-    width: 5vw;
-}
-
-@media (max-width: 800px){
-    #tiles-container{
-        max-width: 90vw;
-        text-align: center;
-    }
-
-    .tile{
-        font-size: small !important;
-        width: 30vw;
-        min-width: 140px !important;
-        height: auto;
-        margin-right: 2vw;
-        margin-left: 1vw;
-    }
-
-    .tile-img{
-        margin-bottom: 1vh;
-    }
-
-    h5{
-        font-size: 15.5px;
-    }
-
-    .tile-text{
-        font-size: small;
-    }
-}
-
-@media (max-width: 500px){
-    #tiles-container{
-        max-width:75vw;
-    }
-
-    .tile{
-        font-size: small !important;
-        width: 25vw;
-        min-width: 100px !important;
-        height: auto;
-        margin-right: 2vw;
-        margin-left: 1vw;
-    }
-
-    .tile-img{
-        margin-bottom: 1vh;
-    }
-
-    h5{
-        font-size: 11.5px;
-    }
-
-    .tile-text{
-        font-size: smaller;
-    }
+    width: 4.5vw;
 }

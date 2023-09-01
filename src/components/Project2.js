@@ -1,8 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import {Parallax, ParallaxLayer} from '@react-spring/parallax';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../styles/Project.css';
-import SocialsButtons from './SocialsButton.js';
+import SocialsButton from './SocialsButton.js';
 import AccessButtons from './AccessButtons.js';
 import Project2_Image1 from '../images/project-images/Project2_Image1.png';
 import Project2_Image2 from '../images/project-images/Project2_Image2.png';
@@ -12,19 +13,19 @@ import Project2_Image5 from '../images/project-images/Project2_Image5.png'
 
 function Project2() {
   return (
-    <div className="container-fluid">
+    <div className="fluid-container">
 
-      <div className='fixed-component'><SocialsButtons/></div>
+      <div className='socials-component' style={{zIndex:'999'}}>
+        <SocialsButton/>
+      </div>
 
-      <div id='project-content-component' className="row justify-content-start">
+      <nav className='return-link'>
+        <Link to="/#project-section">
+          <h3>🡐</h3>
+        </Link>
+      </nav>
 
-        <nav>
-          <Link id='return-link' className='link' to="/" style={{position:'absolute'}}>
-            <h3>&lt;</h3>
-          </Link>
-        </nav>
-
-        <br/><br/>
+      <div className='content-component'>
 
         <h1 className='h1-sections'>Software System Design</h1>
 
@@ -51,12 +52,12 @@ function Project2() {
           <img className='individual-image' src={Project2_Image4} alt='' loading="lazy"></img>
           <img className='individual-image' src={Project2_Image5} alt='' loading="lazy"></img>
         </div>
-
-        <div style={{height:'7.5vh'}}></div>
     
       </div>
       
-      <div className='fixed-component'><AccessButtons/></div>
+      <div className='access-component' style={{zIndex:'999'}}>
+        <AccessButtons/>
+      </div>
 
     </div>
   );

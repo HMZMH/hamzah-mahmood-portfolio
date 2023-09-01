@@ -1,25 +1,26 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import {Parallax, ParallaxLayer} from '@react-spring/parallax';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../styles/Project.css';
-import SocialsButtons from './SocialsButton.js';
+import SocialsButton from './SocialsButton.js';
 import AccessButtons from './AccessButtons.js';
 
 function Project6() {
   return (
-    <div className="container-fluid">
+    <div className="fluid-container">
 
-      <div className='fixed-component'><SocialsButtons/></div>
+      <div className='socials-component' style={{zIndex:'999'}}>
+        <SocialsButton/>
+      </div>
 
-      <div id='project-content-component' className="row justify-content-start">
+      <nav className='return-link'>
+        <Link to="/#project-section">
+          <h3>🡐</h3>
+        </Link>
+      </nav>
 
-      <nav>
-          <Link id='return-link' className='link' to="/" style={{position:'absolute'}}>
-            <h3>&lt;</h3>
-          </Link>
-        </nav>
-
-        <br/><br/>
+      <div className='content-component'>
 
         <h1 className='h1-sections'>HCI Research Analysis</h1>
 
@@ -36,12 +37,12 @@ function Project6() {
           The study's research methods include questionnaires, experiments, and interviews. Questionnaires gather demographic information and subjective feedback, while experiments replicate real-world scenarios to collect data on switching and docking times. Despite methodological rigor demonstrated through internal and statistical validity, the research's external validity raises concerns due to participant and device limitations. The project contributes to Human-Computer Interaction (HCI) knowledge by offering concrete data and insights that can aid designers, manufacturers, and researchers in creating more efficient and user-friendly computer form factors and pointing devices.
           </p>
         </div>
-
-        <div style={{height:'7.5vh'}}></div>
       
       </div>
 
-      <div className='fixed-component'><AccessButtons/></div>
+      <div className='access-component' style={{zIndex:'999'}}>
+        <AccessButtons/>
+      </div>
 
     </div>
   );

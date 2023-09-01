@@ -1,5 +1,4 @@
 #socials-button{
-    margin-left: -1vw;
     border-radius: 9px/8px;
     height: fit-content;
     width: fit-content;
@@ -16,7 +15,6 @@
 }
 
 #logos{
-    margin-top: 2vh;
     width: 70px;
     height: 70px;
     border-radius: 9px/8px;
@@ -45,11 +43,9 @@
     #logos{
         width: 9% !important;
         height: 9% !important;
-        margin-top: 0.5vh;
     }
 
     #socials-button {
-        margin-top: 0.25vh;
         width: auto;
     }
   }
