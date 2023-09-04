@@ -1,35 +1,33 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
-import '../styles/Project.css';
-import SocialsButton from './SocialsButton.js';
-import Project5_Image1 from '../images/project-images/Project5_Image1.png';
-import Project5_Image2 from '../images/project-images/Project5_Image2.png';
-import Project5_Image3 from '../images/project-images/Project5_Image3.png';
-import Project5_Image4 from '../images/project-images/Project5_Image4.png';
-import Project5_Image5 from '../images/project-images/Project5_Image5.png';
-import Project5_Image6 from '../images/project-images/Project5_Image6.png';
-import Project5_Image7 from '../images/project-images/Project5_Image7.png';
+import '../projects/Projects.css';
+import Socials from '../homepage/Socials.js';
+import Project5_Image1 from '../projects/project-images/Project5_Image1.png';
+import Project5_Image2 from '../projects/project-images/Project5_Image2.png';
+import Project5_Image3 from '../projects/project-images/Project5_Image3.png';
+import Project5_Image4 from '../projects/project-images/Project5_Image4.png';
+import Project5_Image5 from '../projects/project-images/Project5_Image5.png';
+import Project5_Image6 from '../projects/project-images/Project5_Image6.png';
+import Project5_Image7 from '../projects/project-images/Project5_Image7.png';
 
 function Project5() {
   return (
     <div className="fluid-container">
 
-      <div className='socials-component' style={{zIndex:'999'}}>
-        <SocialsButton/>
+      <div className='socials-div' style={{zIndex:'999'}}>
+        <Socials/>
       </div>
 
-      <div className='content-component'>
-
-      <div style={{height:'10vh'}}></div>
+      <div className='content-div'>
 
       <nav>
-        <Link to="/#project-section">
-          <h3>🡐</h3>
-        </Link>
-      </nav>
+          <Link to="/#project-section">
+            <h3>🡐</h3>
+          </Link>
+        </nav>
 
-        <h1 className='h1-sections'>System Metrics Analysis</h1>
+        <h2>System Metrics Analysis</h2>
 
         <div className='project-paragraphs'>
           <p>
@@ -56,8 +54,6 @@ function Project5() {
         </div>
 
       </div>
-
-      <div style={{height:'5vh'}}></div>
 
     </div>
   );

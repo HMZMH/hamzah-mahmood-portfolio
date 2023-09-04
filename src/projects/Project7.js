@@ -1,42 +1,40 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
-import '../styles/Project.css';
-import SocialsButton from './SocialsButton.js';
-import Project7_Image1 from '../images/project-images/Project7_Image1.png';
-import Project7_Image2 from '../images/project-images/Project7_Image2.png';
-import Project7_Image3 from '../images/project-images/Project7_Image3.png';
-import Project7_Image4 from '../images/project-images/Project7_Image4.png';
-import Project7_Image5 from '../images/project-images/Project7_Image5.png';
-import Project7_Image6 from '../images/project-images/Project7_Image6.png';
-import Project7_Image7 from '../images/project-images/Project7_Image7.png';
-import Project7_Image8 from '../images/project-images/Project7_Image8.png';
-import Project7_Image9 from '../images/project-images/Project7_Image9.png';
-import Project7_Image10 from '../images/project-images/Project7_Image10.png';
-import Project7_Image11 from '../images/project-images/Project7_Image11.png';
-import Project7_Image12 from '../images/project-images/Project7_Image12.png';
-import Project7_Image13 from '../images/project-images/Project7_Image13.png';
-import Project7_Image14 from '../images/project-images/Project7_Image14.png';
+import '../projects/Projects.css';
+import Socials from '../homepage/Socials.js';
+import Project7_Image1 from '../projects/project-images/Project7_Image1.png';
+import Project7_Image2 from '../projects/project-images/Project7_Image2.png';
+import Project7_Image3 from '../projects/project-images/Project7_Image3.png';
+import Project7_Image4 from '../projects/project-images/Project7_Image4.png';
+import Project7_Image5 from '../projects/project-images/Project7_Image5.png';
+import Project7_Image6 from '../projects/project-images/Project7_Image6.png';
+import Project7_Image7 from '../projects/project-images/Project7_Image7.png';
+import Project7_Image8 from '../projects/project-images/Project7_Image8.png';
+import Project7_Image9 from '../projects/project-images/Project7_Image9.png';
+import Project7_Image10 from '../projects/project-images/Project7_Image10.png';
+import Project7_Image11 from '../projects/project-images/Project7_Image11.png';
+import Project7_Image12 from '../projects/project-images/Project7_Image12.png';
+import Project7_Image13 from '../projects/project-images/Project7_Image13.png';
+import Project7_Image14 from '../projects/project-images/Project7_Image14.png';
 
 function Project7() {
   return (
     <div className="fluid-container">
 
-      <div className='socials-component' style={{zIndex:'999'}}>
-        <SocialsButton/>
+      <div className='socials-div' style={{zIndex:'999'}}>
+        <Socials/>
       </div>
 
-      <div className='content-component'>
+      <div className='content-div'>
 
-      <div style={{height:'10vh'}}></div>
+        <nav>
+          <Link to="/#project-section">
+            <h3>🡐</h3>
+          </Link>
+        </nav>
 
-      <nav>
-        <Link to="/#project-section">
-          <h3>🡐</h3>
-        </Link>
-      </nav>
-
-        <h1 className='h1-sections'>Mobile App Design</h1>
+        <h2>Mobile App Design</h2>
 
         <div className='project-paragraphs'>
           <p>
@@ -71,8 +69,6 @@ function Project7() {
         </div>
 
       </div>
-
-      <div style={{height:'5vh'}}></div>
 
     </div>
   );

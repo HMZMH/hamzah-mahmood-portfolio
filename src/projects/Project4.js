@@ -1,54 +1,52 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
-import '../styles/Project.css';
-import SocialsButton from './SocialsButton.js';
-import Project4_Image1 from '../images/project-images/Project4_Image1.png';
-import Project4_Image2 from '../images/project-images/Project4_Image2.png';
-import Project4_Image3 from '../images/project-images/Project4_Image3.png';
-import Project4_Image4 from '../images/project-images/Project4_Image4.png';
-import Project4_Image5 from '../images/project-images/Project4_Image5.png';
-import Project4_Image6 from '../images/project-images/Project4_Image6.png';
-import Project4_Image7 from '../images/project-images/Project4_Image7.png';
-import Project4_Image8 from '../images/project-images/Project4_Image8.png';
-import Project4_Image9 from '../images/project-images/Project4_Image9.png';
-import Project4_Image10 from '../images/project-images/Project4_Image10.png';
-import Project4_Image11 from '../images/project-images/Project4_Image11.png';
-import Project4_Image12 from '../images/project-images/Project4_Image12.png';
-import Project4_Image13 from '../images/project-images/Project4_Image13.png';
-import Project4_Image14 from '../images/project-images/Project4_Image14.png';
-import Project4_Image15 from '../images/project-images/Project4_Image15.png';
-import Project4_Image16 from '../images/project-images/Project4_Image16.png';
-import Project4_Image17 from '../images/project-images/Project4_Image17.png';
-import Project4_Image18 from '../images/project-images/Project4_Image18.png';
-import Project4_Image19 from '../images/project-images/Project4_Image19.png';
-import Project4_Image20 from '../images/project-images/Project4_Image20.png';
-import Project4_Image21 from '../images/project-images/Project4_Image21.png';
-import Project4_Image22 from '../images/project-images/Project4_Image22.png';
-import Project4_Image23 from '../images/project-images/Project4_Image23.png';
-import Project4_Image24 from '../images/project-images/Project4_Image24.png';
-import Project4_Image25 from '../images/project-images/Project4_Image25.png';
-import Project4_Image26 from '../images/project-images/Project4_Image26.png';
+import '../projects/Projects.css';
+import Socials from '../homepage/Socials.js';
+import Project4_Image1 from '../projects/project-images/Project4_Image1.png';
+import Project4_Image2 from '../projects/project-images/Project4_Image2.png';
+import Project4_Image3 from '../projects/project-images/Project4_Image3.png';
+import Project4_Image4 from '../projects/project-images/Project4_Image4.png';
+import Project4_Image5 from '../projects/project-images/Project4_Image5.png';
+import Project4_Image6 from '../projects/project-images/Project4_Image6.png';
+import Project4_Image7 from '../projects/project-images/Project4_Image7.png';
+import Project4_Image8 from '../projects/project-images/Project4_Image8.png';
+import Project4_Image9 from '../projects/project-images/Project4_Image9.png';
+import Project4_Image10 from '../projects/project-images/Project4_Image10.png';
+import Project4_Image11 from '../projects/project-images/Project4_Image11.png';
+import Project4_Image12 from '../projects/project-images/Project4_Image12.png';
+import Project4_Image13 from '../projects/project-images/Project4_Image13.png';
+import Project4_Image14 from '../projects/project-images/Project4_Image14.png';
+import Project4_Image15 from '../projects/project-images/Project4_Image15.png';
+import Project4_Image16 from '../projects/project-images/Project4_Image16.png';
+import Project4_Image17 from '../projects/project-images/Project4_Image17.png';
+import Project4_Image18 from '../projects/project-images/Project4_Image18.png';
+import Project4_Image19 from '../projects/project-images/Project4_Image19.png';
+import Project4_Image20 from '../projects/project-images/Project4_Image20.png';
+import Project4_Image21 from '../projects/project-images/Project4_Image21.png';
+import Project4_Image22 from '../projects/project-images/Project4_Image22.png';
+import Project4_Image23 from '../projects/project-images/Project4_Image23.png';
+import Project4_Image24 from '../projects/project-images/Project4_Image24.png';
+import Project4_Image25 from '../projects/project-images/Project4_Image25.png';
+import Project4_Image26 from '../projects/project-images/Project4_Image26.png';
 
 function Project4() {
   return (
     <div className="fluid-container">
 
-      <div className='socials-component' style={{zIndex:'999'}}>
-        <SocialsButton/>
+      <div className='socials-div' style={{zIndex:'999'}}>
+        <Socials/>
       </div>
 
-      <div className='content-component'>
+      <div className='content-div'>
 
-      <div style={{height:'10vh'}}></div>
+        <nav>
+          <Link to="/#project-section">
+            <h3>🡐</h3>
+          </Link>
+        </nav>
 
-      <nav>
-        <Link to="/#project-section">
-          <h3>🡐</h3>
-        </Link>
-      </nav>
-
-        <h1 className='h1-sections'>Network Troubleshooting</h1>
+        <h2>Network Troubleshooting</h2>
 
         <div className='project-paragraphs'>
           <p>
@@ -94,8 +92,6 @@ function Project4() {
         </div>
       
       </div>
-
-      <div style={{height:'5vh'}}></div>
 
     </div>
   );

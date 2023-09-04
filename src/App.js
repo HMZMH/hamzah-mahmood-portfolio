@@ -2,39 +2,40 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import SocialsButton from './components/SocialsButton.js';
-import AboutMe from './components/AboutMe.js';
-import MyProjects from './components/MyProjects.js';
-import Project1 from './components/Project1.js';
-import Project2 from './components/Project2.js';
-import Project3 from './components/Project3.js';
-import Project4 from './components/Project4.js';
-import Project5 from './components/Project5.js';
-import Project6 from './components/Project6.js';
-import Project7 from './components/Project7.js';
-import Project8 from './components/Project8.js';
-
+import Socials from './homepage/Socials.js';
+import Video from './images/Video.mp4';
+import Section1 from './homepage/Section1.js';
+import Section2 from './homepage/Section2.js';
+import Project1 from './projects/Project1.js';
+import Project2 from './projects/Project2.js';
+import Project3 from './projects/Project3.js';
+import Project4 from './projects/Project4.js';
+import Project5 from './projects/Project5.js';
+import Project6 from './projects/Project6.js';
+import Project7 from './projects/Project7.js';
+import Project8 from './projects/Project8.js';
 
 function Home() {
 
   return (
     <div className="fluid-container">
 
-      <div className='socials-component' style={{ zIndex: '999' }}>
-        <SocialsButton />
+      <div className='socials-div' style={{ zIndex: '999' }}>
+        <Socials />
       </div>
 
-      <div className='content-component'>
+      <div className='content-div'>
 
-        <div style={{height:'45vh'}}></div>
-        <h1 id='title-heading'>Hi, I'm Hamzah. <br />A software engineer.</h1>
-        <div style={{height:'50vh'}}></div>
+        <h1 style={{marginTop:'25vh'}}>HAMZAH MAHMOOD</h1>
+        <h1 style={{color:'cyan', marginBottom:'50vh'}}>SOFTWARE ENGINEER</h1>
+        
+        <section className='sections'>
+          <Section1/>
+        </section>
 
-        <AboutMe/>
-        <div style={{height:'50vh'}}></div>
-
-        <MyProjects/>
-        <div style={{height:'25vh'}}></div>
+        <section className='sections'>
+          <Section2/>
+        </section>
 
       </div>
 
