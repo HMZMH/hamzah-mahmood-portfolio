@@ -23,6 +23,7 @@ function Section2() {
                         <div className='tile'>
                             <h5>Web App Development</h5>
                             <p>University Project</p>
+                            <br/>
                             <img className='tile-img' src={vector1} alt='Web app vector'/>
                         </div>
                     </Link>
@@ -31,6 +32,7 @@ function Section2() {
                         <div className='tile'>
                             <h5>Software System Design</h5>
                             <p>University Project</p>
+                            <br/>
                             <img className='tile-img' src={vector2} alt='System design vector'/>
                         </div>
                     </Link>
@@ -39,6 +41,7 @@ function Section2() {
                         <div className='tile'>
                             <h5>UI Usability Engineering</h5>
                             <p>University Project</p>
+                            <br/>
                             <img className='tile-img' src={vector3} alt='Usability vector'/>
                         </div>
                     </Link>
@@ -47,6 +50,7 @@ function Section2() {
                         <div className='tile'>
                             <h5>Network Troubleshooting</h5>
                             <p>University Project</p>
+                            <br/>
                             <img className='tile-img' src={vector4} alt='Network vector'/>
                         </div>
                     </Link>
@@ -55,6 +59,7 @@ function Section2() {
                         <div className='tile'>
                             <h5>System Metrics Analysis</h5>
                             <p>University Project</p>
+                            <br/>
                             <img className='tile-img' src={vector5} alt='System analysis vector'/>
                         </div>
                     </Link>
@@ -63,6 +68,7 @@ function Section2() {
                         <div className='tile'>
                             <h5>HCI Research Analysis</h5>
                             <p>University Project</p>
+                            <br/>
                             <img className='tile-img' src={vector6} alt='Research vector'/>
                         </div>
                     </Link>
@@ -71,6 +77,7 @@ function Section2() {
                         <div className='tile'>
                             <h5>Mobile App Design</h5>
                             <p>University Project</p>
+                            <br/>
                             <img className='tile-img' src={vector7} alt='Interface design vector'/>
                         </div>
                     </Link>
@@ -79,6 +86,7 @@ function Section2() {
                         <div className='tile'>
                             <h5>Mobile App Development</h5>
                             <p>University Project</p>
+                            <br/>
                             <img className='tile-img' src={vector8} alt='Mobile app vector'/>
                         </div>
                     </Link>
