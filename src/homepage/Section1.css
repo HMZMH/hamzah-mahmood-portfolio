@@ -1,5 +1,5 @@
 #spotify-player{
-    position: absolute;
+    margin-top: 1vh;
     height: 22rem;
     border-radius: 15px;
     opacity: 0.8;
