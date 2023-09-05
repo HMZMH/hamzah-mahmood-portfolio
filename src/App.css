@@ -32,9 +32,13 @@ p {
     color: white;
 }
 
-h3, h5, link{
+h3{
     text-align: justify;
-    text-decoration: none !important;
+    color: gray !important;
+}
+
+h5{
+    text-align: justify;
     color: cyan !important;
 }
 
@@ -64,3 +68,15 @@ h3, h5, link{
 .sections{
     margin-bottom: 7.5vh;
 }
+
+@media only screen and (max-width: 900px) {
+    .content-div {
+        padding-left: 15%;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .content-div {
+        padding-left: 25%;
+    }
+  }
