@@ -22,8 +22,9 @@ function Project5() {
       <div className='content-div'>
 
       <nav>
-          <Link to="/#project-section">
-            <h3>🡐</h3>
+          <Link to="/#project-section" style={{textDecoration:'none'}}>
+            <h6>Back</h6>
+            <br/>
           </Link>
         </nav>
 
