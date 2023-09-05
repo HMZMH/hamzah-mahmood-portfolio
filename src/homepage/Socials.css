@@ -31,3 +31,17 @@
     background-image: linear-gradient(to bottom right, lightcyan, darkcyan);
     transition: opacity 0.3s ease-in-out !important;
 }
+
+@media only screen and (max-width: 900px) {
+    #logos{
+        width: 3rem;
+        height: 3rem;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    #logos{
+        width: 2rem;
+        height: 2rem;
+    }
+  }

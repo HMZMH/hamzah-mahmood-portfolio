@@ -26,7 +26,7 @@ function Project1() {
 
         <nav>
           <Link to="/#project-section" style={{textDecoration:'none'}}>
-            <h3>Back</h3>
+            <h6>Back</h6>
             <br/>
           </Link>
         </nav>
