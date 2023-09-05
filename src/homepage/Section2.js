@@ -17,7 +17,7 @@ function Section2() {
                 
                 <nav>
 
-                    <h2>PROJECTS</h2>
+                    <h2>Some of my work...</h2>
 
                     <Link to="/project1">
                         <div className='tile'>

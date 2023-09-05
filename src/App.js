@@ -26,8 +26,8 @@ function Home() {
 
       <div className='content-div'>
 
-        <h1 style={{marginTop:'25vh'}}>HAMZAH MAHMOOD</h1>
-        <h1 style={{color:'cyan', marginBottom:'50vh'}}>SOFTWARE ENGINEER</h1>
+        <h1 style={{color:'white', marginTop:'25vh'}}>Hi, I'm Hamzah.</h1>
+        <h1 style={{color:'cyan', marginBottom:'50vh'}}>A software engineer.</h1>
         
         <section className='sections'>
           <Section1/>
