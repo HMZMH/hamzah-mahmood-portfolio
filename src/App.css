@@ -12,6 +12,8 @@ body {
     background-attachment: fixed;
     overflow-x: hidden;
     scroll-behavior: smooth;
+    min-height: 100vh !important;
+    min-width: 100vw !important;
 }
 
 h1{
