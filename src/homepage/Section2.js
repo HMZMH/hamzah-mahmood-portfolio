@@ -20,7 +20,7 @@ function Section2() {
             </div>
                 
                 <nav>
-                    <h2>Some of my work...</h2>
+                    <h2>Some of my uni work...</h2>
 
                     <br/>
                     <Link to="/project1">

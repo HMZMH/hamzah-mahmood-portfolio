@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import Socials from './homepage/Socials.js';
-import Video from './images/Video.mp4';
 import Section1 from './homepage/Section1.js';
 import Section2 from './homepage/Section2.js';
+import Section3 from './homepage/Section3.js';
 import Project1 from './projects/Project1.js';
 import Project2 from './projects/Project2.js';
 import Project3 from './projects/Project3.js';
@@ -14,6 +14,7 @@ import Project5 from './projects/Project5.js';
 import Project6 from './projects/Project6.js';
 import Project7 from './projects/Project7.js';
 import Project8 from './projects/Project8.js';
+import Project9 from './projects/Project9.js';
 
 function Home() {
 
@@ -39,6 +40,10 @@ function Home() {
           <Section2/>
         </section>
 
+        <section className='sections'>
+          <Section3/>
+        </section>
+
       </div>
 
     </div>
@@ -60,6 +65,7 @@ function App() {
           <Route path="/project6" element={<Project6 />} />
           <Route path="/project7" element={<Project7 />} />
           <Route path="/project8" element={<Project8 />} />
+          <Route path="/project9" element={<Project9 />} />
         </Routes>
       </div>
     </Router>
