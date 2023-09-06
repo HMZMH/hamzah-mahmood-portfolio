@@ -17,7 +17,7 @@ function Section1() {
 
                 <p>
                     Away from work, I dedicate my free time to improving my health and learning.
-                    I love to play football, go for long walks and hit the gym to stay fit.
+                    I love to play football, go for long walks and regularly hit the gym for cardio.
                     I watch tech channels like MKBHD and Fireship, which I find very informative.
                     But sometimes I just like to relax, playing FIFA on my PlayStation 5 and listening to music.
                 </p>
