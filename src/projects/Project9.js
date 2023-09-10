@@ -53,11 +53,14 @@ function Project9() {
 
           <p>
           <h3>Deployment</h3>
-          The Football Chat App is currently in development and will be deployed online in the near future. Stay tuned for updates!
+          The Football Chat App remains in a state of development, with new features being introduced gradually. Stay tuned for updates!
           <br/>If you have any questions or would like to discuss this project further, please feel free to contact me.
 
           <br/><br/>
-          <Link to="https://github.com/HMZMH/hamzah-mahmood-chat-app">View the project on GitHub</Link>
+          <Link to="https://aesthetic-cranachan-1e6753.netlify.app" target="_blank" rel="noreferrer">Visit the app</Link>
+
+          <br/><br/>
+          <Link to="https://github.com/HMZMH/hamzah-mahmood-chat-app" target="_blank" rel="noreferrer">View the project on GitHub</Link>
           </p>
 
       </div>
