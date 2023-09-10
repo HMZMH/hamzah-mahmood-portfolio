@@ -21,12 +21,10 @@ function Project2() {
 
       <nav>
           <Link to="/#project-section" style={{textDecoration:'none'}}>
-            <h6>Back</h6>
+            <h2>&lt; Software System Design</h2>
             <br/>
           </Link>
         </nav>
-
-        <h2>Software System Design</h2>
 
         <div className='project-paragraphs'>
           <p>

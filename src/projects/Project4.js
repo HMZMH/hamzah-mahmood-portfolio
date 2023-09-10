@@ -42,12 +42,10 @@ function Project4() {
 
       <nav>
           <Link to="/#project-section" style={{textDecoration:'none'}}>
-            <h6>Back</h6>
+            <h2>&lt; Network Troubleshooting</h2>
             <br/>
           </Link>
         </nav>
-
-        <h2>Network Troubleshooting</h2>
 
         <div className='project-paragraphs'>
           <p>

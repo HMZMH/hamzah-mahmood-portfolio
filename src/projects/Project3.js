@@ -32,12 +32,10 @@ function Project3() {
 
       <nav>
           <Link to="/#project-section" style={{textDecoration:'none'}}>
-            <h6>Back</h6>
+            <h2>&lt; UI Usability Engineering</h2>
             <br/>
           </Link>
         </nav>
-
-        <h2>UI Usability Engineering</h2>
 
         <div className='project-paragraphs'>
           <p>

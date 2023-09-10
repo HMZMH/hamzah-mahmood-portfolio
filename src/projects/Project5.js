@@ -23,12 +23,10 @@ function Project5() {
 
       <nav>
           <Link to="/#project-section" style={{textDecoration:'none'}}>
-            <h6>Back</h6>
+            <h2>&lt; System Metrics Analysis</h2>
             <br/>
           </Link>
         </nav>
-
-        <h2>System Metrics Analysis</h2>
 
         <div className='project-paragraphs'>
           <p>

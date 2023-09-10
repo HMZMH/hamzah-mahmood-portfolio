@@ -52,12 +52,10 @@ function Project8() {
 
       <nav>
           <Link to="/#project-section" style={{textDecoration:'none'}}>
-            <h6>Back</h6>
+            <h2>&lt; Mobile App Development</h2>
             <br/>
           </Link>
         </nav>
-
-        <h2>Mobile App Development</h2>
 
         <div className='project-paragraphs'>
           <p>
