@@ -60,9 +60,9 @@ function Project7() {
           <img className='individual-image' src={Project7_Image7} alt='' loading="lazy"></img>
           <img className='individual-image' src={Project7_Image8} alt='' loading="lazy"></img>
           <img className='individual-image' src={Project7_Image9} alt='' loading="lazy"></img>
-          <img className='individual-image' src={Project7_Image10} alt='' loading="lazy"></img>
-          <img className='individual-image' src={Project7_Image11} alt='' loading="lazy"></img>
-          <img className='individual-image' src={Project7_Image12} alt='' loading="lazy"></img>
+          <img className='individual-image' src={Project7_Image10} alt='' loading="lazy" style={{maxHeight:'80vh'}}></img>
+          <img className='individual-image' src={Project7_Image11} alt='' loading="lazy" style={{maxHeight:'80vh'}}></img>
+          <img className='individual-image' src={Project7_Image12} alt='' loading="lazy" style={{maxHeight:'80vh'}}></img>
           <img className='individual-image' src={Project7_Image13} alt='' loading="lazy"></img>
           <img className='individual-image' src={Project7_Image14} alt='' loading="lazy"></img>
         </div>

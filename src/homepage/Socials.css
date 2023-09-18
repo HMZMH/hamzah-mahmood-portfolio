@@ -17,8 +17,9 @@
 
 #logos{
     margin-bottom: 1vh;
-    width: 4rem;
-    height: 4rem;
+    width: 5rem;
+    height: 5rem;
+    border: 0.5px solid cyan;
     border-radius: 9px/8px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
     background-color: rgba(255,255,255,0.2);
@@ -37,13 +38,5 @@
         width: 3rem;
         height: 3rem;
         padding: 20%;
-    }
-  }
-
-  @media only screen and (max-width: 600px) {
-    #logos{
-        width: 2rem;
-        height: 2rem;
-        padding: 12.5%;
     }
   }

@@ -27,7 +27,7 @@ function Section1() {
 
             </div>
 
-            <div class="col-md-3">
+            <div class="col-md-3" id='spotify-div'>
                 <iframe
                     id='spotify-player'
                     src="https://open.spotify.com/embed/playlist/1Y9gUnk8OPtkAlDX4qKb5Y?utm_source=generator&theme=0"

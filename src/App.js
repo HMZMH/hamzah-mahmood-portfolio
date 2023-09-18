@@ -15,6 +15,8 @@ import Project6 from './projects/Project6.js';
 import Project7 from './projects/Project7.js';
 import Project8 from './projects/Project8.js';
 import Project9 from './projects/Project9.js';
+import portrait from "./images/portrait.png";
+import wallpaper from "./images/wallpaper.mp4";
 
 function Home() {
 
@@ -27,12 +29,18 @@ function Home() {
 
       <div className='content-div'>
 
+      <video id='video' src={wallpaper} autoPlay loop muted></video>
+
+          <div style={{textAlign:'end', marginRight:'23.5vw', marginTop:'12.5vh'}}>
+            <img src={portrait} id='portrait'></img>
+          </div>
+
         <div id='title-div'>
           <h1 style={{color:'white', marginTop:'25vh'}}>Hi, I'm Hamzah.</h1>
-          <h1 style={{color:'cyan', marginBottom:'50vh'}}>A software engineer.</h1>
+          <h1 style={{color:'cyan'}}>A software engineer.</h1>
         </div>
         
-        <section className='sections'>
+        <section className='sections' style={{marginTop:'-30vh'}}>
           <Section1/>
         </section>
 
