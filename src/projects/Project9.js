@@ -26,17 +26,11 @@ function Project9() {
       <div className='project-paragraphs'>
         <p>
           In this frontend development project, I created a Music Dashboard to revolutionise how users experience their favourite music from multiple platforms. The project aimed to provide a unified and personalised hub for music enthusiasts, seamlessly integrating SoundCloud, Spotify, and YouTube content.
-        </p>
-
-        <p>
           The Music Dashboard simplifies the music discovery process. Users can effortlessly access their SoundCloud playlists, Spotify collections, and YouTube favourites in one central location. The project's technical challenges included integrating multiple APIs, ensuring responsive design across devices, and providing an intuitive user interface.
         </p>
 
         <p>
           To tackle these challenges, I implemented robust API integrations for SoundCloud, Spotify, and YouTube, enabling users to view and play their playlists and subscriptions without leaving the dashboard. The project prioritised responsive design principles, ensuring that the dashboard functions seamlessly on various screen sizes.
-        </p>
-
-        <p>
           The user interface was carefully crafted for an intuitive experience. Users can easily switch between music platforms, search for specific tracks or playlists, and enjoy their favourite tunes hassle-free. I also incorporated user-friendly features like URL validation and real-time playlist updates.
         </p>
 
