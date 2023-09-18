@@ -36,3 +36,20 @@
     box-shadow: 0 5px 15px rgba(0,0,0,0.8);
     opacity: 100%;
 }
+
+.individual-image-personal{
+    text-align: center;
+    display: inline-block;
+    max-height:75vh;
+    width: auto;
+    height: auto;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+    opacity: 75%;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 9px/8px;
+}
+
+.individual-image-personal:hover{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.8);
+    opacity: 100%;
+}

@@ -50,7 +50,7 @@ function Project8() {
 
       <div className='content-div'>
 
-      <nav>
+        <nav>
           <Link to="/#project-section" style={{textDecoration:'none'}}>
             <h2>&lt; Mobile App Development</h2>
             <br/>

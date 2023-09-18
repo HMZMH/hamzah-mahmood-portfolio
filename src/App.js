@@ -40,6 +40,10 @@ function Home() {
           <Section2/>
         </section>
 
+        <section className='sections'>
+          <Section3/>
+        </section>
+
       </div>
 
     </div>

@@ -18,7 +18,7 @@ function Section3() {
                     <br/>
                     <Link to="/project9">
                         <div className='tile'>
-                            <h5>Chat Web App</h5>
+                            <h5>Music Dashboard</h5>
                             <p>Personal Project</p>
                             <br/>
                             <img className='tile-img' src={vector9} alt='Web app vector'/>
