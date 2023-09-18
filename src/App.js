@@ -27,9 +27,9 @@ function Home() {
         <Socials />
       </div>
 
-      <div className='content-div'>
-
       <video id='video' src={wallpaper} autoPlay loop muted></video>
+
+      <div className='content-div'>
 
           <div style={{textAlign:'end', marginRight:'23.5vw', marginTop:'12.5vh'}}>
             <img src={portrait} id='portrait'></img>

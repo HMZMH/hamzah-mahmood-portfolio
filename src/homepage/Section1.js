@@ -30,7 +30,7 @@ function Section1() {
             <div class="col-md-3" id='spotify-div'>
                 <iframe
                     id='spotify-player'
-                    src="https://open.spotify.com/embed/playlist/1Y9gUnk8OPtkAlDX4qKb5Y?utm_source=generator&theme=0"
+                    src="https://open.spotify.com/embed/playlist/1Y9gUnk8OPtkAlDX4qKb5Y?utm_source=generator"
                     title='Spotify player'
                     allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                     loading="lazy"
