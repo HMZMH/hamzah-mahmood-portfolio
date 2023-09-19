@@ -18,7 +18,6 @@ import Project8 from './projects/Project8.js';
 import Project9 from './projects/Project9.js';
 import portrait from "./images/portrait.png";
 import wallpaper from "./images/wallpaper.mp4";
-import video from "./images/video.mp4";
 
 function Home() {
 
@@ -68,7 +67,7 @@ function Home() {
 
       </div>
 
-      <video id='video' src={video} autoPlay loop muted></video>
+      
 
     </div>
   );
