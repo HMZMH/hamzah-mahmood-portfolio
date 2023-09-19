@@ -1,10 +1,14 @@
+#about-p{
+    margin-top: 1vh;
+}
+
 #spotify-div{
     margin-right: 0%;
 }
 
 #spotify-player{
     margin-top: 1vh;
-    min-width: 15vw;
+    min-width: 13vw;
     height: 360px;
     min-height:360px;
     border-radius: 15px;
@@ -17,11 +21,15 @@
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
 }
 
-@media only screen and (max-width: 900px) {
-    #about-p{
-        max-width: 75vw;
-    }
+@media only screen and (max-width: 768px) {
     #spotify-div{
         margin-right: 10%;
     } 
+  }
+
+  @media only screen and (max-width: 768px) {
+    #about-p{
+        padding-left: 15vw;
+        padding-right: 15vw;
+    }
   }

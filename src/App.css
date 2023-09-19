@@ -55,7 +55,7 @@ li{
 
 #portrait-div{
     text-align: end;
-    margin-right: 23.5vw;
+    margin-right: 19vw;
     margin-top: 150px;
 }
 
@@ -105,6 +105,9 @@ li{
 }
 
 @media only screen and (max-width: 900px) {
+    h2, h3{
+        text-align: center;
+    }
     .content-div {
         text-align: center;
         padding-left: 7.5vw;

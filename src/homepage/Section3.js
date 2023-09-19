@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
-import '../homepage/Section3.css';
 import vector0 from '../images/vector0.png';
 import vector9 from '../images/vector9.png';
 
@@ -10,7 +9,7 @@ function Section3() {
         <div className="row">
                 <nav>
 
-                    <h2>And some personal projects...</h2>
+                    <h2>Some personal projects...</h2>
 
                     <Link to="/project9">
                         <div className='tile'>
