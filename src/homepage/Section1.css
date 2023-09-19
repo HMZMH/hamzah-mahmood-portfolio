@@ -19,7 +19,7 @@
 
 @media only screen and (max-width: 900px) {
     #about-p{
-        max-width: 70vw;
+        max-width: 50vw;
     }
     #spotify-div{
         margin-right: 10%;
