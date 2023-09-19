@@ -33,7 +33,7 @@ function Home() {
 
       <div className='content-div'>
 
-          <div style={{textAlign:'end', marginRight:'23.5vw', marginTop:'12.5vh'}}>
+          <div id='portrait-div'>
             <img src={portrait} id='portrait'></img>
           </div>
 
@@ -42,28 +42,20 @@ function Home() {
           <h1 style={{color:'cyan'}}>A software engineer.</h1>
         </div>
         
-        <section className='sections' style={{marginTop:'-30vh'}}>
-          <div style={{marginTop:'25vh'}}>
+        <section className='sections' style={{marginTop:'-300px'}}>
             <Section1/>
-          </div>
         </section>
 
         <section className='sections'>
-        <div style={{marginTop:'25vh'}}>
             <Section2/>
-          </div>
         </section>
 
         <section className='sections'>
-        <div style={{marginTop:'25vh'}}>
             <Section3/>
-          </div>
         </section>
 
         <section className='sections'>
-        <div style={{marginTop:'25vh'}}>
             <Section4/>
-          </div>
         </section>
 
       </div>
