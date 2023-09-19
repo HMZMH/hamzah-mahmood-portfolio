@@ -8,15 +8,9 @@ import vector9 from '../images/vector9.png';
 function Section3() {
     return(
         <div className="row">
-
-            <div class="col-md-12">
-
-            </div>
-                
                 <nav>
 
                     <h2>And some personal projects...</h2>
-                    <br/>
 
                     <Link to="/project9">
                         <div className='tile'>
@@ -35,8 +29,7 @@ function Section3() {
                     </div>
 
                 </nav>
-
-        </div>
+            </div>
     );
 }
 

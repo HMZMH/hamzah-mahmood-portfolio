@@ -14,15 +14,10 @@ import vector8 from '../images/vector8.png';
 function Section2() {
     return(
         <div className="row">
-
-            <div class="col-md-12">
-
-            </div>
                 
                 <nav>
                     <h2>Some of my uni work...</h2>
-
-                    <br/>
+                    
                     <Link to="/project1">
                         <div className='tile'>
                             <h5>Web App Development</h5>

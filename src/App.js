@@ -6,6 +6,7 @@ import Socials from './homepage/Socials.js';
 import Section1 from './homepage/Section1.js';
 import Section2 from './homepage/Section2.js';
 import Section3 from './homepage/Section3.js';
+import Section4 from './homepage/Section4.js';
 import Project1 from './projects/Project1.js';
 import Project2 from './projects/Project2.js';
 import Project3 from './projects/Project3.js';
@@ -17,6 +18,7 @@ import Project8 from './projects/Project8.js';
 import Project9 from './projects/Project9.js';
 import portrait from "./images/portrait.png";
 import wallpaper from "./images/wallpaper.mp4";
+import video from "./images/video.mp4";
 
 function Home() {
 
@@ -27,7 +29,7 @@ function Home() {
         <Socials />
       </div>
 
-      <video id='video' src={wallpaper} autoPlay loop muted></video>
+      <video id='wallpaper' src={wallpaper} autoPlay loop muted></video>
 
       <div className='content-div'>
 
@@ -41,18 +43,32 @@ function Home() {
         </div>
         
         <section className='sections' style={{marginTop:'-30vh'}}>
-          <Section1/>
+          <div style={{marginTop:'25vh'}}>
+            <Section1/>
+          </div>
         </section>
 
         <section className='sections'>
-          <Section2/>
+        <div style={{marginTop:'25vh'}}>
+            <Section2/>
+          </div>
         </section>
 
         <section className='sections'>
-          <Section3/>
+        <div style={{marginTop:'25vh'}}>
+            <Section3/>
+          </div>
+        </section>
+
+        <section className='sections'>
+        <div style={{marginTop:'25vh'}}>
+            <Section4/>
+          </div>
         </section>
 
       </div>
+
+      <video id='video' src={video} autoPlay loop muted></video>
 
     </div>
   );
